@@ -1,0 +1,3020 @@
+fileFormatVersion: 2
+guid: 5da850478f183ba4dabf9bf95c981461
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Red Sprite Front_Frame_55
+    originalName: 
+    pivot: {x: 0.40624997, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 408
+      width: 16
+      height: 66
+    spriteID: ecebf2e81d899f7458f91546eabed7d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 408}
+  - name: Red Sprite Front_Frame_56
+    originalName: 
+    pivot: {x: 0.3611111, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 185
+      width: 18
+      height: 44
+    spriteID: d2ff8302ab1e3c44489ade1c721b1002
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 185}
+  - name: Red Sprite Front_Frame_57
+    originalName: 
+    pivot: {x: 0.3235294, y: -0.11428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 32
+      width: 17
+      height: 35
+    spriteID: 3a57c5c4dc79d334cab08b4f4bb10811
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 32}
+  - name: Red Sprite Front_Frame_58
+    originalName: 
+    pivot: {x: 0.40624997, y: -0.37037036}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 296
+      width: 16
+      height: 27
+    spriteID: 457b673e12879134bb9d9bb9672fa4eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 296}
+  - name: Red Sprite Front_Frame_65
+    originalName: 
+    pivot: {x: 0.40624997, y: -0.41666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 237
+      width: 16
+      height: 48
+    spriteID: 2751d4e2370b427418112c82a8d38ec5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 237}
+  - name: Red Sprite Front_Frame_66
+    originalName: 
+    pivot: {x: 0.3611111, y: -0.64285713}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 105
+      width: 18
+      height: 28
+    spriteID: b0266f37923920241b039883709f5397
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 105}
+  - name: Red Sprite Front_Frame_67
+    originalName: 
+    pivot: {x: 0.3235294, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 265
+      width: 17
+      height: 21
+    spriteID: edaeb869a9474ca4d8d0617497204745
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 265}
+  - name: Red Sprite Front_Frame_68
+    originalName: 
+    pivot: {x: 0.36666664, y: -0.94736844}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 332
+      width: 15
+      height: 19
+    spriteID: ffc5272c42688eb498db120afb135cd3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 332}
+  - name: Red Sprite Front_Frame_0
+    originalName: 
+    pivot: {x: 0.65625006, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 323
+      width: 16
+      height: 22
+    spriteID: e337195bb4f225f4ca6b3325ec6a32e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 323}
+  - name: Red Sprite Front_Frame_1
+    originalName: 
+    pivot: {x: 0.7083333, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 62
+      width: 12
+      height: 22
+    spriteID: 8a6f426f7db73884792b7e1edb82a27f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 62}
+  - name: Red Sprite Front_Frame_2
+    originalName: 
+    pivot: {x: 0.7083333, y: -2.3913043}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 387
+      width: 12
+      height: 23
+    spriteID: d5a045021dd4c75489d04f822ccae285
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 387}
+  - name: Red Sprite Front_Frame_3
+    originalName: 
+    pivot: {x: 0.7083333, y: -2.2916665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 268
+      width: 12
+      height: 24
+    spriteID: faae3c0694387f84b9bfcb98228c9009
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 268}
+  - name: Red Sprite Front_Frame_4
+    originalName: 
+    pivot: {x: 0.6785714, y: -2.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 388
+      width: 14
+      height: 25
+    spriteID: 74872ce6d9c69424aabefb0adea832b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 388}
+  - name: Red Sprite Front_Frame_5
+    originalName: 
+    pivot: {x: 0.6785714, y: -2.2916665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 80
+      width: 14
+      height: 24
+    spriteID: 94b609816e1a97a40b499dbc4949d9c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 80}
+  - name: Red Sprite Front_Frame_6
+    originalName: 
+    pivot: {x: 0.6785714, y: -2.5454545}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 58
+      width: 14
+      height: 22
+    spriteID: 480041faf0f36ab4b97ff48c827b9325
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 58}
+  - name: Red Sprite Front_Frame_7
+    originalName: 
+    pivot: {x: 0.6785714, y: -2.2916665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 112
+      width: 14
+      height: 24
+    spriteID: b68860a8b49e7af41bb147295d875afb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 112}
+  - name: Red Sprite Front_Frame_8
+    originalName: 
+    pivot: {x: 0.7083333, y: -2.2916665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 300
+      width: 12
+      height: 24
+    spriteID: 73c8c4b253e3abd48aabf615fe748f06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 300}
+  - name: Red Sprite Front_Frame_9
+    originalName: 
+    pivot: {x: 0.6785714, y: -2.5454545}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 88
+      width: 14
+      height: 22
+    spriteID: 762cd751599ea014aa70f7f70e38bee7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 88}
+  - name: Red Sprite Front_Frame_10
+    originalName: 
+    pivot: {x: 0.6785714, y: -2.2916665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 144
+      width: 14
+      height: 24
+    spriteID: 065ba6a82cd452e4cad77c4eb6db659e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 144}
+  - name: Red Sprite Front_Frame_11
+    originalName: 
+    pivot: {x: 0.7083333, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 92
+      width: 12
+      height: 22
+    spriteID: c3617a84675173349873aaba404c27df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 92}
+  - name: Red Sprite Front_Frame_12
+    originalName: 
+    pivot: {x: 0.65625006, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 391
+      width: 16
+      height: 20
+    spriteID: f78f1bdbe3672504ea5753093f524748
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 391}
+  - name: Red Sprite Front_Frame_13
+    originalName: 
+    pivot: {x: 0.4821429, y: -1.9615384}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 293
+      width: 28
+      height: 26
+    spriteID: 8e7ce2df203fab04ba5946bedf9dc82f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 293}
+  - name: Red Sprite Front_Frame_14
+    originalName: 
+    pivot: {x: 0.37878788, y: -2.55}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 4
+      width: 33
+      height: 20
+    spriteID: 35506cc57b7e33445a774928452cf177
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 4}
+  - name: Red Sprite Front_Frame_15
+    originalName: 
+    pivot: {x: 0.31666663, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 327
+      width: 30
+      height: 21
+    spriteID: 071d814856c087b44876f3d6350cf75f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 327}
+  - name: Red Sprite Front_Frame_16
+    originalName: 
+    pivot: {x: 0.26785713, y: -2.3181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 419
+      width: 28
+      height: 22
+    spriteID: 5e7cbe1d282ae654f957af736982304a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 419}
+  - name: Red Sprite Front_Frame_17
+    originalName: 
+    pivot: {x: 0.375, y: -2.3181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 204
+      width: 20
+      height: 22
+    spriteID: d029c0a686734544881ab3ea1eee8f73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 204}
+  - name: Red Sprite Front_Frame_18
+    originalName: 
+    pivot: {x: 0.46874997, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 176
+      width: 16
+      height: 21
+    spriteID: c07593f63c6247f4db19181bb9d3553d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 176}
+  - name: Red Sprite Front_Frame_19
+    originalName: 
+    pivot: {x: 0.40476188, y: -2.3181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 482
+      width: 21
+      height: 22
+    spriteID: 1c03ad619b724f04dae80b349bb850d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 482}
+  - name: Red Sprite Front_Frame_20
+    originalName: 
+    pivot: {x: 0.4722222, y: -2.2173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 433
+      width: 18
+      height: 23
+    spriteID: 62747a2d99c002148bf43137de68f171
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 433}
+  - name: Red Sprite Front_Frame_21
+    originalName: 
+    pivot: {x: 0.6578948, y: -2.2173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 234
+      width: 19
+      height: 23
+    spriteID: e72a64f84cda5df4981494cd9aaa18d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 234}
+  - name: Red Sprite Front_Frame_22
+    originalName: 
+    pivot: {x: 0.5967742, y: -1.3666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 4
+      width: 31
+      height: 30
+    spriteID: 3e4f82143c8fda141acc2bece756277a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 4}
+  - name: Red Sprite Front_Frame_23
+    originalName: 
+    pivot: {x: 0.6481481, y: -1.8695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 388
+      width: 27
+      height: 23
+    spriteID: 7dc5f9855dea72b4f93039b8ce187133
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 388}
+  - name: Red Sprite Front_Frame_24
+    originalName: 
+    pivot: {x: 0.7, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 141
+      width: 25
+      height: 20
+    spriteID: d6144b5e78f6452458ef82d5982d918f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 141}
+  - name: Red Sprite Front_Frame_25
+    originalName: 
+    pivot: {x: 0.725, y: -2.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 30
+      width: 20
+      height: 20
+    spriteID: a76702ec1d670044f8e54a89941fbb58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 30}
+  - name: Red Sprite Front_Frame_26
+    originalName: 
+    pivot: {x: 0.7631579, y: -2.368421}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 210
+      width: 19
+      height: 19
+    spriteID: 48a21f22ae7cd254aafc2f5b7ebfac17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 210}
+  - name: Red Sprite Front_Frame_27
+    originalName: 
+    pivot: {x: 0.8055556, y: -2.368421}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 452
+      width: 18
+      height: 19
+    spriteID: a15af1e3a00b9b94a88568e0c53593bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 452}
+  - name: Red Sprite Front_Frame_28
+    originalName: 
+    pivot: {x: 0.76086956, y: -2.0454545}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 75
+      width: 23
+      height: 22
+    spriteID: 48ad432cf44fc85409c7af3811209e94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 75}
+  - name: Red Sprite Front_Frame_29
+    originalName: 
+    pivot: {x: 0.8055556, y: -1.9130435}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 464
+      width: 18
+      height: 23
+    spriteID: 4b0136ca9d158714f9e159ffad2b8886
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 464}
+  - name: Red Sprite Front_Frame_30
+    originalName: 
+    pivot: {x: 0.5526316, y: -1.9130435}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 265
+      width: 19
+      height: 23
+    spriteID: 0ab1a4fc88fdd4e418cf37b3b198f6f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 265}
+  - name: Red Sprite Front_Frame_31
+    originalName: 
+    pivot: {x: 0.48684213, y: -1.1034483}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 4
+      width: 38
+      height: 29
+    spriteID: 7d14f8c224511ce46baa0518c7a36e10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 4}
+  - name: Red Sprite Front_Frame_32
+    originalName: 
+    pivot: {x: 0.2884615, y: -1.4166666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 356
+      width: 26
+      height: 24
+    spriteID: a0cd4167d30608e41ab146b10929a5e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 356}
+  - name: Red Sprite Front_Frame_33
+    originalName: 
+    pivot: {x: 0.29310343, y: -1.7142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 479
+      width: 29
+      height: 21
+    spriteID: 29d096891de52cb43bd760839224a79f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 479}
+  - name: Red Sprite Front_Frame_34
+    originalName: 
+    pivot: {x: 0.26785713, y: -1.6363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 449
+      width: 28
+      height: 22
+    spriteID: 1dcc64caace954a49bdab07b31a4104e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 449}
+  - name: Red Sprite Front_Frame_35
+    originalName: 
+    pivot: {x: 0.39473683, y: -1.7142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 58
+      width: 19
+      height: 21
+    spriteID: 54bb27b3d5e77de4ba5398ae88e651f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 58}
+  - name: Red Sprite Front_Frame_36
+    originalName: 
+    pivot: {x: 0.41666666, y: -1.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 237
+      width: 18
+      height: 20
+    spriteID: 64c92de8b21ebdb4bbfc1301b3f4d541
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 237}
+  - name: Red Sprite Front_Frame_37
+    originalName: 
+    pivot: {x: 0.40624997, y: -1.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 419
+      width: 16
+      height: 20
+    spriteID: a79d96218ebc93e42ac48c7494b0f4ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 419}
+  - name: Red Sprite Front_Frame_38
+    originalName: 
+    pivot: {x: 0.7083333, y: -1.7391304}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 418
+      width: 12
+      height: 23
+    spriteID: 4323ae1e67f33464d9765fb980aa8438
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 418}
+  - name: Red Sprite Front_Frame_39
+    originalName: 
+    pivot: {x: 0.7173913, y: -3.0555558}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 4
+      width: 23
+      height: 18
+    spriteID: a09ac659624ab504fb320b3773054e5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 4}
+  - name: Red Sprite Front_Frame_40
+    originalName: 
+    pivot: {x: 0.5277778, y: -2.6190476}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 116
+      width: 18
+      height: 21
+    spriteID: e6bf3c59c6c14e24fa23d4a93ef65e69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 116}
+  - name: Red Sprite Front_Frame_41
+    originalName: 
+    pivot: {x: 0.4473684, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 87
+      width: 19
+      height: 21
+    spriteID: 098de28439623bb47b581bfca31f13c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 87}
+  - name: Red Sprite Front_Frame_42
+    originalName: 
+    pivot: {x: 0.44117644, y: -2.7}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 479
+      width: 17
+      height: 20
+    spriteID: ce131ff38bba26840be5bda75b2ee395
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 479}
+  - name: Red Sprite Front_Frame_43
+    originalName: 
+    pivot: {x: 0.46874997, y: -2.4761903}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 205
+      width: 16
+      height: 21
+    spriteID: 016655407512ff24e9d7806b1d71e2bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 205}
+  - name: Red Sprite Front_Frame_44
+    originalName: 
+    pivot: {x: 0.53124994, y: -2.2173913}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 145
+      width: 16
+      height: 23
+    spriteID: a94cb27c8e9f27449a3666b6a83e4f9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 145}
+  - name: Red Sprite Front_Frame_45
+    originalName: 
+    pivot: {x: 0.53124994, y: -1.7777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 331
+      width: 16
+      height: 27
+    spriteID: 7d5b6f6e16fc2a6439a511988e787f0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 331}
+  - name: Red Sprite Front_Frame_46
+    originalName: 
+    pivot: {x: 0.3863636, y: -0.013333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 22
+      height: 75
+    spriteID: 050aa80db9fa08e4f9a60ec6956b011e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Red Sprite Front_Frame_47
+    originalName: 
+    pivot: {x: 0.40476188, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 87
+      width: 21
+      height: 71
+    spriteID: b2e057a2d2ee56a4bb11306eca24194b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 87}
+  - name: Red Sprite Front_Frame_48
+    originalName: 
+    pivot: {x: 0.475, y: -0.014705883}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 166
+      width: 20
+      height: 68
+    spriteID: e75fb12d5a202be44acfb3580107692c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 166}
+  - name: Red Sprite Front_Frame_49
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 242
+      width: 19
+      height: 66
+    spriteID: 7b087e6b8956ada479606b114bb19a76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 242}
+  - name: Red Sprite Front_Frame_50
+    originalName: 
+    pivot: {x: 0.5588235, y: -1.5555555}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 169
+      width: 17
+      height: 27
+    spriteID: 780b7f11c9b854745b64ad8431c74c87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 169}
+  - name: Red Sprite Front_Frame_51
+    originalName: 
+    pivot: {x: 0.5588235, y: -1.7200001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 366
+      width: 17
+      height: 25
+    spriteID: bdc3fcb74bb27264a8c76382a7a95fd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 366}
+  - name: Red Sprite Front_Frame_52
+    originalName: 
+    pivot: {x: 0.53571427, y: -2.3181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 118
+      width: 14
+      height: 22
+    spriteID: 48412ef59acd1734897b4a2c1b2399b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 118}
+  - name: Red Sprite Front_Frame_53
+    originalName: 
+    pivot: {x: 0.49999997, y: -2.7894738}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 4
+      width: 17
+      height: 19
+    spriteID: a03367d5c6a399942b31b9c67e675e70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 4}
+  - name: Red Sprite Front_Frame_54
+    originalName: 
+    pivot: {x: 0.46874997, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 234
+      width: 16
+      height: 21
+    spriteID: fa0eaf2dbd47a6145bc9b42208e3db53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 234}
+  - name: Red Sprite Front_Frame_59
+    originalName: 
+    pivot: {x: 0.46874997, y: -0.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 447
+      width: 16
+      height: 20
+    spriteID: 1673bea60cb696146820da207d38ddb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 447}
+  - name: Red Sprite Front_Frame_60
+    originalName: 
+    pivot: {x: 0.4583333, y: -0.8181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 122
+      width: 12
+      height: 22
+    spriteID: 3fe5883f9c8aa9b4f9503cbee155dadb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 122}
+  - name: Red Sprite Front_Frame_61
+    originalName: 
+    pivot: {x: 0.5416666, y: -0.8695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 449
+      width: 12
+      height: 23
+    spriteID: 135328c36581ab44eb195038f908b3b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 449}
+  - name: Red Sprite Front_Frame_62
+    originalName: 
+    pivot: {x: 0.53571427, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 359
+      width: 14
+      height: 20
+    spriteID: 398a50de0bee2494da8e3f622a1ec634
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 359}
+  - name: Red Sprite Front_Frame_63
+    originalName: 
+    pivot: {x: 0.49999997, y: -2.7894738}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 31
+      width: 17
+      height: 19
+    spriteID: 136961f9e8eec8d49a6f56527b5cf831
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 31}
+  - name: Red Sprite Front_Frame_64
+    originalName: 
+    pivot: {x: 0.46874997, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 263
+      width: 16
+      height: 21
+    spriteID: dfa5300f3355d2e42bbef8e7394e1123
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 263}
+  - name: Red Sprite Front_Frame_69
+    originalName: 
+    pivot: {x: 0.36666664, y: -1.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 328
+      width: 15
+      height: 16
+    spriteID: c1e120b1ec4183b4a8a1564ccf7b4ce5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 328}
+  - name: Red Sprite Front_Frame_70
+    originalName: 
+    pivot: {x: 0.26923075, y: -0.9047619}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 4
+      width: 13
+      height: 21
+    spriteID: 948846abeb844d24eb905e979423a905
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 4}
+  - name: Red Sprite Front_Frame_71
+    originalName: 
+    pivot: {x: 0.37499997, y: -0.8636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 152
+      width: 12
+      height: 22
+    spriteID: 0df39730b5f1842458af906698f23846
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 152}
+  - name: Red Sprite Front_Frame_72
+    originalName: 
+    pivot: {x: 0.5416666, y: -0.8695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 480
+      width: 12
+      height: 23
+    spriteID: 0c96d408db88a914b93b44bcda88ad40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 480}
+  - name: Red Sprite Front_Frame_73
+    originalName: 
+    pivot: {x: 0.46874997, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 399
+      width: 16
+      height: 26
+    spriteID: 1cba53fead680454c845ea7908a275fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 399}
+  - name: Red Sprite Front_Frame_74
+    originalName: 
+    pivot: {x: 0.37499997, y: -2.08}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 174
+      width: 12
+      height: 25
+    spriteID: a90ff36a5654ca548a85a41b593cfc0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 174}
+  - name: Red Sprite Front_Frame_75
+    originalName: 
+    pivot: {x: 0.37499997, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 475
+      width: 12
+      height: 26
+    spriteID: c79518262904d644c85c3dc45cdae2c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 475}
+  - name: Red Sprite Front_Frame_76
+    originalName: 
+    pivot: {x: 0.4230769, y: -1.9259259}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 353
+      width: 13
+      height: 27
+    spriteID: ba258b766ab66f945aa9bb0a5ed31612
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 353}
+  - name: Red Sprite Front_Frame_77
+    originalName: 
+    pivot: {x: 0.4642857, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 14
+      height: 26
+    spriteID: d03d26de9d0ecbc49a72f0d7951ef293
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 176}
+  - name: Red Sprite Front_Frame_78
+    originalName: 
+    pivot: {x: 0.37499997, y: -2.08}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 207
+      width: 12
+      height: 25
+    spriteID: 18d9dca6a5a624347bc61044707009d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 207}
+  - name: Red Sprite Front_Frame_79
+    originalName: 
+    pivot: {x: 0.4230769, y: -2.08}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 292
+      width: 13
+      height: 25
+    spriteID: 42efa195f546a044e9caa8cbf889f0ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 292}
+  - name: Red Sprite Front_Frame_80
+    originalName: 
+    pivot: {x: 0.4230769, y: -1.4838709}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 41
+      width: 13
+      height: 31
+    spriteID: 649a668e5ad1171429bd23e9db6b5985
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 41}
+  - name: Red Sprite Front_Frame_81
+    originalName: 
+    pivot: {x: 0.4230769, y: -0.234375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 42
+      width: 13
+      height: 64
+    spriteID: 64e6bd1277fad79489a89ff4a21690b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 42}
+  - name: Red Sprite Front_Frame_82
+    originalName: 
+    pivot: {x: 0.4642857, y: 0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 316
+      width: 14
+      height: 84
+    spriteID: 338e7e58ff12d424a80ad0c82ff3465a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 316}
+  - name: Red Sprite Front_Frame_83
+    originalName: 
+    pivot: {x: 0.37499997, y: -2.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 212
+      width: 12
+      height: 21
+    spriteID: 9e60da740be4fd543b377bf84aa2bc65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 212}
+  - name: Red Sprite Front_Frame_84
+    originalName: 
+    pivot: {x: 0.37499997, y: -2.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 241
+      width: 12
+      height: 21
+    spriteID: 74cd014750575b64ea877beb124be8bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 241}
+  - name: Red Sprite Front_Frame_85
+    originalName: 
+    pivot: {x: 0.4230769, y: -2.08}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 325
+      width: 13
+      height: 25
+    spriteID: cff25c2e5769b3840b219f3e346ca60a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 325}
+  - name: Red Sprite Front_Frame_86
+    originalName: 
+    pivot: {x: 0.4230769, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 214
+      width: 13
+      height: 75
+    spriteID: 8cf2de0fccd492548849c719d533a13d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 214}
+  - name: Red Sprite Front_Frame_87
+    originalName: 
+    pivot: {x: 0.4230769, y: -0.013333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 297
+      width: 13
+      height: 75
+    spriteID: cc336abfc059e5b48b81cbe7dd5e7bfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 297}
+  - name: Red Sprite Front_Frame_88
+    originalName: 
+    pivot: {x: 0.4642857, y: -0.06849315}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 41
+      width: 14
+      height: 73
+    spriteID: 62df13bfe675db14a9d19f2501599755
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 41}
+  - name: Red Sprite Front_Frame_89
+    originalName: 
+    pivot: {x: 0.4230769, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 380
+      width: 13
+      height: 66
+    spriteID: 9c93f511a60333946a70eada777fe3a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 380}
+  - name: Red Sprite Front_Frame_90
+    originalName: 
+    pivot: {x: 0.37499997, y: -2.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 270
+      width: 12
+      height: 21
+    spriteID: 923459af836a460459fcd09f5430ef7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 270}
+  - name: Red Sprite Front_Frame_91
+    originalName: 
+    pivot: {x: 0.4230769, y: -2.08}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 358
+      width: 13
+      height: 25
+    spriteID: d7ba75c4ff6419845bae9a650fd2b605
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 358}
+  - name: Red Sprite Front_Frame_92
+    originalName: 
+    pivot: {x: 0.4230769, y: -1.4375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 454
+      width: 13
+      height: 32
+    spriteID: 570769ee3051a1b4797716628a00d587
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 454}
+  - name: Red Sprite Front_Frame_93
+    originalName: 
+    pivot: {x: 0.4230769, y: -0.23809525}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 114
+      width: 13
+      height: 63
+    spriteID: 52c64bf8a9603f542a70677a40c6d140
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 114}
+  - name: Red Sprite Front_Frame_94
+    originalName: 
+    pivot: {x: 0.37499997, y: 0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 122
+      width: 12
+      height: 84
+    spriteID: d763fcf03b6aece44948c4402da1d8ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 122}
+  - name: Red Sprite Front_Frame_95
+    originalName: 
+    pivot: {x: 0.37499997, y: -2.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 299
+      width: 12
+      height: 21
+    spriteID: a2887e44d1b980343b673f3e4cd53ec6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 299}
+  - name: Red Sprite Front_Frame_96
+    originalName: 
+    pivot: {x: 0.34615383, y: -2.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 33
+      width: 13
+      height: 21
+    spriteID: 0eb507d2aac1d554abfd41a32f8ca197
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 33}
+  - name: Red Sprite Front_Frame_98
+    originalName: 
+    pivot: {x: 0.44117644, y: -2.7142856}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 294
+      width: 17
+      height: 21
+    spriteID: 03b1796a7bc4a9a4a88ea22375e33224
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 294}
+  - name: Red Sprite Front_Frame_99
+    originalName: 
+    pivot: {x: 0.63333327, y: -2.85}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 240
+      width: 15
+      height: 20
+    spriteID: 14de61bcd5a4ac94889ddea5faf44215
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 240}
+  - name: Red Sprite Front_Frame_101
+    originalName: 
+    pivot: {x: 0.7083333, y: -2.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 182
+      width: 12
+      height: 22
+    spriteID: 004d0fa3ed5a73b4cadcaccceab93b5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 182}
+  - name: Red Sprite Front_Frame_102
+    originalName: 
+    pivot: {x: 0.7083333, y: -2.3913043}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 4
+      width: 12
+      height: 23
+    spriteID: c95077fbb27b5fc4d8dfc1fa109c3925
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 216, y: 4}
+  - name: Red Sprite Front_Frame_100
+    originalName: 
+    pivot: {x: 0.5588235, y: -3.0555558}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 148
+      width: 17
+      height: 18
+    spriteID: 6351fbfb1845c644ba409c9c4897e458
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 148}
+  - name: Red Sprite Front_Frame_97
+    originalName: 
+    pivot: {x: 0.49999994, y: -2.4782608}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 421
+      width: 15
+      height: 23
+    spriteID: c337f808ca1a28a4fb9b26f3aed93436
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 421}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -695460141
+    name: Red Sprite Front
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Red Sprite Front_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 13
+        y: 2
+        width: 16
+        height: 66
+      spriteId: ecebf2e81d899f7458f91546eabed7d2
+    - name: Red Sprite Front_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 13
+        y: 2
+        width: 18
+        height: 44
+      spriteId: d2ff8302ab1e3c44489ade1c721b1002
+    - name: Red Sprite Front_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 14
+        y: 4
+        width: 17
+        height: 35
+      spriteId: 3a57c5c4dc79d334cab08b4f4bb10811
+    - name: Red Sprite Front_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 13
+        y: 10
+        width: 16
+        height: 27
+      spriteId: 457b673e12879134bb9d9bb9672fa4eb
+    - name: Red Sprite Front_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 13
+        y: 20
+        width: 16
+        height: 48
+      spriteId: 2751d4e2370b427418112c82a8d38ec5
+    - name: Red Sprite Front_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 13
+        y: 18
+        width: 18
+        height: 28
+      spriteId: b0266f37923920241b039883709f5397
+    - name: Red Sprite Front_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 14
+        y: 18
+        width: 17
+        height: 21
+      spriteId: edaeb869a9474ca4d8d0617497204745
+    - name: Red Sprite Front_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 14
+        y: 18
+        width: 15
+        height: 19
+      spriteId: ffc5272c42688eb498db120afb135cd3
+    - name: Red Sprite Front_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 9
+        y: 55
+        width: 16
+        height: 22
+      spriteId: e337195bb4f225f4ca6b3325ec6a32e1
+    - name: Red Sprite Front_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 11
+        y: 55
+        width: 12
+        height: 22
+      spriteId: 8a6f426f7db73884792b7e1edb82a27f
+    - name: Red Sprite Front_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 55
+        width: 12
+        height: 23
+      spriteId: d5a045021dd4c75489d04f822ccae285
+    - name: Red Sprite Front_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 55
+        width: 12
+        height: 24
+      spriteId: faae3c0694387f84b9bfcb98228c9009
+    - name: Red Sprite Front_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 10
+        y: 55
+        width: 14
+        height: 25
+      spriteId: 74872ce6d9c69424aabefb0adea832b2
+    - name: Red Sprite Front_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 10
+        y: 55
+        width: 14
+        height: 24
+      spriteId: 94b609816e1a97a40b499dbc4949d9c2
+    - name: Red Sprite Front_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 10
+        y: 56
+        width: 14
+        height: 22
+      spriteId: 480041faf0f36ab4b97ff48c827b9325
+    - name: Red Sprite Front_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 10
+        y: 55
+        width: 14
+        height: 24
+      spriteId: b68860a8b49e7af41bb147295d875afb
+    - name: Red Sprite Front_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 11
+        y: 55
+        width: 12
+        height: 24
+      spriteId: 73c8c4b253e3abd48aabf615fe748f06
+    - name: Red Sprite Front_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 10
+        y: 56
+        width: 14
+        height: 22
+      spriteId: 762cd751599ea014aa70f7f70e38bee7
+    - name: Red Sprite Front_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 10
+        y: 55
+        width: 14
+        height: 24
+      spriteId: 065ba6a82cd452e4cad77c4eb6db659e
+    - name: Red Sprite Front_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 11
+        y: 53
+        width: 12
+        height: 22
+      spriteId: c3617a84675173349873aaba404c27df
+    - name: Red Sprite Front_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 9
+        y: 53
+        width: 16
+        height: 20
+      spriteId: f78f1bdbe3672504ea5753093f524748
+    - name: Red Sprite Front_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 6
+        y: 51
+        width: 28
+        height: 26
+      spriteId: 8e7ce2df203fab04ba5946bedf9dc82f
+    - name: Red Sprite Front_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 7
+        y: 51
+        width: 33
+        height: 20
+      spriteId: 35506cc57b7e33445a774928452cf177
+    - name: Red Sprite Front_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 10
+        y: 51
+        width: 30
+        height: 21
+      spriteId: 071d814856c087b44876f3d6350cf75f
+    - name: Red Sprite Front_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 12
+        y: 51
+        width: 28
+        height: 22
+      spriteId: 5e7cbe1d282ae654f957af736982304a
+    - name: Red Sprite Front_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 12
+        y: 51
+        width: 20
+        height: 22
+      spriteId: d029c0a686734544881ab3ea1eee8f73
+    - name: Red Sprite Front_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 12
+        y: 51
+        width: 16
+        height: 21
+      spriteId: c07593f63c6247f4db19181bb9d3553d
+    - name: Red Sprite Front_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 11
+        y: 51
+        width: 21
+        height: 22
+      spriteId: 1c03ad619b724f04dae80b349bb850d1
+    - name: Red Sprite Front_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 11
+        y: 51
+        width: 18
+        height: 23
+      spriteId: 62747a2d99c002148bf43137de68f171
+    - name: Red Sprite Front_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 7
+        y: 51
+        width: 19
+        height: 23
+      spriteId: e72a64f84cda5df4981494cd9aaa18d2
+    - name: Red Sprite Front_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 1
+        y: 41
+        width: 31
+        height: 30
+      spriteId: 3e4f82143c8fda141acc2bece756277a
+    - name: Red Sprite Front_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 43
+        width: 27
+        height: 23
+      spriteId: 7dc5f9855dea72b4f93039b8ce187133
+    - name: Red Sprite Front_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 2
+        y: 45
+        width: 25
+        height: 20
+      spriteId: d6144b5e78f6452458ef82d5982d918f
+    - name: Red Sprite Front_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 5
+        y: 45
+        width: 20
+        height: 20
+      spriteId: a76702ec1d670044f8e54a89941fbb58
+    - name: Red Sprite Front_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 5
+        y: 45
+        width: 19
+        height: 19
+      spriteId: 48a21f22ae7cd254aafc2f5b7ebfac17
+    - name: Red Sprite Front_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 5
+        y: 45
+        width: 18
+        height: 19
+      spriteId: a15af1e3a00b9b94a88568e0c53593bf
+    - name: Red Sprite Front_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 2
+        y: 45
+        width: 23
+        height: 22
+      spriteId: 48ad432cf44fc85409c7af3811209e94
+    - name: Red Sprite Front_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 5
+        y: 44
+        width: 18
+        height: 23
+      spriteId: 4b0136ca9d158714f9e159ffad2b8886
+    - name: Red Sprite Front_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 9
+        y: 44
+        width: 19
+        height: 23
+      spriteId: 0ab1a4fc88fdd4e418cf37b3b198f6f7
+    - name: Red Sprite Front_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 1
+        y: 32
+        width: 38
+        height: 29
+      spriteId: 7d14f8c224511ce46baa0518c7a36e10
+    - name: Red Sprite Front_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 12
+        y: 34
+        width: 26
+        height: 24
+      spriteId: a0cd4167d30608e41ab146b10929a5e7
+    - name: Red Sprite Front_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 11
+        y: 36
+        width: 29
+        height: 21
+      spriteId: 29d096891de52cb43bd760839224a79f
+    - name: Red Sprite Front_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 12
+        y: 36
+        width: 28
+        height: 22
+      spriteId: 1dcc64caace954a49bdab07b31a4104e
+    - name: Red Sprite Front_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 12
+        y: 36
+        width: 19
+        height: 21
+      spriteId: 54bb27b3d5e77de4ba5398ae88e651f8
+    - name: Red Sprite Front_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 12
+        y: 36
+        width: 18
+        height: 20
+      spriteId: 64c92de8b21ebdb4bbfc1301b3f4d541
+    - name: Red Sprite Front_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 13
+        y: 36
+        width: 16
+        height: 20
+      spriteId: a79d96218ebc93e42ac48c7494b0f4ad
+    - name: Red Sprite Front_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 11
+        y: 40
+        width: 12
+        height: 23
+      spriteId: 4323ae1e67f33464d9765fb980aa8438
+    - name: Red Sprite Front_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 3
+        y: 55
+        width: 23
+        height: 18
+      spriteId: a09ac659624ab504fb320b3773054e5b
+    - name: Red Sprite Front_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 10
+        y: 55
+        width: 18
+        height: 21
+      spriteId: e6bf3c59c6c14e24fa23d4a93ef65e69
+    - name: Red Sprite Front_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 11
+        y: 53
+        width: 19
+        height: 21
+      spriteId: 098de28439623bb47b581bfca31f13c0
+    - name: Red Sprite Front_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 12
+        y: 54
+        width: 17
+        height: 20
+      spriteId: ce131ff38bba26840be5bda75b2ee395
+    - name: Red Sprite Front_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 12
+        y: 52
+        width: 16
+        height: 21
+      spriteId: 016655407512ff24e9d7806b1d71e2bc
+    - name: Red Sprite Front_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 11
+        y: 51
+        width: 16
+        height: 23
+      spriteId: a94cb27c8e9f27449a3666b6a83e4f9e
+    - name: Red Sprite Front_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 11
+        y: 48
+        width: 16
+        height: 27
+      spriteId: 7d5b6f6e16fc2a6439a511988e787f0b
+    - name: Red Sprite Front_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 11
+        y: 1
+        width: 22
+        height: 75
+      spriteId: 050aa80db9fa08e4f9a60ec6956b011e
+    - name: Red Sprite Front_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 11
+        y: 0
+        width: 21
+        height: 71
+      spriteId: b2e057a2d2ee56a4bb11306eca24194b
+    - name: Red Sprite Front_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 10
+        y: 1
+        width: 20
+        height: 68
+      spriteId: e75fb12d5a202be44acfb3580107692c
+    - name: Red Sprite Front_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 10
+        y: 3
+        width: 19
+        height: 66
+      spriteId: 7b087e6b8956ada479606b114bb19a76
+    - name: Red Sprite Front_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 10
+        y: 42
+        width: 17
+        height: 27
+      spriteId: 780b7f11c9b854745b64ad8431c74c87
+    - name: Red Sprite Front_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 10
+        y: 43
+        width: 17
+        height: 25
+      spriteId: bdc3fcb74bb27264a8c76382a7a95fd9
+    - name: Red Sprite Front_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 12
+        y: 51
+        width: 14
+        height: 22
+      spriteId: 48412ef59acd1734897b4a2c1b2399b8
+    - name: Red Sprite Front_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 11
+        y: 53
+        width: 17
+        height: 19
+      spriteId: a03367d5c6a399942b31b9c67e675e70
+    - name: Red Sprite Front_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 12
+        y: 53
+        width: 16
+        height: 21
+      spriteId: fa0eaf2dbd47a6145bc9b42208e3db53
+    - name: Red Sprite Front_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 12
+        y: 18
+        width: 16
+        height: 20
+      spriteId: 1673bea60cb696146820da207d38ddb4
+    - name: Red Sprite Front_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 14
+        y: 18
+        width: 12
+        height: 22
+      spriteId: 3fe5883f9c8aa9b4f9503cbee155dadb
+    - name: Red Sprite Front_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 13
+        y: 20
+        width: 12
+        height: 23
+      spriteId: 135328c36581ab44eb195038f908b3b4
+    - name: Red Sprite Front_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 12
+        y: 53
+        width: 14
+        height: 20
+      spriteId: 398a50de0bee2494da8e3f622a1ec634
+    - name: Red Sprite Front_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 11
+        y: 53
+        width: 17
+        height: 19
+      spriteId: 136961f9e8eec8d49a6f56527b5cf831
+    - name: Red Sprite Front_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 12
+        y: 53
+        width: 16
+        height: 21
+      spriteId: dfa5300f3355d2e42bbef8e7394e1123
+    - name: Red Sprite Front_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 14
+        y: 19
+        width: 15
+        height: 16
+      spriteId: c1e120b1ec4183b4a8a1564ccf7b4ce5
+    - name: Red Sprite Front_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 16
+        y: 19
+        width: 13
+        height: 21
+      spriteId: 948846abeb844d24eb905e979423a905
+    - name: Red Sprite Front_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 15
+        y: 19
+        width: 12
+        height: 22
+      spriteId: 0df39730b5f1842458af906698f23846
+    - name: Red Sprite Front_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 13
+        y: 20
+        width: 12
+        height: 23
+      spriteId: 0c96d408db88a914b93b44bcda88ad40
+    - name: Red Sprite Front_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 12
+        y: 52
+        width: 16
+        height: 26
+      spriteId: 1cba53fead680454c845ea7908a275fa
+    - name: Red Sprite Front_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 15
+        y: 52
+        width: 12
+        height: 25
+      spriteId: a90ff36a5654ca548a85a41b593cfc0d
+    - name: Red Sprite Front_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 15
+        y: 52
+        width: 12
+        height: 26
+      spriteId: c79518262904d644c85c3dc45cdae2c3
+    - name: Red Sprite Front_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 14
+        y: 52
+        width: 13
+        height: 27
+      spriteId: ba258b766ab66f945aa9bb0a5ed31612
+    - name: Red Sprite Front_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 13
+        y: 52
+        width: 14
+        height: 26
+      spriteId: d03d26de9d0ecbc49a72f0d7951ef293
+    - name: Red Sprite Front_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 15
+        y: 52
+        width: 12
+        height: 25
+      spriteId: 18d9dca6a5a624347bc61044707009d9
+    - name: Red Sprite Front_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 14
+        y: 52
+        width: 13
+        height: 25
+      spriteId: 42efa195f546a044e9caa8cbf889f0ed
+    - name: Red Sprite Front_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 14
+        y: 46
+        width: 13
+        height: 31
+      spriteId: 649a668e5ad1171429bd23e9db6b5985
+    - name: Red Sprite Front_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 14
+        y: 15
+        width: 13
+        height: 64
+      spriteId: 64e6bd1277fad79489a89ff4a21690b7
+    - name: Red Sprite Front_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 13
+        y: -6
+        width: 14
+        height: 84
+      spriteId: 338e7e58ff12d424a80ad0c82ff3465a
+    - name: Red Sprite Front_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 15
+        y: 56
+        width: 12
+        height: 21
+      spriteId: 9e60da740be4fd543b377bf84aa2bc65
+    - name: Red Sprite Front_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 15
+        y: 56
+        width: 12
+        height: 21
+      spriteId: 74cd014750575b64ea877beb124be8bb
+    - name: Red Sprite Front_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 14
+        y: 52
+        width: 13
+        height: 25
+      spriteId: cff25c2e5769b3840b219f3e346ca60a
+    - name: Red Sprite Front_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 14
+        y: 3
+        width: 13
+        height: 75
+      spriteId: 8cf2de0fccd492548849c719d533a13d
+    - name: Red Sprite Front_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 14
+        y: 1
+        width: 13
+        height: 75
+      spriteId: cc336abfc059e5b48b81cbe7dd5e7bfa
+    - name: Red Sprite Front_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 13
+        y: 5
+        width: 14
+        height: 73
+      spriteId: 62df13bfe675db14a9d19f2501599755
+    - name: Red Sprite Front_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 14
+        y: 11
+        width: 13
+        height: 66
+      spriteId: 9c93f511a60333946a70eada777fe3a8
+    - name: Red Sprite Front_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 15
+        y: 56
+        width: 12
+        height: 21
+      spriteId: 923459af836a460459fcd09f5430ef7b
+    - name: Red Sprite Front_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 14
+        y: 52
+        width: 13
+        height: 25
+      spriteId: d7ba75c4ff6419845bae9a650fd2b605
+    - name: Red Sprite Front_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 14
+        y: 46
+        width: 13
+        height: 32
+      spriteId: 570769ee3051a1b4797716628a00d587
+    - name: Red Sprite Front_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 14
+        y: 15
+        width: 13
+        height: 63
+      spriteId: 52c64bf8a9603f542a70677a40c6d140
+    - name: Red Sprite Front_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 15
+        y: -6
+        width: 12
+        height: 84
+      spriteId: d763fcf03b6aece44948c4402da1d8ba
+    - name: Red Sprite Front_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 15
+        y: 56
+        width: 12
+        height: 21
+      spriteId: a2887e44d1b980343b673f3e4cd53ec6
+    - name: Red Sprite Front_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 15
+        y: 56
+        width: 13
+        height: 21
+      spriteId: 0eb507d2aac1d554abfd41a32f8ca197
+    - name: Red Sprite Front_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 12
+        y: 57
+        width: 17
+        height: 21
+      spriteId: 03b1796a7bc4a9a4a88ea22375e33224
+    - name: Red Sprite Front_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 10
+        y: 57
+        width: 15
+        height: 20
+      spriteId: 14de61bcd5a4ac94889ddea5faf44215
+    - name: Red Sprite Front_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 11
+        y: 55
+        width: 12
+        height: 22
+      spriteId: 004d0fa3ed5a73b4cadcaccceab93b5a
+    - name: Red Sprite Front_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 11
+        y: 55
+        width: 12
+        height: 23
+      spriteId: c95077fbb27b5fc4d8dfc1fa109c3925
+    - name: Red Sprite Front_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 10
+        y: 55
+        width: 17
+        height: 18
+      spriteId: 6351fbfb1845c644ba409c9c4897e458
+    - name: Red Sprite Front_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 12
+        y: 57
+        width: 15
+        height: 23
+      spriteId: c337f808ca1a28a4fb9b26f3aed93436
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 39, y: 80}
