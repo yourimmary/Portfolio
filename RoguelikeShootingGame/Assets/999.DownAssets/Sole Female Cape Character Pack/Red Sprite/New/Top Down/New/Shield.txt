@@ -1,5 +1,0 @@
-By Row:
-
-1 - Activate
-2- Idle
-3- Hit
