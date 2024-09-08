@@ -128,6 +128,9 @@ public class MonsterController : CharacterBase
             _hpBar.SetPosition(transform.position + Vector3.up);
         if (_findMark != null)
             _findMark.transform.position = transform.position + new Vector3(-0.7f, 1, 0);
+
+        if (GameManager.Instance.GameState == GAMESTATE.GAMERESULT)
+            Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

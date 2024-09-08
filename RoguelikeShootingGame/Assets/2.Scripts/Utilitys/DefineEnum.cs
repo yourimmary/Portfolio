@@ -55,6 +55,7 @@ namespace DefineEnum
         MAPSELECTWINDOW,
         ENHANCESELECTWINDOW,
         PLAYERWINDOW,
-        RESULTWINDOW
+        RESULTWINDOW,
+        TITLEWINDOW
     }
 }

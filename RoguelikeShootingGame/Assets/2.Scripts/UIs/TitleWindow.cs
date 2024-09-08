@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class TitleWindow : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void ClickStartButton()
     {
-        
+        GameManager.Instance.GameInitialize();
+        gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ClickQuitButton()
     {
-        
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }

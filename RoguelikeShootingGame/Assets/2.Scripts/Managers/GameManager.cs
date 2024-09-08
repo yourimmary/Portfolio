@@ -52,10 +52,10 @@ public class GameManager : MonoBehaviour
         _uniqueInstance = this;
     }
 
-    private void Start()
-    {
-        GameInitialize();
-    }
+    //private void Start()
+    //{
+    //    GameInitialize();
+    //}
 
     private void Update()
     {
@@ -67,9 +67,6 @@ public class GameManager : MonoBehaviour
     // 1. 게임 시작 전
     //   - 타이틀 화면 UI 만들고
     //   - _state = GAMESTATE.GAMETITLE;
-    public void GameTitle()
-    {
-    }
     // 2. 게임 초기화
     //   - _state = GAMESTATE.GAMEINIT;
     //   - 타이틀 UI 비활성화
@@ -111,14 +108,7 @@ public class GameManager : MonoBehaviour
     //   - 게임에 필수적인 값 초기화
     //      - 총 깊이 = 0;
     //      - 플레이어 캐릭터 스테이터스 초기화
-    public void GameReadyBeforeStart()
-    {
-        _state = GAMESTATE.GAMEREADY;
 
-        _curDepth = 0;
-
-        _player.InitSet(UIManager.Instance.PlayerWindow);
-    }
     // 4. 게임 시작
     //   - _state = GAMESTATE.GAMESTART;
     //   - 맵 선택 UI 활성화
@@ -138,45 +128,33 @@ public class GameManager : MonoBehaviour
     //   - End 버튼 : 애플리케이션을 종료
     // 
 
-    public void GameInit()
-    {
-        _state = GAMESTATE.GAMEINIT;
-        _monSpawnPos = new List<Vector2>();
-
-        _canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
-
-        //_mHpWnd = _canvas.transform.GetChild(0);
-        //_markWnd = _canvas.transform.GetChild(1);
-
-        GameObject pw = Instantiate(_playerWnd, _canvas.transform);
-        _player = Instantiate(_playerPrefab, transform.position, transform.rotation).GetComponent<PlayerController>();
-        _player.InitSet(pw.GetComponent<PlayerWindow>());
-        _player.gameObject.SetActive(false);
-
-        MC = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FollowCamara>();
-        MC.Init();
-
-        GameObject go = new GameObject("MapsRoot");
-        _mapParent = go.transform;
-
-        for (int i = 0; i < _maps.Length; i++)
-        {
-            GameObject map = Instantiate(_maps[i], _mapParent);
-            map.SetActive(false);
-        }
-
-        GameReady();
-    }
+    //public void GameInit()
+    //{
+    //    _state = GAMESTATE.GAMEINIT;
+    //    _monSpawnPos = new List<Vector2>();
+    //    _canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
+    //    //_mHpWnd = _canvas.transform.GetChild(0);
+    //    //_markWnd = _canvas.transform.GetChild(1);
+    //    GameObject pw = Instantiate(_playerWnd, _canvas.transform);
+    //    _player = Instantiate(_playerPrefab, transform.position, transform.rotation).GetComponent<PlayerController>();
+    //    _player.InitSet(pw.GetComponent<PlayerWindow>());
+    //    _player.gameObject.SetActive(false);
+    //    MC = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<FollowCamara>();
+    //    MC.Init();
+    //    GameObject go = new GameObject("MapsRoot");
+    //    _mapParent = go.transform;
+    //    for (int i = 0; i < _maps.Length; i++)
+    //    {
+    //        GameObject map = Instantiate(_maps[i], _mapParent);
+    //        map.SetActive(false);
+    //    }
+    //    GameReady();
+    //}
 
     public void GameReady()
     {
         _state = GAMESTATE.GAMEREADY;
-        //if (_msw == null)
-        //{
-        //    _msw = Instantiate(_mapSelectWnd, _canvas.transform).GetComponent<MapSelectWindow>();
-        //    _msw.InitWindow();
-        //}
-        //_msw.OpenWindow();
+
         UIManager.Instance.OpenWindow(UIENUM.MAPSELECTWINDOW);
     }
 
@@ -223,15 +201,8 @@ public class GameManager : MonoBehaviour
     public void GameEnd(bool isSuccess)
     {
         _state = GAMESTATE.GAMEEND;
-        Debug.Log("GameEnd");
-        //_rwnd = Instantiate(_resultWnd, _canvas.transform).transform;
-        //if (isSuccess)
-        //{
-        //    _rwnd.GetChild(0).gameObject.SetActive(true);
-        //}
-        //else
-        //    _rwnd.GetChild(1).gameObject.SetActive(true);
-        //UIManager.Instance.OpenWindow(isSuccess);
+
+        UIManager.Instance.OpenWindow(isSuccess);
     }
 
     //

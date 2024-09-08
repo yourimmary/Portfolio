@@ -77,7 +77,10 @@ public class PlayerController : CharacterBase
         _pWnd.InitSet();
         _pWnd.SetValue(_hpRate, _maxhp, _hp);
 
+        _state = PLAYERSTATE.IDLE;
+        _dir = CHARACTERDIR.DOWN;
         _aniControl = GetComponent<Animator>();
+        ChangePlayerAni(_state, _dir);
         Debug.LogFormat("Level : {0}\nMaxExp : {1}\nExp : {2}\nATT : {3}\nDEF : {4}\nCRI : {5}\nCRIDMG : {6}\nHP : {7}",
             _level, _maxExp, _exp, _att, _def, _cri, _criDmg, _hp);
     }

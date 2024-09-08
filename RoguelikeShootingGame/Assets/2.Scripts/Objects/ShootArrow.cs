@@ -27,7 +27,7 @@ public class ShootArrow : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.Instance.GameState == GAMESTATE.GAMEREADY)
+        if (GameManager.Instance.GameState == GAMESTATE.GAMERESULT)
             Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)

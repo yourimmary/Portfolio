@@ -340,7 +340,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1083021936281192729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 365752064772806085}
+        m_TargetAssemblyTypeName: TitleWindow, Assembly-CSharp
+        m_MethodName: ClickQuitButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8276954050345426264
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,7 +607,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3530549111781668882}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 365752064772806085}
+        m_TargetAssemblyTypeName: TitleWindow, Assembly-CSharp
+        m_MethodName: ClickStartButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8990014922289005778
 GameObject:
   m_ObjectHideFlags: 0
