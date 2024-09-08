@@ -1,0 +1,3860 @@
+fileFormatVersion: 2
+guid: f9e2721da81fb2f4caa76daa764d0348
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Red Caped Side Platformer Version_Frame_0
+    originalName: 
+    pivot: {x: 2.9230769, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 184
+      width: 13
+      height: 22
+    spriteID: 905f6a9a6e977e343b667add68de84d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_1
+    originalName: 
+    pivot: {x: 3.2727273, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 247
+      width: 11
+      height: 22
+    spriteID: 370ba70a085647a40bcdf90841c5d567
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 247}
+  - name: Red Caped Side Platformer Version_Frame_2
+    originalName: 
+    pivot: {x: 2.9999998, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 215
+      width: 12
+      height: 23
+    spriteID: 13aeb970d7b79684cbb921c25d583e47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_3
+    originalName: 
+    pivot: {x: 2.9999998, y: -0.9583334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 215
+      width: 12
+      height: 24
+    spriteID: d84068c0fb443634e9c81526b0d07ec2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_4
+    originalName: 
+    pivot: {x: 2.846154, y: -0.9583334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 215
+      width: 13
+      height: 24
+    spriteID: 8a9365376748b29478c6460230add286
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_5
+    originalName: 
+    pivot: {x: 2.6428573, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 184
+      width: 14
+      height: 23
+    spriteID: ecd0a266e0c4b8349ae2fcb5f23c0c04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_6
+    originalName: 
+    pivot: {x: 2.7692308, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 184
+      width: 13
+      height: 22
+    spriteID: 6cdaad20b955d614587aaf77ef329c1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 436, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_7
+    originalName: 
+    pivot: {x: 2.7692308, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 349
+      y: 184
+      width: 13
+      height: 23
+    spriteID: fc5c6af23587bca45a31fbe7c77d884c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 349, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_8
+    originalName: 
+    pivot: {x: 2.7692308, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 370
+      y: 184
+      width: 13
+      height: 23
+    spriteID: 07dd61bf48422114fbde50723507af74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 370, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_9
+    originalName: 
+    pivot: {x: 2.9166665, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 423
+      y: 215
+      width: 12
+      height: 22
+    spriteID: 484b1ead1fdc9854a9aa05c5711c0305
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 423, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_10
+    originalName: 
+    pivot: {x: 2.9166665, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 215
+      width: 12
+      height: 23
+    spriteID: e38439406393a6246bc679ef27508883
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_13
+    originalName: 
+    pivot: {x: 1.52, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 93
+      width: 25
+      height: 17
+    spriteID: 503d70e45faf1c4428c8b05e0923adcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_14
+    originalName: 
+    pivot: {x: 1.6956521, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 128
+      width: 23
+      height: 17
+    spriteID: 7584a8fc4410c274da746e4611421d03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_15
+    originalName: 
+    pivot: {x: 1.8, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 476
+      y: 154
+      width: 20
+      height: 17
+    spriteID: 03cfc6e84c727474681c86731a00a6d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 476, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_16
+    originalName: 
+    pivot: {x: 1.8, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 356
+      y: 128
+      width: 20
+      height: 17
+    spriteID: ab1ba5e1e2a83f04babe31c10e84e009
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 356, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_17
+    originalName: 
+    pivot: {x: 1.8, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 128
+      width: 20
+      height: 17
+    spriteID: 13396af4f283085489092fb104f5ac9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_18
+    originalName: 
+    pivot: {x: 1.6818182, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 93
+      width: 22
+      height: 18
+    spriteID: 099dc1ff4de9e1b4db03707ae1a9415c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 471, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_19
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 486
+      y: 59
+      width: 22
+      height: 19
+    spriteID: cbbe79b4f995d5f408d4059f5f02aed7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 486, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_20
+    originalName: 
+    pivot: {x: 0.95, y: -1.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 59
+      width: 40
+      height: 21
+    spriteID: 15140b69745d65d41bb8a2ca3923721c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_21
+    originalName: 
+    pivot: {x: 1.0294118, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 231
+      y: 59
+      width: 34
+      height: 17
+    spriteID: 96b7e4a53936a2c47a174744e32aa6ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 231, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_22
+    originalName: 
+    pivot: {x: 1.36, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 93
+      width: 25
+      height: 17
+    spriteID: c050352e4150c3749a3e35dad304fe37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 167, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_23
+    originalName: 
+    pivot: {x: 1.6, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 128
+      width: 20
+      height: 17
+    spriteID: 827f089b17450aa478c39f25a02632d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_24
+    originalName: 
+    pivot: {x: 1.6, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 440
+      y: 128
+      width: 20
+      height: 17
+    spriteID: d2c1d5c111b12bc4f99f8aa5efbafdc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 440, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_25
+    originalName: 
+    pivot: {x: 1.7222222, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 468
+      y: 128
+      width: 18
+      height: 18
+    spriteID: 19241cbccfc0021499cac93357512ece
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 468, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_26
+    originalName: 
+    pivot: {x: 1.8235295, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 184
+      width: 17
+      height: 18
+    spriteID: 0729665e684e79649b20324c9f0fd858
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_27
+    originalName: 
+    pivot: {x: 1.6666667, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 184
+      width: 18
+      height: 18
+    spriteID: 3aa7c0e8722e33a4a88fbda09838d33f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_28
+    originalName: 
+    pivot: {x: 1.2173913, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 93
+      width: 23
+      height: 19
+    spriteID: c78b762d42eb2754b9d0462ec24b1422
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 72, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_29
+    originalName: 
+    pivot: {x: 0.75, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 59
+      width: 40
+      height: 19
+    spriteID: ad820aa01e067f347875865d49fe9cdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_30
+    originalName: 
+    pivot: {x: 0.8235294, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 59
+      width: 34
+      height: 18
+    spriteID: 8256250ca1328444883daed2836f0681
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_31
+    originalName: 
+    pivot: {x: 1.0384616, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 452
+      y: 59
+      width: 26
+      height: 18
+    spriteID: 93827ffa7a9b3c5428dc7218a5c65bf2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 452, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_32
+    originalName: 
+    pivot: {x: 1.173913, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 440
+      y: 93
+      width: 23
+      height: 18
+    spriteID: bc95b3c8613978541888f301ca5c505d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 440, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_33
+    originalName: 
+    pivot: {x: 1.1818181, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 128
+      width: 22
+      height: 18
+    spriteID: 530cb284d6694a94a80f195cf7b2bec5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_34
+    originalName: 
+    pivot: {x: 1.1818181, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 128
+      width: 22
+      height: 18
+    spriteID: 4b5524a76ba078a45a378c1cfc414826
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_35
+    originalName: 
+    pivot: {x: 1.1818181, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 22
+      height: 18
+    spriteID: 212d60eeaea6a444685795ff048bb3f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_36
+    originalName: 
+    pivot: {x: 1.2272727, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 128
+      width: 22
+      height: 18
+    spriteID: 4165193d0f1cb7f449abce7bfb7a42e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_37
+    originalName: 
+    pivot: {x: 1.1818181, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 128
+      width: 22
+      height: 18
+    spriteID: 7f164b7e344c16f4fa1b0ddadd6441b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_38
+    originalName: 
+    pivot: {x: 1.1428572, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 128
+      width: 21
+      height: 18
+    spriteID: 10be22572bb20be488a92c5f73bf4418
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_39
+    originalName: 
+    pivot: {x: 0.8484849, y: -0.8846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 59
+      width: 33
+      height: 26
+    spriteID: 3c3edd815bf82e04bb8c7c137cd8c390
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_40
+    originalName: 
+    pivot: {x: 0.7692308, y: -0.8518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 93
+      width: 26
+      height: 27
+    spriteID: 0278dd8ba7124a949b3330ef33662cc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_41
+    originalName: 
+    pivot: {x: 0.8076923, y: -0.8518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 93
+      width: 26
+      height: 27
+    spriteID: bfaf14d4e9200154995071d4ecab222d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_42
+    originalName: 
+    pivot: {x: 1.0000001, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 154
+      width: 19
+      height: 19
+    spriteID: fd1f15b31880f194bb17be5e8b75d46b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_43
+    originalName: 
+    pivot: {x: 1.125, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 184
+      width: 16
+      height: 18
+    spriteID: 24fe33c2e7b43374395fa9f4d0582ca8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_44
+    originalName: 
+    pivot: {x: 1.3333333, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 215
+      width: 12
+      height: 23
+    spriteID: 5d1627e45869a714bbaf67e9ccdc89bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_45
+    originalName: 
+    pivot: {x: 3.0833333, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 443
+      y: 215
+      width: 12
+      height: 22
+    spriteID: 156de7a1d87b9c644877d368f91fa38b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 443, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_46
+    originalName: 
+    pivot: {x: 3.0833333, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 463
+      y: 215
+      width: 12
+      height: 22
+    spriteID: 3a2e71c5671c92044aecd65e6a18be63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 463, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_47
+    originalName: 
+    pivot: {x: 2.9230769, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 457
+      y: 184
+      width: 13
+      height: 22
+    spriteID: 9bc28f1477dd76546a9d97d5122fdb7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 457, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_48
+    originalName: 
+    pivot: {x: 2.9230769, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 184
+      width: 13
+      height: 22
+    spriteID: 0462fede4a9d9434bad626ed09e38608
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 478, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_49
+    originalName: 
+    pivot: {x: 2.846154, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 215
+      width: 13
+      height: 22
+    spriteID: 04f6ca3c8fb46ae40a19827c61972034
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_50
+    originalName: 
+    pivot: {x: 2.9999998, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 483
+      y: 215
+      width: 12
+      height: 22
+    spriteID: 39e285216caffbc4a8427f34fa1c7940
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 483, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_51
+    originalName: 
+    pivot: {x: 2.846154, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 215
+      width: 13
+      height: 22
+    spriteID: e85fa8f26943ccb41bf253b65afb287b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_52
+    originalName: 
+    pivot: {x: 2.846154, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 215
+      width: 13
+      height: 22
+    spriteID: 05fa295399c478740b06941ca126410c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_53
+    originalName: 
+    pivot: {x: 2.846154, y: -1.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 215
+      width: 13
+      height: 21
+    spriteID: 22fc72d95b38e9745a7823eb0faa341a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_54
+    originalName: 
+    pivot: {x: 2.846154, y: -1.4375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 494
+      y: 128
+      width: 13
+      height: 16
+    spriteID: 9396577239a3fc843b5952b5dd58def6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 494, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_55
+    originalName: 
+    pivot: {x: 2.2222223, y: -1.3529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 184
+      width: 18
+      height: 17
+    spriteID: 63fca313e69fe444aab0300858c06f79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_56
+    originalName: 
+    pivot: {x: 2.846154, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 247
+      width: 13
+      height: 19
+    spriteID: b1c2d30adc0b7d44e9c1934ba127e6f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 247}
+  - name: Red Caped Side Platformer Version_Frame_57
+    originalName: 
+    pivot: {x: 2.9999998, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 215
+      width: 12
+      height: 23
+    spriteID: 57f3ecfa34ebeeb48992bfbf2cfdfcf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_58
+    originalName: 
+    pivot: {x: 2.9999998, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 215
+      width: 12
+      height: 23
+    spriteID: 661c27b458fd24a46bff384e00dd4f2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_74
+    originalName: 
+    pivot: {x: 0.4347826, y: -1.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 31
+      width: 69
+      height: 20
+    spriteID: cee789475992be841b2135b5d7b2ad04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 31}
+  - name: Red Caped Side Platformer Version_Frame_75
+    originalName: 
+    pivot: {x: 0.024999976, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 59
+      width: 40
+      height: 19
+    spriteID: 0909bb37887fa3c4ea799abe52ceac9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_76
+    originalName: 
+    pivot: {x: 0.026315765, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 469
+      y: 31
+      width: 38
+      height: 18
+    spriteID: 287d0c56fe8073643bda7877af35656b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 469, y: 31}
+  - name: Red Caped Side Platformer Version_Frame_80
+    originalName: 
+    pivot: {x: 0.24999996, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 215
+      width: 12
+      height: 23
+    spriteID: 8059507dfc75f804a91fa8878b81e53c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_84
+    originalName: 
+    pivot: {x: 0.6521739, y: -1.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 31
+      width: 46
+      height: 20
+    spriteID: c56998c2b9abff84991f63de1136e6bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 31}
+  - name: Red Caped Side Platformer Version_Frame_85
+    originalName: 
+    pivot: {x: 0.05263153, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 154
+      width: 19
+      height: 19
+    spriteID: ec7f99b8c02671b4198488af1c14bba6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_86
+    originalName: 
+    pivot: {x: 0.049999952, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 154
+      width: 20
+      height: 19
+    spriteID: 147e59fbce7c79441973010db200bbd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_87
+    originalName: 
+    pivot: {x: 0.055555504, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 215
+      y: 154
+      width: 18
+      height: 19
+    spriteID: 12e2f4cd0789f804c891915ba61af103
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 215, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_91
+    originalName: 
+    pivot: {x: 0, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 215
+      width: 12
+      height: 23
+    spriteID: 127afdc412fa51844ba52d5ed3f84cc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_92
+    originalName: 
+    pivot: {x: 2.9999998, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 313
+      y: 215
+      width: 12
+      height: 23
+    spriteID: 79f3e97a8f6df4048b30dc547c2f162c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 313, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_93
+    originalName: 
+    pivot: {x: 2.7142859, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 184
+      width: 14
+      height: 22
+    spriteID: 77833af38ea1280428e3717c7a53596b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_94
+    originalName: 
+    pivot: {x: 3.3636365, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 247
+      width: 11
+      height: 22
+    spriteID: 0e4dd62b54f75bb4e8462444c35698b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 247}
+  - name: Red Caped Side Platformer Version_Frame_95
+    originalName: 
+    pivot: {x: -0.41666666, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 333
+      y: 215
+      width: 12
+      height: 23
+    spriteID: a65d0832869a7f044afbd620a9de5c77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 333, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_96
+    originalName: 
+    pivot: {x: -0.21428585, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 184
+      width: 14
+      height: 22
+    spriteID: 1432481a66f91fc4f824a85d7e110b12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_97
+    originalName: 
+    pivot: {x: 0.18181823, y: -1.1818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 247
+      width: 11
+      height: 22
+    spriteID: cbee662256e5e5c4da3a74cc5f7a8101
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 247}
+  - name: Red Caped Side Platformer Version_Frame_98
+    originalName: 
+    pivot: {x: 0.3846154, y: -1.1818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 215
+      width: 13
+      height: 22
+    spriteID: de1bae0c39da18244b2c5f93d776f879
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_103
+    originalName: 
+    pivot: {x: 1.6086956, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 93
+      width: 23
+      height: 19
+    spriteID: 836e5e18ef525cc4a95994b302082e60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_104
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 93
+      width: 22
+      height: 19
+    spriteID: 1f14df97d0db99644bd4931da9ae3fbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_105
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 93
+      width: 22
+      height: 19
+    spriteID: 0e003f0d1dbb87a4eb162ef8fa59ecb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 230, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_106
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 260
+      y: 93
+      width: 22
+      height: 19
+    spriteID: b1f526b2a68bced4f88774a9d0a6da02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 260, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_107
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 93
+      width: 22
+      height: 19
+    spriteID: 5b031936c4189454cb112825a29f275a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_108
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 93
+      width: 22
+      height: 19
+    spriteID: dfdec7f361eb9e843a0f36ed52c66890
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_109
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 93
+      width: 22
+      height: 19
+    spriteID: 90d73474a056717449764a007d41c143
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_110
+    originalName: 
+    pivot: {x: 1.2592592, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 348
+      y: 59
+      width: 27
+      height: 19
+    spriteID: 617480ae580d40f4ea9a8d6e773d782a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 348, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_111
+    originalName: 
+    pivot: {x: 0.59322035, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 281
+      y: 31
+      width: 59
+      height: 19
+    spriteID: 1f7c60a6405926848bde0bd8f9b9c811
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 281, y: 31}
+  - name: Red Caped Side Platformer Version_Frame_112
+    originalName: 
+    pivot: {x: 0.43037978, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 79
+      height: 19
+    spriteID: da322e1d2adecea458206879f2208e84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Red Caped Side Platformer Version_Frame_113
+    originalName: 
+    pivot: {x: 1.8888891, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 241
+      y: 154
+      width: 18
+      height: 19
+    spriteID: 89d422e8c20482e43973c4e7ba65dda2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 241, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_114
+    originalName: 
+    pivot: {x: 1.8888891, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 267
+      y: 154
+      width: 18
+      height: 19
+    spriteID: 504f373651f291d4f91188f51119f38e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 267, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_115
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 93
+      width: 22
+      height: 19
+    spriteID: 03064ca32fcc7a847b24fecb47726967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_116
+    originalName: 
+    pivot: {x: 0.47887328, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 342
+      y: 4
+      width: 71
+      height: 19
+    spriteID: 0b24645107036de439e1db9a16975302
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 342, y: 4}
+  - name: Red Caped Side Platformer Version_Frame_117
+    originalName: 
+    pivot: {x: 0.47297296, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 4
+      width: 74
+      height: 19
+    spriteID: 71590abb2091f9b429f76d3fb20c570f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 4}
+  - name: Red Caped Side Platformer Version_Frame_118
+    originalName: 
+    pivot: {x: 0.49275362, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 4
+      width: 69
+      height: 19
+    spriteID: 629684e620bf29f4388d52029aba6369
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 4}
+  - name: Red Caped Side Platformer Version_Frame_119
+    originalName: 
+    pivot: {x: 1.8888891, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 154
+      width: 18
+      height: 19
+    spriteID: 8530a9aed8861ca419217d2282dc947d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_120
+    originalName: 
+    pivot: {x: 1.8888891, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 319
+      y: 154
+      width: 18
+      height: 19
+    spriteID: ffb642d89629d5345911340d19a538eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 319, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_121
+    originalName: 
+    pivot: {x: 1.5454546, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 93
+      width: 22
+      height: 19
+    spriteID: 78bdb5b07d52b2741aebede02d38664f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 93}
+  - name: Red Caped Side Platformer Version_Frame_122
+    originalName: 
+    pivot: {x: 1.2592592, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 59
+      width: 27
+      height: 19
+    spriteID: 5cb7d5c37cf331349aca48f537b69ec7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_123
+    originalName: 
+    pivot: {x: 0.59322035, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 348
+      y: 31
+      width: 59
+      height: 19
+    spriteID: 127ea1c7c01692e428d24de0b170997f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 348, y: 31}
+  - name: Red Caped Side Platformer Version_Frame_124
+    originalName: 
+    pivot: {x: 0.43037978, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 4
+      width: 79
+      height: 19
+    spriteID: 15fd5026077ed274f90ca577652ece96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 4}
+  - name: Red Caped Side Platformer Version_Frame_125
+    originalName: 
+    pivot: {x: 1.8888891, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 345
+      y: 154
+      width: 18
+      height: 19
+    spriteID: f70ab33077249a041a71e1ae00c55e53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 345, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_126
+    originalName: 
+    pivot: {x: 1.8888891, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 371
+      y: 154
+      width: 18
+      height: 19
+    spriteID: 060b97236989e9045b00d5cacdeaefd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 371, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_128
+    originalName: 
+    pivot: {x: 2.1764708, y: -1.0952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 154
+      width: 17
+      height: 21
+    spriteID: b1f3b97923ce83a4495c704e88b24b6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_130
+    originalName: 
+    pivot: {x: 2.2941177, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 251
+      y: 184
+      width: 17
+      height: 18
+    spriteID: c43f7994b16394b42a13676453c11e12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 251, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_132
+    originalName: 
+    pivot: {x: 2.9999998, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 215
+      width: 12
+      height: 23
+    spriteID: 20fc586d5db58854daad6ec2cf1f1483
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_63
+    originalName: 
+    pivot: {x: 1.95, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 20
+      height: 18
+    spriteID: b95e60027de92824d8d7b533948e5752
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_67
+    originalName: 
+    pivot: {x: 0.36666667, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 31
+      width: 60
+      height: 19
+    spriteID: e8dbe95bad5009a47bf583d4bccd231a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 31}
+  - name: Red Caped Side Platformer Version_Frame_68
+    originalName: 
+    pivot: {x: 0.37288138, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 31
+      width: 59
+      height: 20
+    spriteID: 94f7dfbd019b59f40b71ba393f26bc6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 31}
+  - name: Red Caped Side Platformer Version_Frame_69
+    originalName: 
+    pivot: {x: 0.38596493, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 31
+      width: 57
+      height: 20
+    spriteID: 83fa23ecd40da3d4a9de018cbf17010a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 216, y: 31}
+  - name: Red Caped Side Platformer Version_Frame_70
+    originalName: 
+    pivot: {x: 0.84615386, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 418
+      y: 59
+      width: 26
+      height: 19
+    spriteID: 1c1fe4482014ee44bbd98b9a3c32e7d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 418, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_71
+    originalName: 
+    pivot: {x: 1.3448277, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 311
+      y: 59
+      width: 29
+      height: 18
+    spriteID: bba182c66db71484fa71012cf86b109a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 311, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_77
+    originalName: 
+    pivot: {x: 0.05263153, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 397
+      y: 154
+      width: 19
+      height: 18
+    spriteID: 5b1287e2fb666484b814ef89a01f327e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 397, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_99
+    originalName: 
+    pivot: {x: 0.57894737, y: -1.3684211}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 154
+      width: 19
+      height: 19
+    spriteID: 942ebf7c47129cb44b83331007e5954d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_100
+    originalName: 
+    pivot: {x: 0.6521739, y: -1.7857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 184
+      width: 23
+      height: 14
+    spriteID: e3db182af0ad1ca40b7c6439b5990e51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_101
+    originalName: 
+    pivot: {x: 0.7619047, y: -1.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 394
+      y: 215
+      width: 21
+      height: 13
+    spriteID: e05f417dbdf215b45b0b72c7aca43e0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 394, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_102
+    originalName: 
+    pivot: {x: 0.7272727, y: -2.0909092}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 247
+      width: 22
+      height: 11
+    spriteID: cc9036fe6c5094446825c5f0947fcfdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 247}
+  - name: Red Caped Side Platformer Version_Frame_129
+    originalName: 
+    pivot: {x: 2.263158, y: -1.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 154
+      width: 19
+      height: 20
+    spriteID: 973a54748041fdf4bb6470aca63bc506
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_11
+    originalName: 
+    pivot: {x: 3.1666665, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 247
+      width: 12
+      height: 22
+    spriteID: fe63d392532262d47b38010b9608bfb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 247}
+  - name: Red Caped Side Platformer Version_Frame_12
+    originalName: 
+    pivot: {x: 3.0000002, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 215
+      width: 13
+      height: 22
+    spriteID: 9d33c72a92acec543a9640a0c7cfa6fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_59
+    originalName: 
+    pivot: {x: 2.2941177, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 184
+      width: 17
+      height: 18
+    spriteID: c63c5e0914f5271439414155ce5b5886
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_60
+    originalName: 
+    pivot: {x: 2.1666667, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 154
+      width: 18
+      height: 22
+    spriteID: f2839c1dcb546cf4a9ef0ad03b70f87f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_61
+    originalName: 
+    pivot: {x: 1.95, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 128
+      width: 20
+      height: 18
+    spriteID: da008ec5f77d3724ba4364efed4bb84f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_62
+    originalName: 
+    pivot: {x: 1.8571429, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 128
+      width: 21
+      height: 18
+    spriteID: d87dacc6b4c6b564bb66a7529f99238a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_64
+    originalName: 
+    pivot: {x: 1.95, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 128
+      width: 20
+      height: 18
+    spriteID: 04d509561d640a94f9c8b463da4084c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_65
+    originalName: 
+    pivot: {x: 1.3000001, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 59
+      width: 30
+      height: 19
+    spriteID: 36472c4597c4288418a506fd40fb9d7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 59}
+  - name: Red Caped Side Platformer Version_Frame_66
+    originalName: 
+    pivot: {x: 0.47297296, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 260
+      y: 4
+      width: 74
+      height: 19
+    spriteID: bafa535863bd2f9498646696d2fcd4fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 260, y: 4}
+  - name: Red Caped Side Platformer Version_Frame_72
+    originalName: 
+    pivot: {x: 2.1666667, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 154
+      width: 18
+      height: 19
+    spriteID: 5e170b53cd8f7604ba71d8e1cc01d1bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_73
+    originalName: 
+    pivot: {x: 2.1764708, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 184
+      width: 17
+      height: 19
+    spriteID: 12f3e7489105bb842b318b6e08741220
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_81
+    originalName: 
+    pivot: {x: 1.8571429, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 128
+      width: 21
+      height: 18
+    spriteID: c97a0feb899db194fa7b80e72fa81e36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 128}
+  - name: Red Caped Side Platformer Version_Frame_82
+    originalName: 
+    pivot: {x: 2.1666667, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 450
+      y: 154
+      width: 18
+      height: 19
+    spriteID: 1e2766985638c904590fd76b6ab753bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 450, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_83
+    originalName: 
+    pivot: {x: 2.1764708, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 184
+      width: 17
+      height: 19
+    spriteID: c706c46495ba945469532bd11ebdad50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_88
+    originalName: 
+    pivot: {x: 0, y: -1.2105263}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 215
+      width: 15
+      height: 19
+    spriteID: 40695a6956c460746bd9e124426e37a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 215}
+  - name: Red Caped Side Platformer Version_Frame_89
+    originalName: 
+    pivot: {x: -0.058823477, y: -1.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 301
+      y: 184
+      width: 17
+      height: 18
+    spriteID: 27d872a34d75c2e489552ae36e553c79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 301, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_90
+    originalName: 
+    pivot: {x: 0, y: -1.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 326
+      y: 184
+      width: 15
+      height: 20
+    spriteID: 05a034c3f6bf8bc428eca7ae8d6c9dff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 326, y: 184}
+  - name: Red Caped Side Platformer Version_Frame_131
+    originalName: 
+    pivot: {x: 3.1666665, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 247
+      width: 12
+      height: 22
+    spriteID: ee3914bfcebf2e84e88ed8be5233bce8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 247}
+  - name: Red Caped Side Platformer Version_Frame_78
+    originalName: 
+    pivot: {x: 0.3125, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 154
+      width: 16
+      height: 22
+    spriteID: 93f1adb53abdb44438c84451d0d50a01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 154}
+  - name: Red Caped Side Platformer Version_Frame_79
+    originalName: 
+    pivot: {x: 0.24999996, y: -1.0454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 247
+      width: 12
+      height: 22
+    spriteID: e2620d17f6c2f2a41aec52ebbd304aeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 247}
+  - name: Red Caped Side Platformer Version_Frame_127
+    originalName: 
+    pivot: {x: 2.4, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 15
+      height: 23
+    spriteID: 1f3ff97e770a8364cab0db9bbb6653c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1978069577
+    name: Red Caped Side Platformer Version
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Red Caped Side Platformer Version_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 2
+        y: 23
+        width: 13
+        height: 22
+      spriteId: 905f6a9a6e977e343b667add68de84d6
+    - name: Red Caped Side Platformer Version_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 4
+        y: 23
+        width: 11
+        height: 22
+      spriteId: 370ba70a085647a40bcdf90841c5d567
+    - name: Red Caped Side Platformer Version_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 4
+        y: 23
+        width: 12
+        height: 23
+      spriteId: 13aeb970d7b79684cbb921c25d583e47
+    - name: Red Caped Side Platformer Version_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: 23
+        width: 12
+        height: 24
+      spriteId: d84068c0fb443634e9c81526b0d07ec2
+    - name: Red Caped Side Platformer Version_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 3
+        y: 23
+        width: 13
+        height: 24
+      spriteId: 8a9365376748b29478c6460230add286
+    - name: Red Caped Side Platformer Version_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 3
+        y: 23
+        width: 14
+        height: 23
+      spriteId: ecd0a266e0c4b8349ae2fcb5f23c0c04
+    - name: Red Caped Side Platformer Version_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: 23
+        width: 13
+        height: 22
+      spriteId: 6cdaad20b955d614587aaf77ef329c1a
+    - name: Red Caped Side Platformer Version_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 4
+        y: 23
+        width: 13
+        height: 23
+      spriteId: fc5c6af23587bca45a31fbe7c77d884c
+    - name: Red Caped Side Platformer Version_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 4
+        y: 23
+        width: 13
+        height: 23
+      spriteId: 07dd61bf48422114fbde50723507af74
+    - name: Red Caped Side Platformer Version_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 5
+        y: 23
+        width: 12
+        height: 22
+      spriteId: 484b1ead1fdc9854a9aa05c5711c0305
+    - name: Red Caped Side Platformer Version_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: 23
+        width: 12
+        height: 23
+      spriteId: e38439406393a6246bc679ef27508883
+    - name: Red Caped Side Platformer Version_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 2
+        y: 23
+        width: 25
+        height: 17
+      spriteId: 503d70e45faf1c4428c8b05e0923adcc
+    - name: Red Caped Side Platformer Version_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 1
+        y: 23
+        width: 23
+        height: 17
+      spriteId: 7584a8fc4410c274da746e4611421d03
+    - name: Red Caped Side Platformer Version_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 4
+        y: 23
+        width: 20
+        height: 17
+      spriteId: 03cfc6e84c727474681c86731a00a6d5
+    - name: Red Caped Side Platformer Version_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 4
+        y: 23
+        width: 20
+        height: 17
+      spriteId: ab1ba5e1e2a83f04babe31c10e84e009
+    - name: Red Caped Side Platformer Version_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 4
+        y: 23
+        width: 20
+        height: 17
+      spriteId: 13396af4f283085489092fb104f5ac9f
+    - name: Red Caped Side Platformer Version_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 3
+        y: 23
+        width: 22
+        height: 18
+      spriteId: 099dc1ff4de9e1b4db03707ae1a9415c
+    - name: Red Caped Side Platformer Version_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: cbbe79b4f995d5f408d4059f5f02aed7
+    - name: Red Caped Side Platformer Version_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 23
+        width: 40
+        height: 21
+      spriteId: 15140b69745d65d41bb8a2ca3923721c
+    - name: Red Caped Side Platformer Version_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 5
+        y: 23
+        width: 34
+        height: 17
+      spriteId: 96b7e4a53936a2c47a174744e32aa6ba
+    - name: Red Caped Side Platformer Version_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 6
+        y: 23
+        width: 25
+        height: 17
+      spriteId: c050352e4150c3749a3e35dad304fe37
+    - name: Red Caped Side Platformer Version_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 8
+        y: 23
+        width: 20
+        height: 17
+      spriteId: 827f089b17450aa478c39f25a02632d0
+    - name: Red Caped Side Platformer Version_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 8
+        y: 23
+        width: 20
+        height: 17
+      spriteId: d2c1d5c111b12bc4f99f8aa5efbafdc6
+    - name: Red Caped Side Platformer Version_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 9
+        y: 23
+        width: 18
+        height: 18
+      spriteId: 19241cbccfc0021499cac93357512ece
+    - name: Red Caped Side Platformer Version_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 9
+        y: 23
+        width: 17
+        height: 18
+      spriteId: 0729665e684e79649b20324c9f0fd858
+    - name: Red Caped Side Platformer Version_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 10
+        y: 23
+        width: 18
+        height: 18
+      spriteId: 3aa7c0e8722e33a4a88fbda09838d33f
+    - name: Red Caped Side Platformer Version_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 12
+        y: 23
+        width: 23
+        height: 19
+      spriteId: c78b762d42eb2754b9d0462ec24b1422
+    - name: Red Caped Side Platformer Version_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 10
+        y: 23
+        width: 40
+        height: 19
+      spriteId: ad820aa01e067f347875865d49fe9cdf
+    - name: Red Caped Side Platformer Version_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 12
+        y: 23
+        width: 34
+        height: 18
+      spriteId: 8256250ca1328444883daed2836f0681
+    - name: Red Caped Side Platformer Version_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 13
+        y: 23
+        width: 26
+        height: 18
+      spriteId: 93827ffa7a9b3c5428dc7218a5c65bf2
+    - name: Red Caped Side Platformer Version_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 13
+        y: 23
+        width: 23
+        height: 18
+      spriteId: bc95b3c8613978541888f301ca5c505d
+    - name: Red Caped Side Platformer Version_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 14
+        y: 23
+        width: 22
+        height: 18
+      spriteId: 530cb284d6694a94a80f195cf7b2bec5
+    - name: Red Caped Side Platformer Version_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 14
+        y: 23
+        width: 22
+        height: 18
+      spriteId: 4b5524a76ba078a45a378c1cfc414826
+    - name: Red Caped Side Platformer Version_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 14
+        y: 23
+        width: 22
+        height: 18
+      spriteId: 212d60eeaea6a444685795ff048bb3f5
+    - name: Red Caped Side Platformer Version_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 13
+        y: 23
+        width: 22
+        height: 18
+      spriteId: 4165193d0f1cb7f449abce7bfb7a42e2
+    - name: Red Caped Side Platformer Version_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 14
+        y: 23
+        width: 22
+        height: 18
+      spriteId: 7f164b7e344c16f4fa1b0ddadd6441b0
+    - name: Red Caped Side Platformer Version_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 16
+        y: 23
+        width: 21
+        height: 18
+      spriteId: 10be22572bb20be488a92c5f73bf4418
+    - name: Red Caped Side Platformer Version_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 12
+        y: 23
+        width: 33
+        height: 26
+      spriteId: 3c3edd815bf82e04bb8c7c137cd8c390
+    - name: Red Caped Side Platformer Version_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 20
+        y: 23
+        width: 26
+        height: 27
+      spriteId: 0278dd8ba7124a949b3330ef33662cc0
+    - name: Red Caped Side Platformer Version_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 19
+        y: 23
+        width: 26
+        height: 27
+      spriteId: bfaf14d4e9200154995071d4ecab222d
+    - name: Red Caped Side Platformer Version_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 21
+        y: 23
+        width: 19
+        height: 19
+      spriteId: fd1f15b31880f194bb17be5e8b75d46b
+    - name: Red Caped Side Platformer Version_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 22
+        y: 23
+        width: 16
+        height: 18
+      spriteId: 24fe33c2e7b43374395fa9f4d0582ca8
+    - name: Red Caped Side Platformer Version_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 24
+        y: 23
+        width: 12
+        height: 23
+      spriteId: 5d1627e45869a714bbaf67e9ccdc89bc
+    - name: Red Caped Side Platformer Version_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 3
+        y: 23
+        width: 12
+        height: 22
+      spriteId: 156de7a1d87b9c644877d368f91fa38b
+    - name: Red Caped Side Platformer Version_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 3
+        y: 23
+        width: 12
+        height: 22
+      spriteId: 3a2e71c5671c92044aecd65e6a18be63
+    - name: Red Caped Side Platformer Version_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 2
+        y: 23
+        width: 13
+        height: 22
+      spriteId: 9bc28f1477dd76546a9d97d5122fdb7c
+    - name: Red Caped Side Platformer Version_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 2
+        y: 23
+        width: 13
+        height: 22
+      spriteId: 0462fede4a9d9434bad626ed09e38608
+    - name: Red Caped Side Platformer Version_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 3
+        y: 23
+        width: 13
+        height: 22
+      spriteId: 04f6ca3c8fb46ae40a19827c61972034
+    - name: Red Caped Side Platformer Version_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 4
+        y: 23
+        width: 12
+        height: 22
+      spriteId: 39e285216caffbc4a8427f34fa1c7940
+    - name: Red Caped Side Platformer Version_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 3
+        y: 23
+        width: 13
+        height: 22
+      spriteId: e85fa8f26943ccb41bf253b65afb287b
+    - name: Red Caped Side Platformer Version_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 3
+        y: 23
+        width: 13
+        height: 22
+      spriteId: 05fa295399c478740b06941ca126410c
+    - name: Red Caped Side Platformer Version_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 3
+        y: 23
+        width: 13
+        height: 21
+      spriteId: 22fc72d95b38e9745a7823eb0faa341a
+    - name: Red Caped Side Platformer Version_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 3
+        y: 23
+        width: 13
+        height: 16
+      spriteId: 9396577239a3fc843b5952b5dd58def6
+    - name: Red Caped Side Platformer Version_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 23
+        width: 18
+        height: 17
+      spriteId: 63fca313e69fe444aab0300858c06f79
+    - name: Red Caped Side Platformer Version_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 3
+        y: 23
+        width: 13
+        height: 19
+      spriteId: b1c2d30adc0b7d44e9c1934ba127e6f8
+    - name: Red Caped Side Platformer Version_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 4
+        y: 23
+        width: 12
+        height: 23
+      spriteId: 57f3ecfa34ebeeb48992bfbf2cfdfcf8
+    - name: Red Caped Side Platformer Version_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 4
+        y: 23
+        width: 12
+        height: 23
+      spriteId: 661c27b458fd24a46bff384e00dd4f2f
+    - name: Red Caped Side Platformer Version_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 10
+        y: 23
+        width: 69
+        height: 20
+      spriteId: cee789475992be841b2135b5d7b2ad04
+    - name: Red Caped Side Platformer Version_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 39
+        y: 23
+        width: 40
+        height: 19
+      spriteId: 0909bb37887fa3c4ea799abe52ceac9c
+    - name: Red Caped Side Platformer Version_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 39
+        y: 23
+        width: 38
+        height: 18
+      spriteId: 287d0c56fe8073643bda7877af35656b
+    - name: Red Caped Side Platformer Version_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 37
+        y: 23
+        width: 12
+        height: 23
+      spriteId: 8059507dfc75f804a91fa8878b81e53c
+    - name: Red Caped Side Platformer Version_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 10
+        y: 23
+        width: 46
+        height: 20
+      spriteId: c56998c2b9abff84991f63de1136e6bf
+    - name: Red Caped Side Platformer Version_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 39
+        y: 23
+        width: 19
+        height: 19
+      spriteId: ec7f99b8c02671b4198488af1c14bba6
+    - name: Red Caped Side Platformer Version_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 39
+        y: 23
+        width: 20
+        height: 19
+      spriteId: 147e59fbce7c79441973010db200bbd5
+    - name: Red Caped Side Platformer Version_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 39
+        y: 23
+        width: 18
+        height: 19
+      spriteId: 12e2f4cd0789f804c891915ba61af103
+    - name: Red Caped Side Platformer Version_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 40
+        y: 23
+        width: 12
+        height: 23
+      spriteId: 127afdc412fa51844ba52d5ed3f84cc9
+    - name: Red Caped Side Platformer Version_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 4
+        y: 23
+        width: 12
+        height: 23
+      spriteId: 79f3e97a8f6df4048b30dc547c2f162c
+    - name: Red Caped Side Platformer Version_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 2
+        y: 23
+        width: 14
+        height: 22
+      spriteId: 77833af38ea1280428e3717c7a53596b
+    - name: Red Caped Side Platformer Version_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 3
+        y: 23
+        width: 11
+        height: 22
+      spriteId: 0e4dd62b54f75bb4e8462444c35698b8
+    - name: Red Caped Side Platformer Version_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 45
+        y: 23
+        width: 12
+        height: 23
+      spriteId: a65d0832869a7f044afbd620a9de5c77
+    - name: Red Caped Side Platformer Version_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 43
+        y: 23
+        width: 14
+        height: 22
+      spriteId: 1432481a66f91fc4f824a85d7e110b12
+    - name: Red Caped Side Platformer Version_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 38
+        y: 26
+        width: 11
+        height: 22
+      spriteId: cbee662256e5e5c4da3a74cc5f7a8101
+    - name: Red Caped Side Platformer Version_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 35
+        y: 26
+        width: 13
+        height: 22
+      spriteId: de1bae0c39da18244b2c5f93d776f879
+    - name: Red Caped Side Platformer Version_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 3
+        y: 23
+        width: 23
+        height: 19
+      spriteId: 836e5e18ef525cc4a95994b302082e60
+    - name: Red Caped Side Platformer Version_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: 1f14df97d0db99644bd4931da9ae3fbf
+    - name: Red Caped Side Platformer Version_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: 0e003f0d1dbb87a4eb162ef8fa59ecb1
+    - name: Red Caped Side Platformer Version_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: b1f526b2a68bced4f88774a9d0a6da02
+    - name: Red Caped Side Platformer Version_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: 5b031936c4189454cb112825a29f275a
+    - name: Red Caped Side Platformer Version_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: dfdec7f361eb9e843a0f36ed52c66890
+    - name: Red Caped Side Platformer Version_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: 90d73474a056717449764a007d41c143
+    - name: Red Caped Side Platformer Version_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 6
+        y: 23
+        width: 27
+        height: 19
+      spriteId: 617480ae580d40f4ea9a8d6e773d782a
+    - name: Red Caped Side Platformer Version_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 5
+        y: 23
+        width: 59
+        height: 19
+      spriteId: 1f7c60a6405926848bde0bd8f9b9c811
+    - name: Red Caped Side Platformer Version_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 6
+        y: 23
+        width: 79
+        height: 19
+      spriteId: da322e1d2adecea458206879f2208e84
+    - name: Red Caped Side Platformer Version_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 6
+        y: 23
+        width: 18
+        height: 19
+      spriteId: 89d422e8c20482e43973c4e7ba65dda2
+    - name: Red Caped Side Platformer Version_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 6
+        y: 23
+        width: 18
+        height: 19
+      spriteId: 504f373651f291d4f91188f51119f38e
+    - name: Red Caped Side Platformer Version_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: 03064ca32fcc7a847b24fecb47726967
+    - name: Red Caped Side Platformer Version_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 6
+        y: 23
+        width: 71
+        height: 19
+      spriteId: 0b24645107036de439e1db9a16975302
+    - name: Red Caped Side Platformer Version_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 5
+        y: 23
+        width: 74
+        height: 19
+      spriteId: 71590abb2091f9b429f76d3fb20c570f
+    - name: Red Caped Side Platformer Version_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 6
+        y: 23
+        width: 69
+        height: 19
+      spriteId: 629684e620bf29f4388d52029aba6369
+    - name: Red Caped Side Platformer Version_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 6
+        y: 23
+        width: 18
+        height: 19
+      spriteId: 8530a9aed8861ca419217d2282dc947d
+    - name: Red Caped Side Platformer Version_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 6
+        y: 23
+        width: 18
+        height: 19
+      spriteId: ffb642d89629d5345911340d19a538eb
+    - name: Red Caped Side Platformer Version_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 6
+        y: 23
+        width: 22
+        height: 19
+      spriteId: 78bdb5b07d52b2741aebede02d38664f
+    - name: Red Caped Side Platformer Version_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 6
+        y: 23
+        width: 27
+        height: 19
+      spriteId: 5cb7d5c37cf331349aca48f537b69ec7
+    - name: Red Caped Side Platformer Version_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 5
+        y: 23
+        width: 59
+        height: 19
+      spriteId: 127ea1c7c01692e428d24de0b170997f
+    - name: Red Caped Side Platformer Version_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 6
+        y: 23
+        width: 79
+        height: 19
+      spriteId: 15fd5026077ed274f90ca577652ece96
+    - name: Red Caped Side Platformer Version_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 6
+        y: 23
+        width: 18
+        height: 19
+      spriteId: f70ab33077249a041a71e1ae00c55e53
+    - name: Red Caped Side Platformer Version_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 6
+        y: 23
+        width: 18
+        height: 19
+      spriteId: 060b97236989e9045b00d5cacdeaefd8
+    - name: Red Caped Side Platformer Version_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 3
+        y: 23
+        width: 17
+        height: 21
+      spriteId: b1f3b97923ce83a4495c704e88b24b6d
+    - name: Red Caped Side Platformer Version_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 1
+        y: 23
+        width: 17
+        height: 18
+      spriteId: c43f7994b16394b42a13676453c11e12
+    - name: Red Caped Side Platformer Version_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 4
+        y: 23
+        width: 12
+        height: 23
+      spriteId: 20fc586d5db58854daad6ec2cf1f1483
+    - name: Red Caped Side Platformer Version_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 1
+        y: 23
+        width: 20
+        height: 18
+      spriteId: b95e60027de92824d8d7b533948e5752
+    - name: Red Caped Side Platformer Version_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 18
+        y: 22
+        width: 60
+        height: 19
+      spriteId: e8dbe95bad5009a47bf583d4bccd231a
+    - name: Red Caped Side Platformer Version_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 18
+        y: 22
+        width: 59
+        height: 20
+      spriteId: 94f7dfbd019b59f40b71ba393f26bc6c
+    - name: Red Caped Side Platformer Version_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 18
+        y: 22
+        width: 57
+        height: 20
+      spriteId: 83fa23ecd40da3d4a9de018cbf17010a
+    - name: Red Caped Side Platformer Version_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 18
+        y: 22
+        width: 26
+        height: 19
+      spriteId: 1c1fe4482014ee44bbd98b9a3c32e7d1
+    - name: Red Caped Side Platformer Version_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 1
+        y: 23
+        width: 29
+        height: 18
+      spriteId: bba182c66db71484fa71012cf86b109a
+    - name: Red Caped Side Platformer Version_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 39
+        y: 23
+        width: 19
+        height: 18
+      spriteId: 5b1287e2fb666484b814ef89a01f327e
+    - name: Red Caped Side Platformer Version_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 29
+        y: 26
+        width: 19
+        height: 19
+      spriteId: 942ebf7c47129cb44b83331007e5954d
+    - name: Red Caped Side Platformer Version_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 25
+        y: 25
+        width: 23
+        height: 14
+      spriteId: e3db182af0ad1ca40b7c6439b5990e51
+    - name: Red Caped Side Platformer Version_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 24
+        y: 23
+        width: 21
+        height: 13
+      spriteId: e05f417dbdf215b45b0b72c7aca43e0f
+    - name: Red Caped Side Platformer Version_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 24
+        y: 23
+        width: 22
+        height: 11
+      spriteId: cc9036fe6c5094446825c5f0947fcfdf
+    - name: Red Caped Side Platformer Version_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: -3
+        y: 23
+        width: 19
+        height: 20
+      spriteId: 973a54748041fdf4bb6470aca63bc506
+    - name: Red Caped Side Platformer Version_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 2
+        y: 23
+        width: 12
+        height: 22
+      spriteId: fe63d392532262d47b38010b9608bfb6
+    - name: Red Caped Side Platformer Version_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 1
+        y: 23
+        width: 13
+        height: 22
+      spriteId: 9d33c72a92acec543a9640a0c7cfa6fc
+    - name: Red Caped Side Platformer Version_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 1
+        y: 23
+        width: 17
+        height: 18
+      spriteId: c63c5e0914f5271439414155ce5b5886
+    - name: Red Caped Side Platformer Version_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 1
+        y: 23
+        width: 18
+        height: 22
+      spriteId: f2839c1dcb546cf4a9ef0ad03b70f87f
+    - name: Red Caped Side Platformer Version_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 1
+        y: 23
+        width: 20
+        height: 18
+      spriteId: da008ec5f77d3724ba4364efed4bb84f
+    - name: Red Caped Side Platformer Version_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 1
+        y: 23
+        width: 21
+        height: 18
+      spriteId: d87dacc6b4c6b564bb66a7529f99238a
+    - name: Red Caped Side Platformer Version_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 1
+        y: 23
+        width: 20
+        height: 18
+      spriteId: 04d509561d640a94f9c8b463da4084c2
+    - name: Red Caped Side Platformer Version_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 1
+        y: 23
+        width: 30
+        height: 19
+      spriteId: 36472c4597c4288418a506fd40fb9d7a
+    - name: Red Caped Side Platformer Version_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 5
+        y: 23
+        width: 74
+        height: 19
+      spriteId: bafa535863bd2f9498646696d2fcd4fa
+    - name: Red Caped Side Platformer Version_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 1
+        y: 23
+        width: 18
+        height: 19
+      spriteId: 5e170b53cd8f7604ba71d8e1cc01d1bf
+    - name: Red Caped Side Platformer Version_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 3
+        y: 23
+        width: 17
+        height: 19
+      spriteId: 12f3e7489105bb842b318b6e08741220
+    - name: Red Caped Side Platformer Version_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 1
+        y: 23
+        width: 21
+        height: 18
+      spriteId: c97a0feb899db194fa7b80e72fa81e36
+    - name: Red Caped Side Platformer Version_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 1
+        y: 23
+        width: 18
+        height: 19
+      spriteId: 1e2766985638c904590fd76b6ab753bc
+    - name: Red Caped Side Platformer Version_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 3
+        y: 23
+        width: 17
+        height: 19
+      spriteId: c706c46495ba945469532bd11ebdad50
+    - name: Red Caped Side Platformer Version_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 40
+        y: 23
+        width: 15
+        height: 19
+      spriteId: 40695a6956c460746bd9e124426e37a4
+    - name: Red Caped Side Platformer Version_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 41
+        y: 23
+        width: 17
+        height: 18
+      spriteId: 27d872a34d75c2e489552ae36e553c79
+    - name: Red Caped Side Platformer Version_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 40
+        y: 23
+        width: 15
+        height: 20
+      spriteId: 05a034c3f6bf8bc428eca7ae8d6c9dff
+    - name: Red Caped Side Platformer Version_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 2
+        y: 23
+        width: 12
+        height: 22
+      spriteId: ee3914bfcebf2e84e88ed8be5233bce8
+    - name: Red Caped Side Platformer Version_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 35
+        y: 23
+        width: 16
+        height: 22
+      spriteId: 93f1adb53abdb44438c84451d0d50a01
+    - name: Red Caped Side Platformer Version_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 37
+        y: 23
+        width: 12
+        height: 22
+      spriteId: e2620d17f6c2f2a41aec52ebbd304aeb
+    - name: Red Caped Side Platformer Version_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 4
+        y: 23
+        width: 15
+        height: 23
+      spriteId: 1f3ff97e770a8364cab0db9bbb6653c4
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 64}

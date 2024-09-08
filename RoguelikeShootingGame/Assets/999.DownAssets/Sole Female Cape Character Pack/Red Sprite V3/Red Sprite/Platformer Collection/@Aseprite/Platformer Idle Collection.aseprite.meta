@@ -1,0 +1,1732 @@
+fileFormatVersion: 2
+guid: 252c0b63728c22e4b8a0614f19964eed
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Platformer Idle Collection_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 221
+      width: 12
+      height: 22
+    spriteID: a08b697c97d12b44cb3746ec3ca7b10b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 221}
+  - name: Platformer Idle Collection_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 4
+      width: 12
+      height: 22
+    spriteID: afb84828871b6524faf10f487fcf3a5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 4}
+  - name: Platformer Idle Collection_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 34
+      width: 12
+      height: 22
+    spriteID: a45e37554c695ea4f9a6ac4a71505dc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 34}
+  - name: Platformer Idle Collection_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 64
+      width: 12
+      height: 22
+    spriteID: 77cde7c3a3125c2448040feb69e1debe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 64}
+  - name: Platformer Idle Collection_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 94
+      width: 12
+      height: 22
+    spriteID: 5b1bb64e4f263f44dbf6c1ced6c44d78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 94}
+  - name: Platformer Idle Collection_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 124
+      width: 12
+      height: 22
+    spriteID: 6b08855d0d79e5241a2fa098e99f56e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 124}
+  - name: Platformer Idle Collection_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 154
+      width: 12
+      height: 22
+    spriteID: 3af2f6b232123fc4c98941d32c36657a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 154}
+  - name: Platformer Idle Collection_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 184
+      width: 12
+      height: 22
+    spriteID: 09250c0054eb9e24494562a2ab7f26c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 184}
+  - name: Platformer Idle Collection_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 34
+      width: 12
+      height: 23
+    spriteID: f04ee8387efc47547ac2f9bf644218eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 34}
+  - name: Platformer Idle Collection_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 65
+      width: 12
+      height: 23
+    spriteID: 11ef9a690c4792842970207b0eced018
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 65}
+  - name: Platformer Idle Collection_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 96
+      width: 12
+      height: 23
+    spriteID: bb27326e04cd4a84f9fbf20c887e4296
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 96}
+  - name: Platformer Idle Collection_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 127
+      width: 12
+      height: 23
+    spriteID: dbc798b05a5e9e84fafdb30f85393f65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 127}
+  - name: Platformer Idle Collection_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 158
+      width: 12
+      height: 23
+    spriteID: 8d09f76e4ffbb4e488e35cef62e92af4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 158}
+  - name: Platformer Idle Collection_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 189
+      width: 12
+      height: 23
+    spriteID: 8af84c82c690f9742a9a3c2f1b02b589
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 189}
+  - name: Platformer Idle Collection_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 220
+      width: 12
+      height: 23
+    spriteID: b976d1b3bf6b1344eae66a7acfe51e64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 220}
+  - name: Platformer Idle Collection_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 12
+      height: 23
+    spriteID: 31bdc74c636b28045b854d5fe69686a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 4}
+  - name: Platformer Idle Collection_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 134
+      width: 12
+      height: 24
+    spriteID: 87f1e44962810974da997ef0539e5491
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 134}
+  - name: Platformer Idle Collection_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 14
+      height: 24
+    spriteID: 053febccf9cc20641827279b09c9c622
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Platformer Idle Collection_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 36
+      width: 14
+      height: 24
+    spriteID: bf0e928432d65c849be2acc3300aeaa2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 36}
+  - name: Platformer Idle Collection_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 35
+      width: 12
+      height: 23
+    spriteID: 1a2ba906be6890f41b77db9ff42d76ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 35}
+  - name: Platformer Idle Collection_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 66
+      width: 12
+      height: 23
+    spriteID: d5e94d23f844a674a9e0daf93058d790
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 66}
+  - name: Platformer Idle Collection_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 97
+      width: 12
+      height: 23
+    spriteID: abc527e0e19854e409a0e8af63ce0f98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 97}
+  - name: Platformer Idle Collection_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 128
+      width: 12
+      height: 23
+    spriteID: 33aa27827152b54489751dc284795c17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 128}
+  - name: Platformer Idle Collection_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 159
+      width: 12
+      height: 23
+    spriteID: eda99e3318e5b0444b06dc75a34e8d32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 159}
+  - name: Platformer Idle Collection_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 190
+      width: 12
+      height: 23
+    spriteID: 5c1158d34a2489e4bb2682569b232ea4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 190}
+  - name: Platformer Idle Collection_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 221
+      width: 12
+      height: 23
+    spriteID: 55555691218679949aa8ae7d6db02756
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 221}
+  - name: Platformer Idle Collection_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 4
+      width: 12
+      height: 23
+    spriteID: 8796206610a01b0498035304d7624020
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 4}
+  - name: Platformer Idle Collection_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 166
+      width: 12
+      height: 24
+    spriteID: cc5b05257c6fb2e4ea89b28ff6b16530
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 166}
+  - name: Platformer Idle Collection_Frame_28
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.04}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 68
+      width: 13
+      height: 25
+    spriteID: 54ef40c47a558284189f63d54989f5ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 68}
+  - name: Platformer Idle Collection_Frame_29
+    originalName: 
+    pivot: {x: 0.61538464, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 230
+      width: 13
+      height: 22
+    spriteID: 33c4b53f626b8c0438d3a97992627986
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 230}
+  - name: Platformer Idle Collection_Frame_30
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 214
+      width: 11
+      height: 22
+    spriteID: 83cd4895ed26b6f4d919dbac0142eb2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 214}
+  - name: Platformer Idle Collection_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 35
+      width: 12
+      height: 23
+    spriteID: 63fc8a2d869955b488cb629a387d2549
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 35}
+  - name: Platformer Idle Collection_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 66
+      width: 12
+      height: 23
+    spriteID: de2391c68030fd949b6f810d563ae733
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 66}
+  - name: Platformer Idle Collection_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 97
+      width: 12
+      height: 23
+    spriteID: 1b4eabc11c51ba8499630c89fd18956c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 97}
+  - name: Platformer Idle Collection_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 128
+      width: 12
+      height: 23
+    spriteID: f1b88b792d5d25b4087d6ae1c4ef3010
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 128}
+  - name: Platformer Idle Collection_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 159
+      width: 12
+      height: 23
+    spriteID: 23777ee760f4677418a5fdbe4af85631
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 159}
+  - name: Platformer Idle Collection_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 190
+      width: 12
+      height: 23
+    spriteID: fc3b19c22b691f2499d5a6fc61064a96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 190}
+  - name: Platformer Idle Collection_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 221
+      width: 12
+      height: 23
+    spriteID: 619b9f56a0477d547bd5e90f1a71d94d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 221}
+  - name: Platformer Idle Collection_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 4
+      width: 12
+      height: 23
+    spriteID: 49552107bad2a554eb814c2b50a78cb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 4}
+  - name: Platformer Idle Collection_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 35
+      width: 12
+      height: 23
+    spriteID: ffc4e4974aefdf245adbf3a3cc31c4a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 35}
+  - name: Platformer Idle Collection_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 66
+      width: 12
+      height: 23
+    spriteID: 68a202d9d2f77bc44b5ae2b36d7a06ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 66}
+  - name: Platformer Idle Collection_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 198
+      width: 12
+      height: 24
+    spriteID: 115e6de580719fe409effe08d6918960
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 198}
+  - name: Platformer Idle Collection_Frame_42
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.04}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 101
+      width: 13
+      height: 25
+    spriteID: ab9024786913f004aabf650788dc6157
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 101}
+  - name: Platformer Idle Collection_Frame_43
+    originalName: 
+    pivot: {x: 0.61538464, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 4
+      width: 13
+      height: 22
+    spriteID: 7db82486a1560cf4999eafb2427a7d76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 4}
+  - name: Platformer Idle Collection_Frame_44
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 147
+      y: 4
+      width: 11
+      height: 22
+    spriteID: e309b97e44d9a9e4888e98f7cb9beaa2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 147, y: 4}
+  - name: Platformer Idle Collection_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 97
+      width: 12
+      height: 23
+    spriteID: 6234175392f9f7b4a8d056f5e8a5634c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 97}
+  - name: Platformer Idle Collection_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 128
+      width: 12
+      height: 23
+    spriteID: 93bbdb1394c128247a6a71ec98b9e183
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 128}
+  - name: Platformer Idle Collection_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 159
+      width: 12
+      height: 23
+    spriteID: 66294a54210917a4499ede280b784f46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 159}
+  - name: Platformer Idle Collection_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 190
+      width: 12
+      height: 23
+    spriteID: 8f96bb5743393654c8c67f3ee2260202
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 190}
+  - name: Platformer Idle Collection_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 221
+      width: 12
+      height: 23
+    spriteID: 127a8d03c77476e479767255ae6fb8fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 221}
+  - name: Platformer Idle Collection_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 4
+      width: 12
+      height: 23
+    spriteID: bbcb47ab766badf4494f4d4f8e60fc30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 4}
+  - name: Platformer Idle Collection_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 35
+      width: 12
+      height: 23
+    spriteID: 87fd82d322bc5ef43a1e0f1fcbc72ce9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 35}
+  - name: Platformer Idle Collection_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 66
+      width: 12
+      height: 23
+    spriteID: 8c630e1354a736a47824e4b11fc91dcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 66}
+  - name: Platformer Idle Collection_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 97
+      width: 12
+      height: 23
+    spriteID: 0001ef9fca9445c4fac06d8e13a9f32b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 97}
+  - name: Platformer Idle Collection_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 128
+      width: 12
+      height: 23
+    spriteID: 4d1a693b80bc2884691ed51fe9048cad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 128}
+  - name: Platformer Idle Collection_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 159
+      width: 12
+      height: 23
+    spriteID: 82d1b4c2a259a1e48800673410b8eab8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 159}
+  - name: Platformer Idle Collection_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 190
+      width: 12
+      height: 23
+    spriteID: f8a4f515854fd8d498748151bdc59d67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 190}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 359532928
+    name: Platformer Idle Collection
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Platformer Idle Collection_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 22
+      spriteId: a08b697c97d12b44cb3746ec3ca7b10b
+    - name: Platformer Idle Collection_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 22
+      spriteId: afb84828871b6524faf10f487fcf3a5e
+    - name: Platformer Idle Collection_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 22
+      spriteId: a45e37554c695ea4f9a6ac4a71505dc8
+    - name: Platformer Idle Collection_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 22
+      spriteId: 77cde7c3a3125c2448040feb69e1debe
+    - name: Platformer Idle Collection_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 22
+      spriteId: 5b1bb64e4f263f44dbf6c1ced6c44d78
+    - name: Platformer Idle Collection_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 22
+      spriteId: 6b08855d0d79e5241a2fa098e99f56e5
+    - name: Platformer Idle Collection_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 22
+      spriteId: 3af2f6b232123fc4c98941d32c36657a
+    - name: Platformer Idle Collection_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 22
+      spriteId: 09250c0054eb9e24494562a2ab7f26c2
+    - name: Platformer Idle Collection_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: f04ee8387efc47547ac2f9bf644218eb
+    - name: Platformer Idle Collection_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 11ef9a690c4792842970207b0eced018
+    - name: Platformer Idle Collection_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: bb27326e04cd4a84f9fbf20c887e4296
+    - name: Platformer Idle Collection_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: dbc798b05a5e9e84fafdb30f85393f65
+    - name: Platformer Idle Collection_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 8d09f76e4ffbb4e488e35cef62e92af4
+    - name: Platformer Idle Collection_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 8af84c82c690f9742a9a3c2f1b02b589
+    - name: Platformer Idle Collection_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: b976d1b3bf6b1344eae66a7acfe51e64
+    - name: Platformer Idle Collection_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 31bdc74c636b28045b854d5fe69686a9
+    - name: Platformer Idle Collection_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 24
+      spriteId: 87f1e44962810974da997ef0539e5491
+    - name: Platformer Idle Collection_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 24
+      spriteId: 053febccf9cc20641827279b09c9c622
+    - name: Platformer Idle Collection_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 24
+      spriteId: bf0e928432d65c849be2acc3300aeaa2
+    - name: Platformer Idle Collection_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 1a2ba906be6890f41b77db9ff42d76ed
+    - name: Platformer Idle Collection_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: d5e94d23f844a674a9e0daf93058d790
+    - name: Platformer Idle Collection_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: abc527e0e19854e409a0e8af63ce0f98
+    - name: Platformer Idle Collection_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 33aa27827152b54489751dc284795c17
+    - name: Platformer Idle Collection_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: eda99e3318e5b0444b06dc75a34e8d32
+    - name: Platformer Idle Collection_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 5c1158d34a2489e4bb2682569b232ea4
+    - name: Platformer Idle Collection_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 55555691218679949aa8ae7d6db02756
+    - name: Platformer Idle Collection_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 8796206610a01b0498035304d7624020
+    - name: Platformer Idle Collection_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 24
+      spriteId: cc5b05257c6fb2e4ea89b28ff6b16530
+    - name: Platformer Idle Collection_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 1
+        y: 1
+        width: 13
+        height: 25
+      spriteId: 54ef40c47a558284189f63d54989f5ae
+    - name: Platformer Idle Collection_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 1
+        width: 13
+        height: 22
+      spriteId: 33c4b53f626b8c0438d3a97992627986
+    - name: Platformer Idle Collection_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 2
+        y: 1
+        width: 11
+        height: 22
+      spriteId: 83cd4895ed26b6f4d919dbac0142eb2d
+    - name: Platformer Idle Collection_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 63fc8a2d869955b488cb629a387d2549
+    - name: Platformer Idle Collection_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: de2391c68030fd949b6f810d563ae733
+    - name: Platformer Idle Collection_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 1b4eabc11c51ba8499630c89fd18956c
+    - name: Platformer Idle Collection_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: f1b88b792d5d25b4087d6ae1c4ef3010
+    - name: Platformer Idle Collection_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 23777ee760f4677418a5fdbe4af85631
+    - name: Platformer Idle Collection_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: fc3b19c22b691f2499d5a6fc61064a96
+    - name: Platformer Idle Collection_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 619b9f56a0477d547bd5e90f1a71d94d
+    - name: Platformer Idle Collection_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 49552107bad2a554eb814c2b50a78cb1
+    - name: Platformer Idle Collection_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: ffc4e4974aefdf245adbf3a3cc31c4a7
+    - name: Platformer Idle Collection_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 68a202d9d2f77bc44b5ae2b36d7a06ee
+    - name: Platformer Idle Collection_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 24
+      spriteId: 115e6de580719fe409effe08d6918960
+    - name: Platformer Idle Collection_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 1
+        y: 1
+        width: 13
+        height: 25
+      spriteId: ab9024786913f004aabf650788dc6157
+    - name: Platformer Idle Collection_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 1
+        width: 13
+        height: 22
+      spriteId: 7db82486a1560cf4999eafb2427a7d76
+    - name: Platformer Idle Collection_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 2
+        y: 1
+        width: 11
+        height: 22
+      spriteId: e309b97e44d9a9e4888e98f7cb9beaa2
+    - name: Platformer Idle Collection_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 6234175392f9f7b4a8d056f5e8a5634c
+    - name: Platformer Idle Collection_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 93bbdb1394c128247a6a71ec98b9e183
+    - name: Platformer Idle Collection_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 66294a54210917a4499ede280b784f46
+    - name: Platformer Idle Collection_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 8f96bb5743393654c8c67f3ee2260202
+    - name: Platformer Idle Collection_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 127a8d03c77476e479767255ae6fb8fc
+    - name: Platformer Idle Collection_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: bbcb47ab766badf4494f4d4f8e60fc30
+    - name: Platformer Idle Collection_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 87fd82d322bc5ef43a1e0f1fcbc72ce9
+    - name: Platformer Idle Collection_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 8c630e1354a736a47824e4b11fc91dcf
+    - name: Platformer Idle Collection_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 0001ef9fca9445c4fac06d8e13a9f32b
+    - name: Platformer Idle Collection_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 4d1a693b80bc2884691ed51fe9048cad
+    - name: Platformer Idle Collection_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: 82d1b4c2a259a1e48800673410b8eab8
+    - name: Platformer Idle Collection_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 23
+      spriteId: f8a4f515854fd8d498748151bdc59d67
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 16, y: 26}

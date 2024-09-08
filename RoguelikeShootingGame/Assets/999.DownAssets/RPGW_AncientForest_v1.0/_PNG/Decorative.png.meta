@@ -1,0 +1,3276 @@
+fileFormatVersion: 2
+guid: 2366310afe315af4c8d7fc322033252b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Decorative_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8877fbaa52212a148b511967ff4ae3d6
+      internalID: -1349227934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875c629d45938bc45a8d1bf2749ce64d
+      internalID: -613978142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122e678b60c65d843bd91e371fae3fdd
+      internalID: 1461387165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_27
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cbc28bb5e43d942a4c4b9295dce23e
+      internalID: 963595067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e176f3eb12d5db4cad13a9ee13304c4
+      internalID: 1225827689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a150b17d159c3e14ba333ff0ae4233b0
+      internalID: -431744650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_111
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fcddca88c765543b523159d7cf5919
+      internalID: 2016781416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_42
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3d98c17fccf534aa518ad21eff1bb3
+      internalID: -1193832621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_56
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d5078e327ab75429260859ef12b1df
+      internalID: -1726372576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_70
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c69283e9c666bc4f94ec1fba7d1ace5
+      internalID: -1229058859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_110
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 288
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42263e10cfa0c8e42b40b8e1c254cd1e
+      internalID: -587644834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_40
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c051a33a5320047983b2ee5582ecf9
+      internalID: 1738743800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_43
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d653148b6a83c42aded2b8e8ae3e50
+      internalID: -2123694206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_44
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b34eb50003054a49a3de7db3552e10a
+      internalID: 1563362300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_57
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60abdd658f3fd18458c1810938d32b47
+      internalID: 1930271356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_58
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22ae93fbd01db34ca8bd134da02d311
+      internalID: 481536472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_71
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c081c1aebe40a24f8dd7fa0aea80a82
+      internalID: -1224968558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_72
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abc570e7b00f5c44ba0f5293b0fe2fc
+      internalID: -1119691442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_49
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d293cfda6aa59254c9de501cb046f573
+      internalID: 274350392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5833efa39eeb8d748bae9ea895bb7377
+      internalID: 1529496617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_77
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbe68bdc60a7344c963ce1bd988472b
+      internalID: -1747886941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 352
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c600bd539f1ecda43a0afe1ffd178143
+      internalID: 849304485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_50
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fd56a4cf4897c4dbb7f3d024a1d0bc
+      internalID: -113627861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_64
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683230f2b7ac82b45a91f29542845453
+      internalID: 965349408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_78
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a27d6024e76dbb40bea394766c63dab
+      internalID: -400798612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_84
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a52456df913234994f31e4af53aaa8
+      internalID: 1506019400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_87
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 97
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d26383b99e09b04b85907b5e1b8719f
+      internalID: -1692767568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_90
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 32
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c584108b090c56f4fa657ee380d3e1ec
+      internalID: -1180985137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 160
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c17f9ae3a03f104fb4fc9e95e928676
+      internalID: -1545154646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 160
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b746ccc6443040f4ea343c0a5c04a733
+      internalID: -1890939624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 160
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8c0052d6ffa544e923a1cac04b8523
+      internalID: 484149089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 160
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15deceff67bba974c8e36ba131bbe987
+      internalID: 1720968212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 160
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3d2c095327d564995e0acea60431e9
+      internalID: 800343014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 512
+        width: 160
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa926f7f8f6b718488c16b9f1678c81a
+      internalID: 604232714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 576
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8d039c98080534abdd2aeb1641ec81
+      internalID: -1567077968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2d3ae6da94bdf468c6fe0ac5ec89b3
+      internalID: 1875920203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592a4d2b3e1a36c46bd1a9d3bbc454e3
+      internalID: -684383113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_9
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 448
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311b1165b0253ea43966c48485e5510e
+      internalID: -193539701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 192
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0fefac89176ae48a0e01552e41ba10
+      internalID: 1341744192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_11
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 545
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e420fba0abcd7d8428f0f19d9a2e6edf
+      internalID: -1884928145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a8017558bb484428136f7a6813f0e9
+      internalID: -1485410240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_19
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c2c7f99b44d18408d7593eea583f52
+      internalID: 1994101324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fc8b8fa4cbe2f48999022c7d754719
+      internalID: 882942072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_20
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 416
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1bf0a1f41fb8448b2f253b849feeb2
+      internalID: -169550349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_21
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 384
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87019a884ca8b5747bfbd67af61c8447
+      internalID: 1312166704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_23
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa50763ef1ab7647aadae4c206fb5f3
+      internalID: -500638802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_24
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fd350ed2ebd5f459177ec9eda501f9
+      internalID: -1690930803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_25
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 416
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92a178362c26764fbc0ee66a2217dd5
+      internalID: 1766118003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_26
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 384
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58f84e26b0243e4888d4f5f54131f93
+      internalID: 1523375114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc507dbf1e1fae468445294acc1275f
+      internalID: 143623765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dc74c17fe3050408f961514a89c182
+      internalID: -825715309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a84e912bf67c3e42853e896870eed69
+      internalID: -2084403634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_31
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad24ce24acb135c48a1c0eb2646a003e
+      internalID: -1923558826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_32
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2ce20049b2ef64a98b8e714e69b47c
+      internalID: -696989547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_33
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7db1f4a06105314ba3cc6a6702b2152
+      internalID: 937979121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_34
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d35b109612ee44abf18edef8209bde
+      internalID: -1747688470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd23c5d17ddaa804fa97785ec2e7ff81
+      internalID: -721894327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_36
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b190ef0162acb4f857737027168392
+      internalID: 1389239846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_37
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397b81c3452dac54db13f4120b2581fc
+      internalID: 1337733250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_38
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3708dad77ba3145a5d9a4f80f4bded
+      internalID: 1135834810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_39
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d4ff6676b99924c8bcb3dc853ffca3
+      internalID: 4802982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_74
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2afeffb57bc6e142b8071eab3c3cb35
+      internalID: -1790515427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_73
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed7786c7f1b42a4f84b3ec241771cf1
+      internalID: 308874734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_60
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd951a3481412564892b9e185b0b72d1
+      internalID: -937201223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_59
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18453b10e4b82045a7fa2005d2c4da7
+      internalID: 582325045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_65
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f61b2b8499f46469ad09bb374946d6
+      internalID: -193418043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_67
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e545d229b5c7ef648927b1d8a2e024d1
+      internalID: 1388806343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_79
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f63a3bedc7d4143ab0a0276e0a4222
+      internalID: -505792182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_81
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a44bcca1d9e93499e48b60d8627934
+      internalID: -396867216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_46
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bb65c5a9b198545ba4ea321fb665d7
+      internalID: -762652177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e4c3acd4fe42d4995003e745a82c4f
+      internalID: -1228332456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1460391bf1ef9184fb29aaab2557344a
+      internalID: -1812938045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_53
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4e578b9207dd541be73c9f5d9b269c
+      internalID: 791565656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af144c0502d31e849823de88f244b0e0
+      internalID: -2007391960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_54
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 256
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132960cdddb2c8c4ab8b69a6b9dc8a66
+      internalID: 1444947657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199463144e245d847a9043b16ca35a47
+      internalID: 1308283932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_68
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 256
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f77312d66d196f418cf6192465d4b57
+      internalID: -842803785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_69
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6264ae5357c6d4c91a3aff9f76ca46
+      internalID: 805510763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_80
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 192
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdab3750a56771e43bdfeeb88e3aea77
+      internalID: 597249665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1fa815a66afb046a75185a265f4d94
+      internalID: -434560558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91f1474d7d962141bfa982af6ac571c
+      internalID: 1737553349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccf1bfeb7292984c88163eb77612085
+      internalID: -477847099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_48
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd9b64a4a24f31469a644e4caad98eb
+      internalID: -1977583241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_61
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d563d0bd85012584a832db927196619a
+      internalID: 1257779244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_62
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce1fed9eda14d443bf6964728872303
+      internalID: 1964460314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_75
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fccd65050215ac4098eb6cf29ff213d
+      internalID: -149484676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_76
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf9fc7ef95735d4eb12e3ecac50348e
+      internalID: -2113587926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_82
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b8bd1818d2a294a9f9a8962f27d0ad
+      internalID: -1981059529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_83
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abccb71b8735de2418c1463a598e4e28
+      internalID: -245697998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_85
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ecc073533a1fa46b9fc380831c9718
+      internalID: 723586232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_86
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc68eda3152e32c4babac13711d51886
+      internalID: -2098919029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_91
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67077ceeb32ab374bb18840ded789bda
+      internalID: 573319724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fc628f5c5f884478b015369627bd9e
+      internalID: 433607858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_93
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39d65f2cff7fa14081eafb0a63a3f45
+      internalID: 92051089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_94
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b134981bf84a1f4caf9d957bf0d9f68
+      internalID: -1679227177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_95
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 32
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fb70149541a254eb617c9d784d75e3
+      internalID: -1714384432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_96
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91acffcd1087774595b3abf9dbec568
+      internalID: -1750461881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_88
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 96
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a99aefa5091ba43bf09fd84cb284d5
+      internalID: 199720546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_89
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 96
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d98893ef7c260b46b2f65b22ac4ab7c
+      internalID: 313487659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_97
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 352
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f751a6a58a2e8b468098b12ad43c775
+      internalID: -349426031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_98
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 352
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c400e0caee5dd4182a9b224f616218
+      internalID: 1815421399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_99
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 352
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d175a20a19479f4e8f7c03a88ee08cb
+      internalID: 2057272300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_100
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cf62e9a0c256041a24a175bdaf261c
+      internalID: -1975847413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_101
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d63ddc355cb77478d5bf63ccabd56d
+      internalID: 1316062698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_102
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7dc50b635150946a635d5cc0ecc8cc
+      internalID: 1169774402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_104
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 192
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deaabcda43fa9e42a76dd789024e983
+      internalID: -1946960499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_106
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 192
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b474d1b7a44f7594eb99bc78294659b6
+      internalID: -115313823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_105
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 192
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9905d8c90722af4d8b73d3b585b8a68
+      internalID: -908552164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_103
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 288
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5500086e5e9fd2449808200babf33e9e
+      internalID: 114581619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_108
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 128
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba35e8ad5a00c44bd26e2aa4d9bab8
+      internalID: 748761744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_109
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091696e0bb5f6414589a3ad756868d65
+      internalID: 1874291335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_107
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647bb07fdf5f1c2418e29f0256062690
+      internalID: 404284859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Decorative_0: -1545154646
+      Decorative_1: -1890939624
+      Decorative_10: 1341744192
+      Decorative_100: -1975847413
+      Decorative_101: 1316062698
+      Decorative_102: 1169774402
+      Decorative_103: 114581619
+      Decorative_104: -1946960499
+      Decorative_105: -908552164
+      Decorative_106: -115313823
+      Decorative_107: 404284859
+      Decorative_108: 748761744
+      Decorative_109: 1874291335
+      Decorative_11: -1884928145
+      Decorative_110: -587644834
+      Decorative_111: 2016781416
+      Decorative_112: -851798759
+      Decorative_113: 878635007
+      Decorative_114: -1376207307
+      Decorative_115: -261662096
+      Decorative_116: 1555715486
+      Decorative_117: 1842040318
+      Decorative_118: 405807117
+      Decorative_119: -2049845304
+      Decorative_12: 849304485
+      Decorative_120: 822523983
+      Decorative_121: -1141641676
+      Decorative_122: 1482641890
+      Decorative_123: 1342346567
+      Decorative_124: -306869496
+      Decorative_125: 696540510
+      Decorative_126: 1607602402
+      Decorative_127: 865532741
+      Decorative_128: 1076378176
+      Decorative_129: 101970822
+      Decorative_13: -1349227934
+      Decorative_130: -369677985
+      Decorative_131: 2036729781
+      Decorative_132: -1714739145
+      Decorative_133: -1945643683
+      Decorative_134: -899471433
+      Decorative_135: 1904204436
+      Decorative_136: -761154201
+      Decorative_137: -1736408386
+      Decorative_138: 1167819054
+      Decorative_139: 1753099216
+      Decorative_14: 1225827689
+      Decorative_140: 79961391
+      Decorative_141: 304592473
+      Decorative_142: -1111795357
+      Decorative_143: -5132644
+      Decorative_144: 660840745
+      Decorative_145: 2004525333
+      Decorative_146: -2069204453
+      Decorative_147: 660496235
+      Decorative_148: -962257556
+      Decorative_149: 1963122648
+      Decorative_15: -613978142
+      Decorative_150: -292943217
+      Decorative_151: -1300305770
+      Decorative_152: -78074273
+      Decorative_153: -1713416030
+      Decorative_154: 1443751827
+      Decorative_155: -1108023696
+      Decorative_156: -831339743
+      Decorative_157: -895739800
+      Decorative_158: -2080621690
+      Decorative_159: -1968378086
+      Decorative_16: -431744650
+      Decorative_160: -626670161
+      Decorative_161: -277904977
+      Decorative_162: 1101817932
+      Decorative_163: 1505382691
+      Decorative_164: -1181827237
+      Decorative_165: 1803457608
+      Decorative_166: 940775931
+      Decorative_167: 741538123
+      Decorative_168: -1732704063
+      Decorative_169: 223072676
+      Decorative_17: 1461387165
+      Decorative_170: 455032001
+      Decorative_171: -1990085095
+      Decorative_172: -315526998
+      Decorative_173: 1055903452
+      Decorative_174: -262021872
+      Decorative_175: 284541619
+      Decorative_176: -1468594226
+      Decorative_177: -771040241
+      Decorative_178: -1320566718
+      Decorative_179: -225443707
+      Decorative_18: -1485410240
+      Decorative_180: -314943515
+      Decorative_181: 1697368542
+      Decorative_182: -185215295
+      Decorative_183: -527601502
+      Decorative_184: 740009233
+      Decorative_185: -1467469094
+      Decorative_186: 1765540140
+      Decorative_187: 1043872111
+      Decorative_188: -1300549331
+      Decorative_189: -1206845102
+      Decorative_19: 1994101324
+      Decorative_190: 1780090235
+      Decorative_191: -1249813389
+      Decorative_192: 1906767228
+      Decorative_193: 1957979223
+      Decorative_194: 1194225413
+      Decorative_195: -1712740442
+      Decorative_196: -1192863494
+      Decorative_197: -651107846
+      Decorative_198: 1746349870
+      Decorative_199: -1195617531
+      Decorative_2: 484149089
+      Decorative_20: -169550349
+      Decorative_200: 2127775416
+      Decorative_201: 71749603
+      Decorative_202: -755809548
+      Decorative_203: 124899932
+      Decorative_204: 1250092466
+      Decorative_205: -814060410
+      Decorative_206: -1356962088
+      Decorative_207: 554492717
+      Decorative_208: 1968939017
+      Decorative_209: 1956635745
+      Decorative_21: 1312166704
+      Decorative_210: 898759581
+      Decorative_211: -1209025547
+      Decorative_212: -1822332112
+      Decorative_213: 1044528832
+      Decorative_214: -1571247568
+      Decorative_215: -1956404752
+      Decorative_216: -873265208
+      Decorative_217: -179207488
+      Decorative_218: 1298647811
+      Decorative_219: -1452171903
+      Decorative_22: 882942072
+      Decorative_220: 1576989083
+      Decorative_221: 1011170195
+      Decorative_222: -1416585324
+      Decorative_223: 735899334
+      Decorative_224: -1466603922
+      Decorative_225: 1754787987
+      Decorative_226: 1056114802
+      Decorative_227: 761811691
+      Decorative_228: 428229317
+      Decorative_229: 1847904953
+      Decorative_23: -500638802
+      Decorative_230: -1557847725
+      Decorative_231: 575487048
+      Decorative_232: -1982021507
+      Decorative_233: -883040337
+      Decorative_234: -5394375
+      Decorative_235: -1921685539
+      Decorative_236: -699272427
+      Decorative_237: 1351572731
+      Decorative_238: -876896442
+      Decorative_239: 1174072378
+      Decorative_24: -1690930803
+      Decorative_240: -937207499
+      Decorative_241: 997050276
+      Decorative_242: -1678579372
+      Decorative_243: -760513315
+      Decorative_244: -1086127414
+      Decorative_245: -1860624408
+      Decorative_246: -1477167582
+      Decorative_247: 1212558712
+      Decorative_248: -491343873
+      Decorative_249: 1119450066
+      Decorative_25: 1766118003
+      Decorative_250: 1545817624
+      Decorative_251: 238885180
+      Decorative_252: 561201075
+      Decorative_253: -683460425
+      Decorative_254: -1875812959
+      Decorative_255: 1934146857
+      Decorative_256: -2130621453
+      Decorative_257: -1433621499
+      Decorative_258: 445292448
+      Decorative_259: 1018911258
+      Decorative_26: 1523375114
+      Decorative_260: -971145452
+      Decorative_261: 1226541327
+      Decorative_262: -734643321
+      Decorative_263: 1388174894
+      Decorative_264: 629253949
+      Decorative_265: 717574733
+      Decorative_266: 233255600
+      Decorative_267: 2129264671
+      Decorative_268: 1876418958
+      Decorative_269: 324451998
+      Decorative_27: 963595067
+      Decorative_270: 2076015936
+      Decorative_271: 1266438119
+      Decorative_272: 281157883
+      Decorative_273: -2127567238
+      Decorative_274: 1635984354
+      Decorative_275: 1282521964
+      Decorative_276: -1784264959
+      Decorative_277: 2106107256
+      Decorative_278: -1639458079
+      Decorative_279: -1553227418
+      Decorative_28: 143623765
+      Decorative_280: 1129433341
+      Decorative_281: 322186718
+      Decorative_282: 1219937327
+      Decorative_283: 312342425
+      Decorative_284: -739901351
+      Decorative_285: 15531227
+      Decorative_286: 2069190936
+      Decorative_287: 126564188
+      Decorative_288: 284139366
+      Decorative_289: 1438654054
+      Decorative_29: -825715309
+      Decorative_290: -471395330
+      Decorative_291: -589248813
+      Decorative_292: -1848900240
+      Decorative_293: -1793138044
+      Decorative_294: 1163077372
+      Decorative_295: -1727372510
+      Decorative_296: 836401109
+      Decorative_297: 115841639
+      Decorative_298: 840742482
+      Decorative_299: 520310357
+      Decorative_3: 1720968212
+      Decorative_30: -2084403634
+      Decorative_300: -464343056
+      Decorative_301: -953948714
+      Decorative_302: 322165020
+      Decorative_303: 403046561
+      Decorative_304: -230598669
+      Decorative_305: 104316043
+      Decorative_306: -1690774249
+      Decorative_307: 45745816
+      Decorative_308: 1254555627
+      Decorative_309: -1749147715
+      Decorative_31: -1923558826
+      Decorative_310: 1487322912
+      Decorative_311: 1521946008
+      Decorative_312: -1425046526
+      Decorative_313: -1663974927
+      Decorative_314: -744864752
+      Decorative_315: 614235969
+      Decorative_316: 1365333850
+      Decorative_317: 1809177027
+      Decorative_318: 648607621
+      Decorative_319: -891248303
+      Decorative_32: -696989547
+      Decorative_320: -1951262112
+      Decorative_321: 1805661567
+      Decorative_322: 1145333653
+      Decorative_323: -1631491351
+      Decorative_324: 181122842
+      Decorative_325: -709377149
+      Decorative_326: 1309323039
+      Decorative_328: 477039372
+      Decorative_329: -684003509
+      Decorative_33: 937979121
+      Decorative_330: -1133063927
+      Decorative_332: 584536756
+      Decorative_334: -1784335092
+      Decorative_335: -922487346
+      Decorative_336: -44198868
+      Decorative_337: 83631782
+      Decorative_338: -1637972786
+      Decorative_339: -1646989388
+      Decorative_34: -1747688470
+      Decorative_340: 1467658367
+      Decorative_341: -613275342
+      Decorative_342: -88308395
+      Decorative_343: -1784599911
+      Decorative_344: -119263166
+      Decorative_345: -2728157
+      Decorative_346: 384723823
+      Decorative_348: 1998025964
+      Decorative_349: 1049086126
+      Decorative_35: -721894327
+      Decorative_350: -1185014521
+      Decorative_351: -1264224014
+      Decorative_352: -583795132
+      Decorative_353: -666961955
+      Decorative_354: 885960263
+      Decorative_355: 991284029
+      Decorative_356: -1308880637
+      Decorative_357: 168093276
+      Decorative_358: -975519642
+      Decorative_359: 977108468
+      Decorative_36: 1389239846
+      Decorative_360: 1387973344
+      Decorative_361: 208289259
+      Decorative_362: 1566979766
+      Decorative_363: 697432760
+      Decorative_364: 2129291604
+      Decorative_365: 1880151748
+      Decorative_366: 369013888
+      Decorative_367: -1839651234
+      Decorative_369: 850634570
+      Decorative_37: 1337733250
+      Decorative_371: 1917125235
+      Decorative_372: -916799649
+      Decorative_373: -2072090536
+      Decorative_374: -2121823952
+      Decorative_375: -2056385284
+      Decorative_376: -1598867487
+      Decorative_377: 2132597800
+      Decorative_378: -1812976778
+      Decorative_379: -39827891
+      Decorative_38: 1135834810
+      Decorative_380: 2025226329
+      Decorative_381: -1328371478
+      Decorative_382: -46855388
+      Decorative_383: 141678566
+      Decorative_384: 478273916
+      Decorative_385: 905451134
+      Decorative_386: -1937121366
+      Decorative_387: 1064946306
+      Decorative_388: -358782014
+      Decorative_389: -426181741
+      Decorative_39: 4802982
+      Decorative_390: 2033288468
+      Decorative_391: -1878429332
+      Decorative_392: -516149829
+      Decorative_393: -1612934317
+      Decorative_394: -716072733
+      Decorative_395: 1914553579
+      Decorative_396: 824331783
+      Decorative_397: 1731712378
+      Decorative_398: -1303677479
+      Decorative_399: -1171731535
+      Decorative_4: 800343014
+      Decorative_40: 1738743800
+      Decorative_400: 1291489059
+      Decorative_401: 1202339733
+      Decorative_402: 582125744
+      Decorative_403: 130257600
+      Decorative_404: -1785455060
+      Decorative_405: -704748412
+      Decorative_406: -1345661643
+      Decorative_407: 179173830
+      Decorative_408: 88777831
+      Decorative_409: 123847778
+      Decorative_41: -2007391960
+      Decorative_410: -1304365331
+      Decorative_411: -1092488409
+      Decorative_412: 1380587779
+      Decorative_413: -827568378
+      Decorative_414: -1719499333
+      Decorative_415: -202528620
+      Decorative_416: 1657039483
+      Decorative_417: -727973197
+      Decorative_418: -1973104943
+      Decorative_419: -1879388568
+      Decorative_42: -1193832621
+      Decorative_420: -587909541
+      Decorative_421: 2018580634
+      Decorative_422: -2131421026
+      Decorative_423: -1432368340
+      Decorative_424: 670724565
+      Decorative_425: 563397387
+      Decorative_426: -470031120
+      Decorative_427: -1153509152
+      Decorative_428: -1150555594
+      Decorative_429: 670299444
+      Decorative_43: -2123694206
+      Decorative_430: -732181783
+      Decorative_431: -1017044533
+      Decorative_432: -1643734966
+      Decorative_433: -669629749
+      Decorative_434: 2099356818
+      Decorative_435: 560896078
+      Decorative_436: -2054613330
+      Decorative_437: -1184295793
+      Decorative_438: -765662318
+      Decorative_439: -1355013109
+      Decorative_44: 1563362300
+      Decorative_441: -274063492
+      Decorative_442: -1119559280
+      Decorative_443: -1441016084
+      Decorative_444: 1608378420
+      Decorative_445: 518191972
+      Decorative_446: 1191490264
+      Decorative_447: 1405010665
+      Decorative_448: 1000827171
+      Decorative_449: -1689553578
+      Decorative_45: -1228332456
+      Decorative_450: 1577645202
+      Decorative_451: 1717334341
+      Decorative_452: -1652625082
+      Decorative_453: 1307615903
+      Decorative_454: 1382662162
+      Decorative_455: -300510874
+      Decorative_456: 1327600628
+      Decorative_457: -58064696
+      Decorative_458: 1506929184
+      Decorative_459: 1940688683
+      Decorative_46: -762652177
+      Decorative_460: 878238098
+      Decorative_461: -142731205
+      Decorative_462: -1693781896
+      Decorative_463: -1471772674
+      Decorative_464: 734019337
+      Decorative_465: -895892046
+      Decorative_466: 619031401
+      Decorative_467: -768894164
+      Decorative_468: -1610702463
+      Decorative_469: -576413164
+      Decorative_47: -477847099
+      Decorative_470: 222600850
+      Decorative_471: -2064380455
+      Decorative_472: -1720783913
+      Decorative_473: 548976064
+      Decorative_474: 1162547919
+      Decorative_475: -291440560
+      Decorative_476: -1368727051
+      Decorative_477: -917174289
+      Decorative_478: -322924113
+      Decorative_479: 346693795
+      Decorative_48: -1977583241
+      Decorative_480: 2139807548
+      Decorative_481: -1807406588
+      Decorative_482: -100453533
+      Decorative_483: -1536486146
+      Decorative_484: -1244691216
+      Decorative_485: 1666424015
+      Decorative_486: -1726545294
+      Decorative_487: 895375158
+      Decorative_488: -124849159
+      Decorative_489: -1386858357
+      Decorative_49: 274350392
+      Decorative_490: 1914071164
+      Decorative_491: 935004152
+      Decorative_492: -926674289
+      Decorative_494: 2039390354
+      Decorative_495: 740516000
+      Decorative_496: -1274441968
+      Decorative_497: -1301295530
+      Decorative_498: 1995440346
+      Decorative_499: -668181353
+      Decorative_5: 604232714
+      Decorative_50: -113627861
+      Decorative_500: 1599563393
+      Decorative_501: 1760394769
+      Decorative_502: 2146555862
+      Decorative_503: -1019185416
+      Decorative_504: 4115981
+      Decorative_505: 1443675624
+      Decorative_506: 1307360606
+      Decorative_508: -2031305951
+      Decorative_509: -2092544699
+      Decorative_51: -1812938045
+      Decorative_510: -584953771
+      Decorative_511: 974051394
+      Decorative_512: -508425175
+      Decorative_513: -1506596405
+      Decorative_515: -1935880855
+      Decorative_516: -1449997424
+      Decorative_517: -1206366481
+      Decorative_518: 1221357001
+      Decorative_519: 576505398
+      Decorative_52: 1737553349
+      Decorative_522: 528910748
+      Decorative_523: 1328050707
+      Decorative_524: -1949411028
+      Decorative_525: -400812317
+      Decorative_526: -1067967517
+      Decorative_527: -26976539
+      Decorative_528: -1188359571
+      Decorative_529: 1890810198
+      Decorative_53: 791565656
+      Decorative_531: 1227104406
+      Decorative_532: -1846961791
+      Decorative_533: 1916078435
+      Decorative_534: -7785387
+      Decorative_536: 751334698
+      Decorative_537: 1391616604
+      Decorative_538: -232388117
+      Decorative_539: -328670311
+      Decorative_54: 1444947657
+      Decorative_540: 2083730032
+      Decorative_541: -105413555
+      Decorative_542: -388967046
+      Decorative_543: -1639356873
+      Decorative_544: -1358963122
+      Decorative_545: -349994563
+      Decorative_546: -806395719
+      Decorative_548: -685293291
+      Decorative_55: 1308283932
+      Decorative_551: 1455142410
+      Decorative_552: -1776251015
+      Decorative_553: -1361744096
+      Decorative_554: 279891053
+      Decorative_555: -1323404697
+      Decorative_556: -1803316588
+      Decorative_559: 1395979013
+      Decorative_56: -1726372576
+      Decorative_560: 246834261
+      Decorative_561: -1877539029
+      Decorative_562: -103459204
+      Decorative_563: -1294149008
+      Decorative_564: 1306784983
+      Decorative_567: 545732459
+      Decorative_568: 1762706784
+      Decorative_569: -850008907
+      Decorative_57: 1930271356
+      Decorative_570: 479867585
+      Decorative_571: -1552680600
+      Decorative_572: 1251826615
+      Decorative_573: 179450746
+      Decorative_574: -436227063
+      Decorative_575: 537285482
+      Decorative_576: -11538011
+      Decorative_577: -1701686770
+      Decorative_578: 1315484709
+      Decorative_579: -1049667769
+      Decorative_58: 481536472
+      Decorative_580: -325091594
+      Decorative_581: -1520946083
+      Decorative_582: 1692184364
+      Decorative_583: -1045587869
+      Decorative_584: -283325424
+      Decorative_585: 901946114
+      Decorative_586: 1690532532
+      Decorative_587: -1064207767
+      Decorative_588: -1386923303
+      Decorative_589: -1908334326
+      Decorative_59: 582325045
+      Decorative_591: -147474971
+      Decorative_592: 2133028735
+      Decorative_593: -1080145596
+      Decorative_594: -1261963838
+      Decorative_595: -246727504
+      Decorative_596: 2112394315
+      Decorative_597: -86184774
+      Decorative_599: -1682914441
+      Decorative_6: 1875920203
+      Decorative_60: -937201223
+      Decorative_600: -954932251
+      Decorative_601: -1878491624
+      Decorative_602: 789818213
+      Decorative_603: -300643714
+      Decorative_604: -1548127372
+      Decorative_605: -2032626704
+      Decorative_607: -1693402759
+      Decorative_608: 1420701362
+      Decorative_609: -1096758866
+      Decorative_61: 1257779244
+      Decorative_610: 71472204
+      Decorative_611: -1218559816
+      Decorative_612: -519176574
+      Decorative_613: 688483802
+      Decorative_614: -1966461092
+      Decorative_615: -1923993777
+      Decorative_616: -1374007984
+      Decorative_617: -273432823
+      Decorative_618: -1066741172
+      Decorative_619: -721956084
+      Decorative_62: 1964460314
+      Decorative_620: 1307561043
+      Decorative_621: 1261128152
+      Decorative_622: -1454848025
+      Decorative_623: -66930513
+      Decorative_624: 2103019602
+      Decorative_625: 2007397373
+      Decorative_626: 280961970
+      Decorative_627: 730076702
+      Decorative_628: -1725025980
+      Decorative_63: 1529496617
+      Decorative_630: -45165767
+      Decorative_631: -351744429
+      Decorative_633: -746985937
+      Decorative_634: 1233295174
+      Decorative_635: -287105479
+      Decorative_636: 1366496280
+      Decorative_637: 1711598890
+      Decorative_638: -482883644
+      Decorative_639: 873755021
+      Decorative_64: 965349408
+      Decorative_641: -1786310500
+      Decorative_642: 267406845
+      Decorative_643: -1419923152
+      Decorative_644: -1843332362
+      Decorative_645: 547928456
+      Decorative_646: -449559431
+      Decorative_647: -593716380
+      Decorative_649: 622508905
+      Decorative_65: -193418043
+      Decorative_650: 493784686
+      Decorative_651: 2032519148
+      Decorative_652: -329339299
+      Decorative_653: -298212634
+      Decorative_654: 1331585844
+      Decorative_655: -598426846
+      Decorative_656: -1523427682
+      Decorative_657: 1636198522
+      Decorative_658: 1060751711
+      Decorative_659: -984311060
+      Decorative_66: -434560558
+      Decorative_660: -450697408
+      Decorative_661: 158853398
+      Decorative_662: 1066624867
+      Decorative_663: 614301612
+      Decorative_664: -997077016
+      Decorative_665: -514038161
+      Decorative_666: 145197248
+      Decorative_667: -134415229
+      Decorative_668: 1504480979
+      Decorative_669: -68340879
+      Decorative_67: 1388806343
+      Decorative_670: -1730478924
+      Decorative_671: -533508491
+      Decorative_672: 229731889
+      Decorative_673: -232931251
+      Decorative_674: 1526864719
+      Decorative_675: -1368910041
+      Decorative_676: -2098867347
+      Decorative_677: -1983019611
+      Decorative_678: -1114951134
+      Decorative_679: -109845927
+      Decorative_68: -842803785
+      Decorative_680: 1210508128
+      Decorative_681: -1298191335
+      Decorative_682: 244727713
+      Decorative_683: -870118612
+      Decorative_684: -668253568
+      Decorative_685: -84971575
+      Decorative_686: 76533111
+      Decorative_687: 59468897
+      Decorative_688: 846533423
+      Decorative_689: 1652632062
+      Decorative_69: 805510763
+      Decorative_690: 1450285570
+      Decorative_691: -1238234102
+      Decorative_692: 1437420318
+      Decorative_693: -1088340156
+      Decorative_694: -222472776
+      Decorative_695: 1508204977
+      Decorative_696: 2085477063
+      Decorative_697: -1719677470
+      Decorative_698: 246746092
+      Decorative_699: -589827970
+      Decorative_7: -1567077968
+      Decorative_70: -1229058859
+      Decorative_700: 1599973415
+      Decorative_701: 496513261
+      Decorative_702: 557895230
+      Decorative_703: -1201099146
+      Decorative_704: -1720656787
+      Decorative_705: 1900731176
+      Decorative_706: 261696187
+      Decorative_707: -1140768350
+      Decorative_708: 1672657917
+      Decorative_709: 157036898
+      Decorative_71: -1224968558
+      Decorative_710: -185674174
+      Decorative_711: -2043444023
+      Decorative_712: -1751431525
+      Decorative_713: 321937943
+      Decorative_714: 1860536018
+      Decorative_715: -119703467
+      Decorative_716: -917439388
+      Decorative_717: 1868948396
+      Decorative_718: 1822876061
+      Decorative_719: -832509528
+      Decorative_72: -1119691442
+      Decorative_720: -410674440
+      Decorative_721: 759716427
+      Decorative_722: 1233644187
+      Decorative_723: -1580883122
+      Decorative_724: -653809691
+      Decorative_725: -989556747
+      Decorative_726: -467800346
+      Decorative_727: -293573546
+      Decorative_728: 1967259194
+      Decorative_729: 2043507647
+      Decorative_73: 308874734
+      Decorative_730: -40430195
+      Decorative_731: 1921819014
+      Decorative_732: 232040171
+      Decorative_733: 616490411
+      Decorative_734: -275552001
+      Decorative_735: 441116678
+      Decorative_736: 1552322778
+      Decorative_737: 1536715640
+      Decorative_738: 1157600066
+      Decorative_739: 1576032163
+      Decorative_74: -1790515427
+      Decorative_740: 1610442600
+      Decorative_742: 518048002
+      Decorative_743: 428442615
+      Decorative_744: 1676039502
+      Decorative_745: -2121341871
+      Decorative_746: 2128968828
+      Decorative_747: 912150281
+      Decorative_748: 1279289856
+      Decorative_749: -1044150612
+      Decorative_75: -149484676
+      Decorative_751: 1942891179
+      Decorative_752: -1008972155
+      Decorative_753: -778861592
+      Decorative_754: 1509890542
+      Decorative_755: 987648775
+      Decorative_756: 1735889998
+      Decorative_757: 684580453
+      Decorative_758: -1037145514
+      Decorative_759: 1290749082
+      Decorative_76: -2113587926
+      Decorative_760: -1700081576
+      Decorative_761: -1725457881
+      Decorative_762: 1478330591
+      Decorative_763: 1733483052
+      Decorative_764: 1903190982
+      Decorative_765: 291937677
+      Decorative_766: -1438445440
+      Decorative_767: -2006060394
+      Decorative_768: -434967318
+      Decorative_769: -151341309
+      Decorative_77: -1747886941
+      Decorative_770: 1237102456
+      Decorative_771: 1828678805
+      Decorative_772: -870164886
+      Decorative_773: 1449316322
+      Decorative_774: 1993669276
+      Decorative_775: 846079951
+      Decorative_776: 1458603212
+      Decorative_777: 290470963
+      Decorative_778: -40175732
+      Decorative_779: 709429592
+      Decorative_78: -400798612
+      Decorative_780: 1348432138
+      Decorative_781: -278457207
+      Decorative_782: 770293084
+      Decorative_783: 256320658
+      Decorative_784: 252393041
+      Decorative_785: 1629282042
+      Decorative_786: -959029008
+      Decorative_787: -726750613
+      Decorative_788: -1580561636
+      Decorative_789: -869436372
+      Decorative_79: -505792182
+      Decorative_790: 1420904905
+      Decorative_791: 1601213764
+      Decorative_792: 1594740084
+      Decorative_793: -738729068
+      Decorative_794: -959417434
+      Decorative_796: 1216632736
+      Decorative_797: 1171191102
+      Decorative_798: 1762467886
+      Decorative_799: -960705078
+      Decorative_8: -684383113
+      Decorative_80: 597249665
+      Decorative_800: -995970467
+      Decorative_801: 427418301
+      Decorative_802: -2011992860
+      Decorative_803: -633435526
+      Decorative_804: -265027721
+      Decorative_805: 1107225972
+      Decorative_806: 2100651721
+      Decorative_807: 1352375001
+      Decorative_808: -1952267763
+      Decorative_809: -1204979158
+      Decorative_81: -396867216
+      Decorative_811: -1022723916
+      Decorative_812: 583054342
+      Decorative_813: -2044874608
+      Decorative_814: -1956210671
+      Decorative_815: 1420787741
+      Decorative_82: -1981059529
+      Decorative_83: -245697998
+      Decorative_84: 1506019400
+      Decorative_85: 723586232
+      Decorative_86: -2098919029
+      Decorative_87: -1692767568
+      Decorative_88: 199720546
+      Decorative_89: 313487659
+      Decorative_9: -193539701
+      Decorative_90: -1180985137
+      Decorative_91: 573319724
+      Decorative_92: 433607858
+      Decorative_93: 92051089
+      Decorative_94: -1679227177
+      Decorative_95: -1714384432
+      Decorative_96: -1750461881
+      Decorative_97: -349426031
+      Decorative_98: 1815421399
+      Decorative_99: 2057272300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

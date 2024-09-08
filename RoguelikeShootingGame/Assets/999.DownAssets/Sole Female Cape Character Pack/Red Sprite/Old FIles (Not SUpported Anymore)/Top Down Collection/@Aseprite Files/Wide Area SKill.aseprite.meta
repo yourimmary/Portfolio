@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: b10d49baeb4f0d44faa85327b5e7336d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Wide Area SKill_Frame_5
+    originalName: 
+    pivot: {x: 0.475, y: -0.026315792}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 40
+      height: 38
+    spriteID: 6249d7a7166435d48864bed75d4dc7d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Wide Area SKill_Frame_6
+    originalName: 
+    pivot: {x: 0.48717952, y: -0.14705883}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 50
+      width: 39
+      height: 34
+    spriteID: d5a03b5ec13edcc41a51bbc710a4090c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 50}
+  - name: Wide Area SKill_Frame_0
+    originalName: 
+    pivot: {x: 0.6956522, y: -0.7777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 97
+      width: 23
+      height: 18
+    spriteID: 502063a8b4314fb4da490ea6ce36ad41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 97}
+  - name: Wide Area SKill_Frame_1
+    originalName: 
+    pivot: {x: 0.7307692, y: -0.7}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 92
+      width: 26
+      height: 20
+    spriteID: 5118e823f06645642bad6156c0ccdb37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 92}
+  - name: Wide Area SKill_Frame_2
+    originalName: 
+    pivot: {x: 0.64, y: -0.7777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 71
+      width: 25
+      height: 18
+    spriteID: 016c1c7bbd578344b93d50daf1e11994
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 71}
+  - name: Wide Area SKill_Frame_3
+    originalName: 
+    pivot: {x: 0.58620685, y: -0.7647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 46
+      width: 29
+      height: 17
+    spriteID: ee0d72a41c7c39e498159b9205895828
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 46}
+  - name: Wide Area SKill_Frame_4
+    originalName: 
+    pivot: {x: 0.5121951, y: -0.029411767}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 41
+      height: 34
+    spriteID: fb1cfd11b2ba04b4cabd3d6c68f04dab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  - name: Wide Area SKill_Frame_7
+    originalName: 
+    pivot: {x: 0.41176468, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 100
+      width: 17
+      height: 20
+    spriteID: 756e2ca47d629794d9a908ecd4b5812c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 100}
+  - name: Wide Area SKill_Frame_8
+    originalName: 
+    pivot: {x: 0.39999995, y: -0.631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 101
+      y: 4
+      width: 20
+      height: 19
+    spriteID: 27cdf4b0a89da414286e01689c20c179
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 101, y: 4}
+  - name: Wide Area SKill_Frame_9
+    originalName: 
+    pivot: {x: 0.42105258, y: -0.631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 46
+      width: 19
+      height: 19
+    spriteID: e147950eea393ae4a84e79d81db226f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 46}
+  - name: Wide Area SKill_Frame_10
+    originalName: 
+    pivot: {x: 0.38888887, y: -0.631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 73
+      width: 18
+      height: 19
+    spriteID: af2c2bf663a3d3f42825b68039e3324f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 73}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 232658561
+    name: Wide Area SKill
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Wide Area SKill_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 1
+        width: 40
+        height: 38
+      spriteId: 6249d7a7166435d48864bed75d4dc7d4
+    - name: Wide Area SKill_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 2
+        y: 5
+        width: 39
+        height: 34
+      spriteId: d5a03b5ec13edcc41a51bbc710a4090c
+    - name: Wide Area SKill_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 5
+        y: 14
+        width: 23
+        height: 18
+      spriteId: 502063a8b4314fb4da490ea6ce36ad41
+    - name: Wide Area SKill_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 14
+        width: 26
+        height: 20
+      spriteId: 5118e823f06645642bad6156c0ccdb37
+    - name: Wide Area SKill_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 5
+        y: 14
+        width: 25
+        height: 18
+      spriteId: 016c1c7bbd578344b93d50daf1e11994
+    - name: Wide Area SKill_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: 13
+        width: 29
+        height: 17
+      spriteId: ee0d72a41c7c39e498159b9205895828
+    - name: Wide Area SKill_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 1
+        width: 41
+        height: 34
+      spriteId: fb1cfd11b2ba04b4cabd3d6c68f04dab
+    - name: Wide Area SKill_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 14
+        y: 12
+        width: 17
+        height: 20
+      spriteId: 756e2ca47d629794d9a908ecd4b5812c
+    - name: Wide Area SKill_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 13
+        y: 12
+        width: 20
+        height: 19
+      spriteId: 27cdf4b0a89da414286e01689c20c179
+    - name: Wide Area SKill_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 13
+        y: 12
+        width: 19
+        height: 19
+      spriteId: e147950eea393ae4a84e79d81db226f4
+    - name: Wide Area SKill_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 14
+        y: 12
+        width: 18
+        height: 19
+      spriteId: af2c2bf663a3d3f42825b68039e3324f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 42, y: 40}

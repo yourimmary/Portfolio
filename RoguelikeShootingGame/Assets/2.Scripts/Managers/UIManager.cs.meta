@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0c1f190c77e1d6440af45fccf5377fef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _mapSelectWindow: {fileID: 9160095995370235273, guid: a9055db62d1ac924587e02ea1159ef6c, type: 3}
+  - _hpBarWindow: {fileID: 7394375084438882980, guid: 25383d68091b4344493e2c040bd62521, type: 3}
+  - _damageWindow: {fileID: 5069352849401256007, guid: 3a70916a97680e54d86dc3b910f7fd79, type: 3}
+  - _findMarkWindow: {fileID: 3518176748981950865, guid: d05a58e8437594b40849723a4174fe7e, type: 3}
+  - _playerWindow: {fileID: 1966637610816465521, guid: 8c8934efdae5e2143a3fe9b257194843, type: 3}
+  - _enhanceSelectWindow: {fileID: 8185642705045074777, guid: c734083cd1677ac418b949ec916e0cfa, type: 3}
+  - _resultWindow: {fileID: 7377392260688063066, guid: 5d8083d4d9407e644b8ae37d4248ae52, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
