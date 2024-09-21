@@ -209,12 +209,12 @@ public class MonsterController : CharacterBase
             if (_hp > damage)
             {
                 _hp -= damage;
-                _hpBar.SetFillHpBar(_hpRate);
+                _hpBar.SetFillHpBar(HpRate);
             }
             else if (_hp <= damage)
             {
                 _hp = 0;
-                _hpBar.SetFillHpBar(_hpRate);
+                _hpBar.SetFillHpBar(HpRate);
                 _state = MONSTERSTATE.DEATH;
                 GameManager.Instance.DecreaseMonsterCount();
                 _player.GetComponent<PlayerController>().GetExp(GetGiveExpPerLevel());

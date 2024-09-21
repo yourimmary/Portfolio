@@ -52,10 +52,10 @@ public class GameManager : MonoBehaviour
         _uniqueInstance = this;
     }
 
-    //private void Start()
-    //{
-    //    GameInitialize();
-    //}
+    private void Start()
+    {
+        GameInitialize();
+    }
 
     private void Update()
     {
@@ -76,6 +76,8 @@ public class GameManager : MonoBehaviour
     //   - 맵 설정
     public void GameInitialize()
     {
+        DontDestroyOnLoad(gameObject);
+
         _state = GAMESTATE.GAMEINIT;
         _monSpawnPos = new List<Vector2>();
         //   - 타이틀 UI 비활성화

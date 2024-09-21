@@ -24,7 +24,7 @@ public class UIManager : MonoBehaviour
     Transform _markWnd;
     C_EnhanceSelectWindow _enhanceWnd;
     PlayerWindow _playerWnd;
-    Transform _titleWnd;
+    //Transform _titleWnd;
 
     public PlayerWindow PlayerWindow { get { return _playerWnd; } }
     public Transform HpBarParent { get { return _mHpWnd; } }
@@ -32,6 +32,8 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         _uniqueInstance = this;
+
+        DontDestroyOnLoad(gameObject);
     }
 
     public void CreateUIs()
@@ -44,7 +46,7 @@ public class UIManager : MonoBehaviour
         _mHpWnd = _canvas.transform.GetChild(0);
         _markWnd = _canvas.transform.GetChild(1);
         _resultWnd = Instantiate(_resultWindow, _canvas.transform).transform;
-        _titleWnd = GameObject.Find("TitleWindow").transform;
+        //_titleWnd = GameObject.Find("TitleWindow").transform;
     }
 
     public void InitializeUIs(PlayerController player)
@@ -84,9 +86,9 @@ public class UIManager : MonoBehaviour
             case UIENUM.ENHANCESELECTWINDOW:
                 _enhanceWnd.OpenWindow();
                 break;
-            case UIENUM.TITLEWINDOW:
-                _titleWnd.gameObject.SetActive(true);
-                break;
+            //case UIENUM.TITLEWINDOW:
+            //    _titleWnd.gameObject.SetActive(true);
+            //    break;
         }
     }
     public void OpenWindow(bool success)

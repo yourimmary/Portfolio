@@ -12,7 +12,7 @@ abstract public class CharacterBase : MonoBehaviour
     protected float _cri;
     protected float _criDmg;
 
-    public float _hpRate { get { return (float)_hp / _maxhp; } }
+    public float HpRate { get { return (float)_hp / _maxhp; } }
     public int Def { get { return _def; } }
     protected void InitStatus(int hp, int att, int def, int level = 1)
     {
@@ -28,7 +28,8 @@ abstract public class CharacterBase : MonoBehaviour
     protected bool IsCollisionEnterWall(Transform originTrans, float length)
     {
         bool isEnter = false;
-        RaycastHit2D rHit = Physics2D.Raycast(originTrans.position, transform.up * -1, length, LayerMask.GetMask("Wall"));
+        RaycastHit2D rHit = Physics2D.Raycast(originTrans.position, transform.up * -1,
+            length, LayerMask.GetMask("Wall"));
         Debug.DrawRay(originTrans.position, originTrans.up * length, Color.red);
         if (rHit.collider != null)
         {

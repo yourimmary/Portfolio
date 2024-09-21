@@ -15,6 +15,6 @@ public class ResultWindow : MonoBehaviour
     public void ClickGoTitleButton()
     {
         Debug.Log("Go Title");
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("TitleScene");
     }
 }

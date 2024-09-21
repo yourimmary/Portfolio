@@ -75,7 +75,7 @@ public class PlayerController : CharacterBase
 
         _pWnd = wnd;
         _pWnd.InitSet();
-        _pWnd.SetValue(_hpRate, _maxhp, _hp);
+        _pWnd.SetValue(HpRate, _maxhp, _hp);
 
         _state = PLAYERSTATE.IDLE;
         _dir = CHARACTERDIR.DOWN;
@@ -94,7 +94,7 @@ public class PlayerController : CharacterBase
             _exp -= _maxExp;
             _maxExp += Mathf.RoundToInt(_maxExp * 1.5f);
             IncreasePlayerState(2, 2, 3);
-            _pWnd.SetValue(_hpRate, _maxhp, _hp);
+            _pWnd.SetValue(HpRate, _maxhp, _hp);
             Debug.LogFormat("Level : {0}\nMaxExp : {1}\nExp : {2}\nATT : {3}\nDEF : {4}\nCRI : {5}\nCRIDMG : {6}\nHP : {7}",
                 _level, _maxExp, _exp, _att, _def, _cri, _criDmg, _hp);
         }
@@ -149,13 +149,13 @@ public class PlayerController : CharacterBase
                 _criDmg += value;
                 break;
         }
-        _pWnd.SetValue(_hpRate, _maxhp, _hp);
+        _pWnd.SetValue(HpRate, _maxhp, _hp);
     }
 
     public override void OnHitting(int damage)
     {
         _hp -= damage;
-        _pWnd.SetValue(_hpRate, _maxhp, _hp);
+        _pWnd.SetValue(HpRate, _maxhp, _hp);
         Debug.Log(_hp);
         if (_hp <= 0)
         {

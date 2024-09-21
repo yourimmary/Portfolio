@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TitleWindow : MonoBehaviour
 {
     public void ClickStartButton()
     {
-        GameManager.Instance.GameInitialize();
-        gameObject.SetActive(false);
+        SceneManager.LoadScene("GameScene");
     }
 
     public void ClickQuitButton()
