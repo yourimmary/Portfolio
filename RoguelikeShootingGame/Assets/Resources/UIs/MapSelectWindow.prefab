@@ -323,3 +323,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _subWindow: {fileID: 8314902419351489413, guid: 4179605676f5bb84ba24e162c5c0f436, type: 3}
+  _subMapPrefab: {fileID: 8314902419351489413, guid: 4179605676f5bb84ba24e162c5c0f436, type: 3}

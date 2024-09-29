@@ -6,6 +6,8 @@ using TMPro;
 
 public class SubMapSelectWindow : MonoBehaviour
 {
+    [SerializeField] bool _isExtra;
+
     int _id;
     int _distance;
     Image _mapImg;
@@ -14,16 +16,30 @@ public class SubMapSelectWindow : MonoBehaviour
 
     public void InitSet(int idx)
     {
-        _mapImg = transform.GetChild(0).GetComponent<Image>();
-        _mapName = transform.GetChild(1).GetComponent<TextMeshProUGUI>();
-        _mapDesc = transform.GetChild(2).GetComponent<TextMeshProUGUI>();
+        if (_isExtra)
+        {
+            _mapImg = transform.GetChild(0).GetChild(1).GetChild(0).GetChild(0).GetComponent<Image>();
+            _mapName = transform.GetChild(0).GetChild(1).GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>();
+            _mapDesc = transform.GetChild(0).GetChild(1).GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>();
+            
+            _id = idx;
 
-        _id = idx;
+            //_mapImg.sprite = 
+            _mapName.text = "Map" + idx;
+        }
+        else
+        {
+            _mapImg = transform.GetChild(0).GetComponent<Image>();
+            _mapName = transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+            _mapDesc = transform.GetChild(2).GetComponent<TextMeshProUGUI>();
 
-        //_mapImg.sprite = 
-        _mapName.text = "Map" + idx;
+            _id = idx;
 
-        gameObject.SetActive(false);
+            //_mapImg.sprite = 
+            _mapName.text = "Map" + idx;
+
+            //gameObject.SetActive(false);
+        }
     }
 
     public void SetDistance(int distance)
