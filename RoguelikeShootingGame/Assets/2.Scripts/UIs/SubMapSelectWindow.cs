@@ -21,11 +21,11 @@ public class SubMapSelectWindow : MonoBehaviour
             _mapImg = transform.GetChild(0).GetChild(1).GetChild(0).GetChild(0).GetComponent<Image>();
             _mapName = transform.GetChild(0).GetChild(1).GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>();
             _mapDesc = transform.GetChild(0).GetChild(1).GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>();
-            
-            _id = idx;
+
+            _id = idx + 1;
 
             //_mapImg.sprite = 
-            _mapName.text = "Map" + idx;
+            _mapName.text = "Map" + _id;
         }
         else
         {
@@ -33,10 +33,10 @@ public class SubMapSelectWindow : MonoBehaviour
             _mapName = transform.GetChild(1).GetComponent<TextMeshProUGUI>();
             _mapDesc = transform.GetChild(2).GetComponent<TextMeshProUGUI>();
 
-            _id = idx;
+            _id = idx + 1;
 
             //_mapImg.sprite = 
-            _mapName.text = "Map" + idx;
+            _mapName.text = "Map" + _id;
 
             //gameObject.SetActive(false);
         }
