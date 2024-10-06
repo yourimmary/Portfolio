@@ -245,10 +245,18 @@ public class MonsterController : CharacterBase
                     }
                     else
                     {
-                        if (Vector2.Distance(transform.position, _player.position) <= _sightDis)
+                        float dis = Vector2.Distance(transform.position, _player.position);
+                        if (dis <= _sightDis)
                         {
                             if (Vector2.Dot(monSight, pDir) >= Mathf.Cos(_sightAngle * Mathf.Deg2Rad))
                             {
+                                //RaycastHit2D rHit = Physics2D.Raycast(transform.position, pDir, dis);
+                                //if (rHit.collider != null && rHit.collider.CompareTag("Player"))
+                                //{
+                                //    _findMark.Play();
+                                //    _isChase = true;
+                                //    _isQuitChase = true;
+                                //}
                                 _findMark.Play();
                                 _isChase = true;
                                 _isQuitChase = true;
