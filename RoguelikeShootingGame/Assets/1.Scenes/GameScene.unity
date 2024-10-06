@@ -563,7 +563,7 @@ MonoBehaviour:
   - {fileID: 7962075430956634353, guid: a539fd3dca504894d8863615bf13b9cb, type: 3}
   - {fileID: 7962075430956634353, guid: 32aa981072317d14b981b044257deb54, type: 3}
   - {fileID: 7962075430956634353, guid: d71e93a789e632c48aa66153ae740afb, type: 3}
-  _mapSelectWnd: {fileID: 9160095995370235273, guid: a9055db62d1ac924587e02ea1159ef6c, type: 3}
+  _mapSelectWnd: {fileID: 9160095995370235273, guid: effdf094d17568d41a0ae25f00c7f6f7, type: 3}
   _EnhanceSelectWnd: {fileID: 8185642705045074777, guid: c734083cd1677ac418b949ec916e0cfa, type: 3}
   _resultWnd: {fileID: 7377392260688063066, guid: 5d8083d4d9407e644b8ae37d4248ae52, type: 3}
   _damageWnd: {fileID: 5069352849401256007, guid: 3a70916a97680e54d86dc3b910f7fd79, type: 3}
