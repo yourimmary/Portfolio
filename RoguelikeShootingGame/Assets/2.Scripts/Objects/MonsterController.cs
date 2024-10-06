@@ -37,22 +37,52 @@ public class MonsterController : CharacterBase
 
     private void Update()
     {
-        if (_state == MONSTERSTATE.WALK)
+        Vector2 monSight = transform.GetChild(1).GetChild((int)_dir).up;
+        Vector2 pDir = (_player.position - transform.position).normalized;
+
+        switch (_state)
         {
-            if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
-            {
-                Vector2 monSight = transform.GetChild(1).GetChild((int)_dir).up;
-                Vector2 pDir = (_player.position - transform.position).normalized;
-                if (Vector2.Distance(transform.position, _player.position) <= _sightDis)
+            case MONSTERSTATE.IDLE:
+                if (_checkMoveTime <= 0)
                 {
-                    if (Vector2.Dot(monSight, pDir) >= Mathf.Cos(_sightAngle * Mathf.Deg2Rad))
+                    _state = MONSTERSTATE.WALK;
+                    _distance = Random.Range(1, _moveLength);
+                    _dir = (CHARACTERDIR)Random.Range(0, 4);
+                    _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
+                    ChangeMonsterAni(_state, _dir);
+                }
+                _checkMoveTime -= Time.deltaTime;
+                break;
+            case MONSTERSTATE.WALK:
+                if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
+                {
+                    if (Vector2.Distance(transform.position, _player.position) <= _sightDis)
                     {
-                        if (!_isChase)
-                            _findMark.Play();
-                        _isChase = true;
+                        if (Vector2.Dot(monSight, pDir) >= Mathf.Cos(_sightAngle * Mathf.Deg2Rad))
+                        {
+                            _state = MONSTERSTATE.CHASE;
+                        }
                     }
 
-                    if (_isChase)
+                    if (Vector2.Distance(transform.position, _destination) < 0.1f)
+                    {
+                        _state = MONSTERSTATE.IDLE;
+                        _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+                        ChangeMonsterAni(_state, _dir);
+                    }
+                    transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
+                }
+                else
+                {
+                    _state = MONSTERSTATE.IDLE;
+                    _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+                    ChangeMonsterAni(_state, _dir);
+                }
+                break;
+            case MONSTERSTATE.CHASE:
+                if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
+                {
+                    if (Vector2.Distance(transform.position, _player.position) <= _sightDis)
                     {
                         Vector2 xAxis = new Vector2(pDir.x, 0).normalized;
                         Vector2 yAxis = new Vector2(0, pDir.y).normalized;
@@ -69,59 +99,99 @@ public class MonsterController : CharacterBase
                         }
                         ChangeMonsterAni(_state, _dir);
                     }
-                    else
-                    {
-                        if (Vector2.Distance(transform.position, _destination) < 0.1f)
-                        {
-                            _state = MONSTERSTATE.IDLE;
-                            _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
-                            ChangeMonsterAni(_state, _dir);
-                        }
-                        transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
-                    }
                 }
                 else
-                {
-                    if (_isChase)
-                    {
-                        _isChase = false;
-                        _state = MONSTERSTATE.IDLE;
-                        _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
-                        ChangeMonsterAni(_state, _dir);
-                    }
-                    else
-                    {
-                        if (Vector2.Distance(transform.position, _destination) < 0.1f)
-                        {
-                            _state = MONSTERSTATE.IDLE;
-                            _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
-                            ChangeMonsterAni(_state, _dir);
-                        }
-                        transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
-                    }
-                }
-            }
-            else
-            {
-                _state = MONSTERSTATE.IDLE;
-                _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
-                ChangeMonsterAni(_state, _dir);
-            }
+                    _state = MONSTERSTATE.IDLE;
+                break;
         }
-        else
+
         {
-            if (_state == MONSTERSTATE.IDLE)
-            {
-                if (_checkMoveTime <= 0)
-                {
-                    _state = MONSTERSTATE.WALK;
-                    _distance = Random.Range(1, _moveLength);
-                    _dir = (CHARACTERDIR)Random.Range(0, 4);
-                    _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
-                    ChangeMonsterAni(_state, _dir);
-                }
-                _checkMoveTime -= Time.deltaTime;
-            }
+            //if (_state == MONSTERSTATE.WALK)
+            //{
+            //    if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
+            //    {
+            //        Vector2 monSight = transform.GetChild(1).GetChild((int)_dir).up;
+            //        Vector2 pDir = (_player.position - transform.position).normalized;
+            //        if (Vector2.Distance(transform.position, _player.position) <= _sightDis)
+            //        {
+            //            if (Vector2.Dot(monSight, pDir) >= Mathf.Cos(_sightAngle * Mathf.Deg2Rad))
+            //            {
+            //                if (!_isChase)
+            //                    _findMark.Play();
+            //                _isChase = true;
+            //            }
+
+            //            if (_isChase)
+            //            {
+            //                Vector2 xAxis = new Vector2(pDir.x, 0).normalized;
+            //                Vector2 yAxis = new Vector2(0, pDir.y).normalized;
+
+            //                if (Vector2.Dot(GetDir(_dir), xAxis) > Vector2.Dot(GetDir(_dir), yAxis))
+            //                {
+            //                    _dir = (xAxis.x < 0) ? CHARACTERDIR.LEFT : CHARACTERDIR.RIGHT;
+            //                    transform.position += _speed * Time.deltaTime * (Vector3)xAxis;
+            //                }
+            //                else
+            //                {
+            //                    _dir = (yAxis.y < 0) ? CHARACTERDIR.DOWN : CHARACTERDIR.UP;
+            //                    transform.position += _speed * Time.deltaTime * (Vector3)yAxis;
+            //                }
+            //                ChangeMonsterAni(_state, _dir);
+            //            }
+            //            else
+            //            {
+            //                if (Vector2.Distance(transform.position, _destination) < 0.1f)
+            //                {
+            //                    _state = MONSTERSTATE.IDLE;
+            //                    _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+            //                    ChangeMonsterAni(_state, _dir);
+            //                }
+            //                transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
+            //            }
+            //        }
+            //        else
+            //        {
+            //            if (_isChase)
+            //            {
+            //                _isChase = false;
+            //                _state = MONSTERSTATE.IDLE;
+            //                _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+            //                ChangeMonsterAni(_state, _dir);
+            //            }
+            //            else
+            //            {
+            //                if (Vector2.Distance(transform.position, _destination) < 0.1f)
+            //                {
+            //                    _state = MONSTERSTATE.IDLE;
+            //                    _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+            //                    ChangeMonsterAni(_state, _dir);
+            //                }
+            //                transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
+            //            }
+            //        }
+            //    }
+            //    else
+            //    {
+            //        _state = MONSTERSTATE.IDLE;
+            //        _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+            //        ChangeMonsterAni(_state, _dir);
+            //    }
+            //}
+            //else
+            //{
+            //    if (_state == MONSTERSTATE.IDLE)
+            //    {
+            //        if (_checkMoveTime <= 0)
+            //        {
+            //            _state = MONSTERSTATE.WALK;
+            //            _distance = Random.Range(1, _moveLength);
+            //            _dir = (CHARACTERDIR)Random.Range(0, 4);
+            //            _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
+            //            ChangeMonsterAni(_state, _dir);
+            //        }
+            //        _checkMoveTime -= Time.deltaTime;
+            //    }
+            //}
         }
 
         if (_hpBar != null)

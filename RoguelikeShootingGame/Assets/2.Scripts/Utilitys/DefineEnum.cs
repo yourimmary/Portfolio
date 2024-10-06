@@ -13,6 +13,7 @@ namespace DefineEnum
     {
         IDLE,
         WALK,
+        CHASE,
         ATTACK,
         DEATH = 99
     }
