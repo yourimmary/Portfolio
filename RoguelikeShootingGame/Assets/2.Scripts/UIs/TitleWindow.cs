@@ -11,6 +11,7 @@ public class TitleWindow : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("짜증나는 컨트롤 제트");
         StartCoroutine(ActiveButtons());
     }
 
