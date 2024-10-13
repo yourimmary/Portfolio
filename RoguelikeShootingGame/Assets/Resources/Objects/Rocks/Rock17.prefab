@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8284711841079047362}
   - component: {fileID: 4099092828905664477}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Rock17
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5520392599389108891}
   - component: {fileID: 432196802130530742}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
