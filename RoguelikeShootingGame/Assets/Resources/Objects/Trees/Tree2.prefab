@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3829609766840372751}
   - component: {fileID: 2235820419219993167}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tree2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3866675819829025048}
   - component: {fileID: 4470616812587196057}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
