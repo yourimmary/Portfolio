@@ -218,10 +218,6 @@ public class MonsterController : CharacterBase
                 Vector2 xAxis = new Vector2(pDir.x, 0).normalized;
                 Vector2 yAxis = new Vector2(0, pDir.y).normalized;
 
-                //for (int n = 0; n < 4; n++)
-                //{
-                //    float dotVal = Vector2.Dot(pDir, )
-                //}
                 if (Vector2.Dot(GetDir(_dir), xAxis) > Vector2.Dot(GetDir(_dir), yAxis))
                 {
                     _dir = (xAxis.x < 0) ? CHARACTERDIR.LEFT : CHARACTERDIR.RIGHT;
@@ -232,6 +228,8 @@ public class MonsterController : CharacterBase
                     _dir = (yAxis.y < 0) ? CHARACTERDIR.DOWN : CHARACTERDIR.UP;
                     transform.position += _speed * Time.deltaTime * (Vector3)yAxis;
                 }
+
+                //a* 알고리즘
                 ChangeMonsterAni(_state, _dir);
             }
         }
