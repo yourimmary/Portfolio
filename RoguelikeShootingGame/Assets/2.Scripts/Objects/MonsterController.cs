@@ -6,7 +6,9 @@ using DefineEnum;
 public class MonsterController : CharacterBase
 {
     [SerializeField] GameObject _hpPrefab;
-    [SerializeField] float _speed = 2;
+    //[SerializeField] float _speed = 2;
+    [SerializeField] float _walkSpeed = 2;
+    [SerializeField] float _chaseSpeed = 4;
 
     Transform _player;
     MonsterHpBar _hpBar;
@@ -30,16 +32,16 @@ public class MonsterController : CharacterBase
     bool _isQuitChase = false;
     float _checkMoveTime = 0;
     float _distance = 0;
+    float _speed = 0;
     Vector2 _destination;
     MONSTERSTATE _state = MONSTERSTATE.IDLE;
     CHARACTERDIR _dir = CHARACTERDIR.DOWN;
-    CHARACTERDIR _curDir = CHARACTERDIR.DOWN;
 
     Animator _aniControl;
 
     private void Update()
     {
-        ExMonterMoveFuction();
+        MonsterMove();
 
         if (_hpBar != null)
             _hpBar.SetPosition(transform.position + Vector3.up);
@@ -104,7 +106,7 @@ public class MonsterController : CharacterBase
         pc.OnHitting(CalculateDamage(pc.Def));
     }
 
-    void ExMonterMoveFuction()
+    void MonterMoveFuction()
     {
         switch (_state)
         {
@@ -161,13 +163,6 @@ public class MonsterController : CharacterBase
                         {
                             if (Vector2.Dot(monSight, pDir) >= Mathf.Cos(_sightAngle * Mathf.Deg2Rad))
                             {
-                                //RaycastHit2D rHit = Physics2D.Raycast(transform.position, pDir, dis);
-                                //if (rHit.collider != null && rHit.collider.CompareTag("Player"))
-                                //{
-                                //    _findMark.Play();
-                                //    _isChase = true;
-                                //    _isQuitChase = true;
-                                //}
                                 _findMark.Play();
                                 _isChase = true;
                                 _isQuitChase = true;
@@ -191,6 +186,97 @@ public class MonsterController : CharacterBase
                     ChangeMonsterAni(_state, _dir);
                 }
                 break;
+        }
+    }
+
+    void MonsterMove()
+    {
+        Vector2 monSight = transform.GetChild(1).GetChild((int)_dir).up;
+        Vector2 pDir = (_player.position - transform.position).normalized;
+
+        if (_isChase)
+        {
+            _speed = _chaseSpeed;
+
+            if (_isQuitChase)
+            {
+                if (Vector2.Distance(transform.position, _player.position) >= _sightDis)
+                {
+                    _isQuitChase = false;
+                    _isChase = false;
+                    _state = MONSTERSTATE.IDLE;
+                }
+            }
+            else
+            {
+                if (Vector2.Distance(transform.position, _player.position) < _sightDis)
+                    _isQuitChase = true;
+            }
+
+            if (_state != MONSTERSTATE.ATTACK)
+            {
+                Vector2 xAxis = new Vector2(pDir.x, 0).normalized;
+                Vector2 yAxis = new Vector2(0, pDir.y).normalized;
+
+                //for (int n = 0; n < 4; n++)
+                //{
+                //    float dotVal = Vector2.Dot(pDir, )
+                //}
+                if (Vector2.Dot(GetDir(_dir), xAxis) > Vector2.Dot(GetDir(_dir), yAxis))
+                {
+                    _dir = (xAxis.x < 0) ? CHARACTERDIR.LEFT : CHARACTERDIR.RIGHT;
+                    transform.position += _speed * Time.deltaTime * (Vector3)xAxis;
+                }
+                else
+                {
+                    _dir = (yAxis.y < 0) ? CHARACTERDIR.DOWN : CHARACTERDIR.UP;
+                    transform.position += _speed * Time.deltaTime * (Vector3)yAxis;
+                }
+                ChangeMonsterAni(_state, _dir);
+            }
+        }
+        else
+        {
+            _speed = _walkSpeed;
+
+            if (Vector2.Distance(transform.position, _player.position) <= _sightDis &&
+                Vector2.Dot(monSight, pDir) >= Mathf.Cos(_sightAngle * Mathf.Deg2Rad))
+            {
+                _findMark.Play();
+                _isChase = true;
+                _isQuitChase = true;
+                _state = MONSTERSTATE.WALK;
+            }
+            else
+            {
+                if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
+                {
+                    switch (_state)
+                    {
+                        case MONSTERSTATE.IDLE:
+                            if (_checkMoveTime <= 0)
+                            {
+                                _state = MONSTERSTATE.WALK;
+                                _distance = Random.Range(1, _moveLength);
+                                _dir = (CHARACTERDIR)Random.Range(0, 4);
+                                _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
+                                ChangeMonsterAni(_state, _dir);
+                            }
+                            _checkMoveTime -= Time.deltaTime;
+                            break;
+                        case MONSTERSTATE.WALK:
+                            if (Vector2.Distance(transform.position, _destination) < 0.1f)
+                            {
+                                _state = MONSTERSTATE.IDLE;
+                                _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+                                ChangeMonsterAni(_state, _dir);
+                            }
+                            else
+                                transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
+                            break;
+                    }
+                }
+            }
         }
     }
 

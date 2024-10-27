@@ -286,12 +286,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hpPrefab: {fileID: 7394375084438882980, guid: 25383d68091b4344493e2c040bd62521, type: 3}
-  _speed: 3
+  _walkSpeed: 2
+  _chaseSpeed: 3
   _minTimeNotMove: 0.5
   _maxtimeNotMove: 2
   _moveLength: 1.5
   _sightDis: 5
-  _sightAngle: 60
+  _sightAngle: 90
   _baseHp: 100
   _baseAtt: 30
   _baseDef: 5
