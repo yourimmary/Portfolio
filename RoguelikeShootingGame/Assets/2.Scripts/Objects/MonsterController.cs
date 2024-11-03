@@ -6,7 +6,6 @@ using DefineEnum;
 public class MonsterController : CharacterBase
 {
     [SerializeField] GameObject _hpPrefab;
-    //[SerializeField] float _speed = 2;
     [SerializeField] float _walkSpeed = 2;
     [SerializeField] float _chaseSpeed = 4;
 
@@ -230,6 +229,8 @@ public class MonsterController : CharacterBase
                 }
 
                 //a* 알고리즘
+
+
                 ChangeMonsterAni(_state, _dir);
             }
         }
@@ -276,6 +277,11 @@ public class MonsterController : CharacterBase
                 }
             }
         }
+    }
+
+    void ChasePlayer()
+    {
+
     }
 
     public void InitSet(Transform playerTrans, int mapCnt, int curDepth, Transform hpBar, Transform mark)
