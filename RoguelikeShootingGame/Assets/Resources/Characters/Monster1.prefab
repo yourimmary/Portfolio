@@ -193,6 +193,8 @@ GameObject:
   - component: {fileID: 7657579399677372873}
   - component: {fileID: 877507960509988069}
   - component: {fileID: 2394037575086012089}
+  - component: {fileID: 3097989018737148515}
+  - component: {fileID: 8780934309681548303}
   m_Layer: 7
   m_Name: Monster1
   m_TagString: Monster
@@ -298,6 +300,35 @@ MonoBehaviour:
   _baseDef: 5
   _baseLevel: 1
   _giveExp: 20
+--- !u!114 &3097989018737148515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6078258179175200441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec7eafad201a254baeba996791c8ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unwalkabbleMask:
+    serializedVersion: 2
+    m_Bits: 512
+  _gridWorldSize: {x: 100, y: 100}
+  _nodeRidius: 0.5
+--- !u!114 &8780934309681548303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6078258179175200441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d473b1f833f0be84dad542d0dcac327c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7506956254147248277
 GameObject:
   m_ObjectHideFlags: 0

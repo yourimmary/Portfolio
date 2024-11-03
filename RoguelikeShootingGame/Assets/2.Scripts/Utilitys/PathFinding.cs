@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class PathFinding : MonoBehaviour
 {
-    [SerializeField] Transform _start;
-    [SerializeField] Transform _target;
+    //[SerializeField] Transform _start;
+    //[SerializeField] Transform _target;
 
     Gride _grid;
 
-    void Awake()
+    //void Awake()
+    //{
+    //    //_grid = GetComponent<Gride>();
+    //    GetGrid(GetComponent<Gride>());
+    //}
+
+    //void Update()
+    //{
+    //    FindPath(_start.position, _target.position);
+    //}
+    
+    public void GetGrid(Gride grid)
     {
-        _grid = GetComponent<Gride>();
+        _grid = grid;
+        _grid.SetInit();
     }
 
-    void Update()
-    {
-        FindPath(_start.position, _target.position);
-    }
-
-    void FindPath(Vector3 startPos, Vector3 targetPos)
+    public void FindPath(Vector3 startPos, Vector3 targetPos)
     {
         Node startNode = _grid.NodeFromWorldPoint(startPos);
         Node targetNode = _grid.NodeFromWorldPoint(targetPos);

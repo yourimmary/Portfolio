@@ -16,7 +16,18 @@ public class Gride : MonoBehaviour
     public List<Node> _path { get; set; }
 
 
-    void Awake()
+    //void Awake()
+    //{
+    //    //_nodeDiameter = _nodeRidius * 2;
+    //    //_gridSizeX = Mathf.RoundToInt(_gridWorldSize.x / _nodeDiameter);
+    //    //_gridSizeY = Mathf.RoundToInt(_gridWorldSize.y / _nodeDiameter);
+
+    //    //CreateGrid();
+
+    //    SetInit();
+    //}
+
+    public void SetInit()
     {
         _nodeDiameter = _nodeRidius * 2;
         _gridSizeX = Mathf.RoundToInt(_gridWorldSize.x / _nodeDiameter);
@@ -28,15 +39,19 @@ public class Gride : MonoBehaviour
     void CreateGrid()
     {
         _grid = new Node[_gridSizeX, _gridSizeY];
-        Vector3 worldBottomLeft = transform.position - (Vector3.right * _gridWorldSize.x / 2)
-                                                     - (Vector3.forward * _gridWorldSize.y / 2);
+        //Vector3 worldBottomLeft = transform.position - (Vector3.right * _gridWorldSize.x / 2)
+        //                                             - (Vector3.forward * _gridWorldSize.y / 2);
+        Vector2 worldBottomLeft = transform.position - (Vector3)((Vector2.right * _gridWorldSize.x / 2)
+                                                     - (Vector2.up * _gridWorldSize.y / 2));
 
         for (int x = 0; x < _gridSizeX; x++)
         {
             for (int y = 0; y < _gridSizeY; y++)
             {
-                Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRidius)
-                                                + Vector3.forward * (y * _nodeDiameter + _nodeRidius);
+                //Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRidius)
+                //                                + Vector3.forward * (y * _nodeDiameter + _nodeRidius);
+                Vector2 worldPoint = worldBottomLeft + Vector2.right * (x * _nodeDiameter + _nodeRidius)
+                                                + Vector2.up * (y * _nodeDiameter + _nodeRidius);
                 bool isWalk = !(Physics.CheckSphere(worldPoint, _nodeRidius, _unwalkabbleMask));
                 _grid[x, y] = new Node(isWalk, worldPoint, x, y);
             }
@@ -46,22 +61,27 @@ public class Gride : MonoBehaviour
     public List<Node> GetNeighbours(Node stdNode)
     {
         List<Node> neighbours = new List<Node>();
-        for (int x = -1; x <= 1; x++)
-        {
-            for (int y = -1; y <= 1; y++)
-            {
-                if (x == 0 && y == 0)
-                    continue;
+        //for (int x = -1; x <= 1; x++)
+        //{
+        //    for (int y = -1; y <= 1; y++)
+        //    {
+        //        if (x == 0 && y == 0)
+        //            continue;
 
-                int checkX = stdNode._gridX + x;
-                int checkY = stdNode._gridY + y;
+        //        int checkX = stdNode._gridX + x;
+        //        int checkY = stdNode._gridY + y;
 
-                if (checkX >= 0 && checkX < _gridSizeX && checkY >= 0 && checkY < _gridSizeY)
-                {
-                    neighbours.Add(_grid[checkX, checkY]);
-                }
-            }
-        }
+        //        if (checkX >= 0 && checkX < _gridSizeX && checkY >= 0 && checkY < _gridSizeY)
+        //        {
+        //            neighbours.Add(_grid[checkX, checkY]);
+        //        }
+        //    }
+        //}
+
+        neighbours.Add(_grid[stdNode._gridX - 1, stdNode._gridY]);
+        neighbours.Add(_grid[stdNode._gridX + 1, stdNode._gridY]);
+        neighbours.Add(_grid[stdNode._gridX, stdNode._gridY - 1]);
+        neighbours.Add(_grid[stdNode._gridX, stdNode._gridY + 1]);
 
         return neighbours;
     }
@@ -81,7 +101,8 @@ public class Gride : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, 1, _gridWorldSize.y));
+        //Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, 1, _gridWorldSize.y));
+        Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, _gridWorldSize.y, 1));
         if (_grid != null)
         {
             foreach (Node node in _grid)

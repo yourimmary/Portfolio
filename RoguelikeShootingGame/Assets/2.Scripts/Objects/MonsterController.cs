@@ -37,6 +37,13 @@ public class MonsterController : CharacterBase
     CHARACTERDIR _dir = CHARACTERDIR.DOWN;
 
     Animator _aniControl;
+    PathFinding _pathFinding;
+
+    private void Awake()
+    {
+        _pathFinding = GetComponent<PathFinding>();
+        _pathFinding.GetGrid(GetComponent<Gride>());
+    }
 
     private void Update()
     {
@@ -229,7 +236,7 @@ public class MonsterController : CharacterBase
                 }
 
                 //a* 알고리즘
-
+                _pathFinding.FindPath(transform.position, _player.position);
 
                 ChangeMonsterAni(_state, _dir);
             }
@@ -277,11 +284,6 @@ public class MonsterController : CharacterBase
                 }
             }
         }
-    }
-
-    void ChasePlayer()
-    {
-
     }
 
     public void InitSet(Transform playerTrans, int mapCnt, int curDepth, Transform hpBar, Transform mark)
