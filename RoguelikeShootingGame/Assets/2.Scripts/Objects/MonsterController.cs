@@ -221,19 +221,19 @@ public class MonsterController : CharacterBase
 
             if (_state != MONSTERSTATE.ATTACK)
             {
-                Vector2 xAxis = new Vector2(pDir.x, 0).normalized;
-                Vector2 yAxis = new Vector2(0, pDir.y).normalized;
+                //Vector2 xAxis = new Vector2(pDir.x, 0).normalized;
+                //Vector2 yAxis = new Vector2(0, pDir.y).normalized;
 
-                if (Vector2.Dot(GetDir(_dir), xAxis) > Vector2.Dot(GetDir(_dir), yAxis))
-                {
-                    _dir = (xAxis.x < 0) ? CHARACTERDIR.LEFT : CHARACTERDIR.RIGHT;
-                    transform.position += _speed * Time.deltaTime * (Vector3)xAxis;
-                }
-                else
-                {
-                    _dir = (yAxis.y < 0) ? CHARACTERDIR.DOWN : CHARACTERDIR.UP;
-                    transform.position += _speed * Time.deltaTime * (Vector3)yAxis;
-                }
+                //if (Vector2.Dot(GetDir(_dir), xAxis) > Vector2.Dot(GetDir(_dir), yAxis))
+                //{
+                //    _dir = (xAxis.x < 0) ? CHARACTERDIR.LEFT : CHARACTERDIR.RIGHT;
+                //    transform.position += _speed * Time.deltaTime * (Vector3)xAxis;
+                //}
+                //else
+                //{
+                //    _dir = (yAxis.y < 0) ? CHARACTERDIR.DOWN : CHARACTERDIR.UP;
+                //    transform.position += _speed * Time.deltaTime * (Vector3)yAxis;
+                //}
 
                 //a* 알고리즘
                 _pathFinding.FindPath(transform.position, _player.position);
