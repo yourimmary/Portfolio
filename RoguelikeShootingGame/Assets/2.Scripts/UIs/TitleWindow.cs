@@ -11,6 +11,7 @@ public class TitleWindow : MonoBehaviour
 
     private void Start()
     {
+        ReadyLoadScene();
         StartCoroutine(ActiveButtons());
     }
 
@@ -18,8 +19,8 @@ public class TitleWindow : MonoBehaviour
     {
         transform.GetChild(0).gameObject.SetActive(false);
 
-        _oper = SceneManager.LoadSceneAsync("GameScene");
-        _oper.allowSceneActivation = false;
+        //_oper = SceneManager.LoadSceneAsync("GameScene");
+        //_oper.allowSceneActivation = false;
 
         StartCoroutine(LoadGameScene());
     }
@@ -31,6 +32,12 @@ public class TitleWindow : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+    void ReadyLoadScene()
+    {
+        _oper = SceneManager.LoadSceneAsync("GameScene");
+        _oper.allowSceneActivation = false;
     }
 
     IEnumerator ActiveButtons()

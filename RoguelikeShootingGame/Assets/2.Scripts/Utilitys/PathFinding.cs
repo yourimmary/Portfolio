@@ -7,6 +7,8 @@ public class PathFinding : MonoBehaviour
     //[SerializeField] Transform _start;
     //[SerializeField] Transform _target;
 
+    //bool _isMove = false;
+
     Gride _grid;
 
     //void Awake()
@@ -75,6 +77,8 @@ public class PathFinding : MonoBehaviour
                 }
             }
         }
+
+        MoveObject();
     }
 
     void RetracePath(Node startNode, Node endNode)
@@ -98,5 +102,13 @@ public class PathFinding : MonoBehaviour
         if (dstX > dstY)
             return 14 * dstY + 10 * (dstX - dstY);
         return 14 * dstX + 10 * (dstY - dstX);
+    }
+
+    void MoveObject()
+    {
+        if (Vector3.Distance(_grid._path[0]._worldPosition, transform.position) > 0.1f)
+        {
+
+        }
     }
 }
