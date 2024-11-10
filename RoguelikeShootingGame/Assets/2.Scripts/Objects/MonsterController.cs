@@ -38,12 +38,7 @@ public class MonsterController : CharacterBase
 
     Animator _aniControl;
     PathFinding _pathFinding;
-
-    private void Awake()
-    {
-        _pathFinding = GetComponent<PathFinding>();
-        _pathFinding.GetGrid(GetComponent<Gride>());
-    }
+    public PathFinding PathFind { get { return _pathFinding; } }
 
     private void Update()
     {
@@ -195,6 +190,7 @@ public class MonsterController : CharacterBase
         }
     }
 
+
     void MonsterMove()
     {
         Vector2 monSight = transform.GetChild(1).GetChild((int)_dir).up;
@@ -237,6 +233,7 @@ public class MonsterController : CharacterBase
 
                 //a* 알고리즘
                 _pathFinding.FindPath(transform.position, _player.position);
+                _pathFinding.MoveObject(_speed);
 
                 ChangeMonsterAni(_state, _dir);
             }
@@ -282,6 +279,11 @@ public class MonsterController : CharacterBase
                             break;
                     }
                 }
+                else
+                {
+                    _state = MONSTERSTATE.IDLE;
+                    
+                }
             }
         }
     }
@@ -299,8 +301,10 @@ public class MonsterController : CharacterBase
 
         _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
         _aniControl = GetComponent<Animator>();
+
+        _pathFinding = GetComponent<PathFinding>();
     }
-    
+
     public override void OnHitting(int damage)
     {
         if (_hp > 0)

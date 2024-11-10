@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     static GameManager _uniqueInstance;
 
     public static GameManager Instance { get { return _uniqueInstance; } }
-
+    
     const int TOTALDEPTH = 1000;
     int _curDepth = 0;
     int _mapCount = 0;
@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     Canvas _canvas;
     Transform _mapParent;
     PlayerController _player;
+    Gride _mapGrid;
 
     /// <summary>
     /// Main Camera
@@ -170,6 +171,8 @@ public class GameManager : MonoBehaviour
             MonsterController mc = Instantiate(_monstersPrefab[0], _monSpawnPos[i], 
                 Quaternion.identity).GetComponent<MonsterController>();
             mc.InitSet(_player.transform, _mapCount, _curDepth, UIManager.Instance.HpBarParent, mark);
+            if (_mapGrid == null) Debug.Log("mapGrid null");
+            mc.PathFind.GetGrid(_mapGrid);
         }
         //맵에 따른 플레이어 위치 설정
         UIManager.Instance.OpenWindow(UIENUM.PLAYERWINDOW);
@@ -229,6 +232,7 @@ public class GameManager : MonoBehaviour
                 _curDepth += depth;
                 _playerInitPos = _mapParent.GetChild(mapId - 1).GetChild(2).position;
                 _monsterCnt = _mapParent.GetChild(mapId - 1).GetChild(1).childCount;
+                _mapGrid = _mapParent.GetChild(mapId - 1).GetComponent<Gride>();
                 for (int i = 0; i < _monsterCnt; i++)
                     _monSpawnPos.Add(_mapParent.GetChild(mapId - 1).GetChild(1).GetChild(i).position);
             }

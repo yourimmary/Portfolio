@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DefineEnum;
 
 public class PathFinding : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class PathFinding : MonoBehaviour
     //bool _isMove = false;
 
     Gride _grid;
+
+    public List<Node> _path { get; set; }
 
     //void Awake()
     //{
@@ -77,8 +80,19 @@ public class PathFinding : MonoBehaviour
                 }
             }
         }
+    }
 
-        MoveObject();
+    public void MoveObject(float speed)
+    {
+        if (_path.Count != 0)
+        {
+            if (Vector3.Distance(_path[0]._worldPosition, transform.position) > 0.1f)
+            {
+                Vector3 dir = (_path[0]._worldPosition - transform.position).normalized;
+                Debug.Log(_path[0]._worldPosition);
+                transform.position += speed * Time.deltaTime * dir;
+            }
+        }
     }
 
     void RetracePath(Node startNode, Node endNode)
@@ -91,7 +105,7 @@ public class PathFinding : MonoBehaviour
             currentNode = currentNode._parent;
         }
         path.Reverse();
-        _grid._path = path;
+        _path = path;
     }
 
     int GetDistance(Node nodeA, Node nodeB)
@@ -104,11 +118,16 @@ public class PathFinding : MonoBehaviour
         return 14 * dstX + 10 * (dstY - dstX);
     }
 
-    void MoveObject()
+    void OnDrawGizmos()
     {
-        if (Vector3.Distance(_grid._path[0]._worldPosition, transform.position) > 0.1f)
+        if (_path != null)
         {
-
+            foreach (Node node in _path)
+            {
+                if (_path.Contains(node))
+                    Gizmos.color = Color.black;
+                Gizmos.DrawWireCube(node._worldPosition, Vector3.one * 0.9f);
+            }
         }
     }
 }

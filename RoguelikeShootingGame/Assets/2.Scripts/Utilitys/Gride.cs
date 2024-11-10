@@ -13,7 +13,7 @@ public class Gride : MonoBehaviour
     float _nodeDiameter;
     int _gridSizeX, _gridSizeY;
 
-    public List<Node> _path { get; set; }
+    //public List<Node> _path { get; set; }
 
 
     //void Awake()
@@ -103,18 +103,18 @@ public class Gride : MonoBehaviour
     {
         //Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, 1, _gridWorldSize.y));
         Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, _gridWorldSize.y, 1));
-        if (_grid != null)
-        {
-            foreach (Node node in _grid)
-            {
-                Gizmos.color = (node._walkable) ? Color.white : Color.red;
-                if (_path != null)
-                {
-                    if (_path.Contains(node))
-                        Gizmos.color = Color.black;
-                }
-                Gizmos.DrawCube(node._worldPosition, Vector3.one * (_nodeDiameter - 0.1f));
-            }
-        }
+        //if (_grid != null)
+        //{
+        //    foreach (Node node in _grid)
+        //    {
+        //        Gizmos.color = (node._walkable) ? Color.white : Color.red;
+        //        if (_path != null)
+        //        {
+        //            if (_path.Contains(node))
+        //                Gizmos.color = Color.black;
+        //        }
+        //        Gizmos.DrawCube(node._worldPosition, Vector3.one * (_nodeDiameter - 0.1f));
+        //    }
+        //}
     }
 }
