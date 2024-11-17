@@ -89,7 +89,7 @@ public class PathFinding : MonoBehaviour
             if (Vector3.Distance(_path[0]._worldPosition, transform.position) > 0.1f)
             {
                 Vector3 dir = (_path[0]._worldPosition - transform.position).normalized;
-                Debug.Log(_path[0]._worldPosition);
+                Debug.Log(dir);
                 transform.position += speed * Time.deltaTime * dir;
             }
         }
@@ -106,6 +106,12 @@ public class PathFinding : MonoBehaviour
         }
         path.Reverse();
         _path = path;
+        string pathStr = string.Empty;
+        foreach (Node node in _path)
+        {
+            pathStr += node._worldPosition + "\n";
+        }
+        Debug.Log(pathStr);
     }
 
     int GetDistance(Node nodeA, Node nodeB)
@@ -113,21 +119,9 @@ public class PathFinding : MonoBehaviour
         int dstX = Mathf.Abs(nodeA._gridX - nodeB._gridX);
         int dstY = Mathf.Abs(nodeA._gridY - nodeB._gridY);
 
-        if (dstX > dstY)
-            return 14 * dstY + 10 * (dstX - dstY);
-        return 14 * dstX + 10 * (dstY - dstX);
-    }
-
-    void OnDrawGizmos()
-    {
-        if (_path != null)
-        {
-            foreach (Node node in _path)
-            {
-                if (_path.Contains(node))
-                    Gizmos.color = Color.black;
-                Gizmos.DrawWireCube(node._worldPosition, Vector3.one * 0.9f);
-            }
-        }
+        //if (dstX > dstY)
+        //    return 14 * dstY + 10 * (dstX - dstY);
+        //return 14 * dstX + 10 * (dstY - dstX);
+        return 10 * dstX + 10 * dstY;
     }
 }

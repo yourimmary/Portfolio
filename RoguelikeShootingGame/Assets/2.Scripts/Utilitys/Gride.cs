@@ -12,6 +12,7 @@ public class Gride : MonoBehaviour
 
     float _nodeDiameter;
     int _gridSizeX, _gridSizeY;
+    int[,] _neighbourNodeIndex = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
     //public List<Node> _path { get; set; }
 
@@ -41,8 +42,8 @@ public class Gride : MonoBehaviour
         _grid = new Node[_gridSizeX, _gridSizeY];
         //Vector3 worldBottomLeft = transform.position - (Vector3.right * _gridWorldSize.x / 2)
         //                                             - (Vector3.forward * _gridWorldSize.y / 2);
-        Vector2 worldBottomLeft = transform.position - (Vector3)((Vector2.right * _gridWorldSize.x / 2)
-                                                     - (Vector2.up * _gridWorldSize.y / 2));
+        Vector3 worldBottomLeft = transform.position - (Vector3.right * _gridWorldSize.x / 2)
+                                                     - (Vector3.up * _gridWorldSize.y / 2);
 
         for (int x = 0; x < _gridSizeX; x++)
         {
@@ -50,8 +51,8 @@ public class Gride : MonoBehaviour
             {
                 //Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRidius)
                 //                                + Vector3.forward * (y * _nodeDiameter + _nodeRidius);
-                Vector2 worldPoint = worldBottomLeft + Vector2.right * (x * _nodeDiameter + _nodeRidius)
-                                                + Vector2.up * (y * _nodeDiameter + _nodeRidius);
+                Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRidius)
+                                                + Vector3.up * (y * _nodeDiameter + _nodeRidius);
                 bool isWalk = !(Physics.CheckSphere(worldPoint, _nodeRidius, _unwalkabbleMask));
                 _grid[x, y] = new Node(isWalk, worldPoint, x, y);
             }
@@ -78,10 +79,14 @@ public class Gride : MonoBehaviour
         //    }
         //}
 
-        neighbours.Add(_grid[stdNode._gridX - 1, stdNode._gridY]);
-        neighbours.Add(_grid[stdNode._gridX + 1, stdNode._gridY]);
-        neighbours.Add(_grid[stdNode._gridX, stdNode._gridY - 1]);
-        neighbours.Add(_grid[stdNode._gridX, stdNode._gridY + 1]);
+        for (int n = 0; n < 4; n++)
+        {
+            int x = stdNode._gridX + _neighbourNodeIndex[n, 0];
+            int y = stdNode._gridY + _neighbourNodeIndex[n, 1];
+
+            if (x >= 0 && x < _gridSizeX && y >= 0 && y < _gridSizeY)
+                neighbours.Add(_grid[x, y]);
+        }
 
         return neighbours;
     }
@@ -89,7 +94,8 @@ public class Gride : MonoBehaviour
     public Node NodeFromWorldPoint(Vector3 worldPosition)
     {
         float percentX = (worldPosition.x + _gridWorldSize.x / 2) / _gridWorldSize.x;
-        float percentY = (worldPosition.z + _gridWorldSize.y / 2) / _gridWorldSize.y;
+        //float percentY = (worldPosition.z + _gridWorldSize.y / 2) / _gridWorldSize.y;
+        float percentY = (worldPosition.y + _gridWorldSize.y / 2) / _gridWorldSize.y;
         percentX = Mathf.Clamp01(percentX);
         percentY = Mathf.Clamp01(percentY);
 
