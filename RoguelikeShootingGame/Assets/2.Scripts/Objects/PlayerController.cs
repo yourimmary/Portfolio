@@ -40,10 +40,12 @@ public class PlayerController : CharacterBase
 
             if (_state != PLAYERSTATE.ATTACKREADY)
             {
-                if (dir.magnitude > 0 && !IsCollisionEnterWall(transform.GetChild(2).GetChild((int)_dir), 0.2f))
+                Vector3 plusPos = _speed * Time.deltaTime * dir.normalized;
+                //if (dir.magnitude > 0 && !IsCollisionEnterWall(transform.GetChild(2).GetChild((int)_dir), 0.5f))
+                if (dir.magnitude > 0 && GameManager.Instance.IsWalkableNodePos(transform.position + plusPos))
                 {
                     _state = PLAYERSTATE.WALK;
-                    transform.position += dir.normalized * _speed * Time.deltaTime;
+                    transform.position += plusPos;
                     GameManager.Instance.MC.Follow(transform.position);
                 }
                 else

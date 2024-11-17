@@ -101018,7 +101018,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   _gridWorldSize: {x: 30, y: 20}
-  _nodeRidius: 0.5
+  _nodeRidius: 0.2
 --- !u!1001 &1622309429069642199
 PrefabInstance:
   m_ObjectHideFlags: 0

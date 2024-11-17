@@ -107,90 +107,6 @@ public class MonsterController : CharacterBase
         pc.OnHitting(CalculateDamage(pc.Def));
     }
 
-    void MonterMoveFuction()
-    {
-        switch (_state)
-        {
-            case MONSTERSTATE.IDLE:
-                if (_checkMoveTime <= 0)
-                {
-                    _state = MONSTERSTATE.WALK;
-                    _distance = Random.Range(1, _moveLength);
-                    _dir = (CHARACTERDIR)Random.Range(0, 4);
-                    _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
-                    ChangeMonsterAni(_state, _dir);
-                }
-                _checkMoveTime -= Time.deltaTime;
-                break;
-            case MONSTERSTATE.WALK:
-                Vector2 monSight = transform.GetChild(1).GetChild((int)_dir).up;
-                Vector2 pDir = (_player.position - transform.position).normalized;
-                
-                if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
-                {
-                    if (_isChase)
-                    {
-                        if (_isQuitChase && Vector2.Distance(transform.position, _player.position) > _sightDis)
-                        {
-                            _isChase = false;
-                            _isQuitChase = false;
-                            _state = MONSTERSTATE.IDLE;
-                        }
-                        else
-                        {
-                            if (Vector2.Distance(transform.position, _player.position) <= _sightDis)
-                                _isQuitChase = true;
-
-                            Vector2 xAxis = new Vector2(pDir.x, 0).normalized;
-                            Vector2 yAxis = new Vector2(0, pDir.y).normalized;
-
-                            if (Vector2.Dot(GetDir(_dir), xAxis) > Vector2.Dot(GetDir(_dir), yAxis))
-                            {
-                                _dir = (xAxis.x < 0) ? CHARACTERDIR.LEFT : CHARACTERDIR.RIGHT;
-                                transform.position += _speed * Time.deltaTime * (Vector3)xAxis;
-                            }
-                            else
-                            {
-                                _dir = (yAxis.y < 0) ? CHARACTERDIR.DOWN : CHARACTERDIR.UP;
-                                transform.position += _speed * Time.deltaTime * (Vector3)yAxis;
-                            }
-                            ChangeMonsterAni(_state, _dir);
-                        }
-                    }
-                    else
-                    {
-                        float dis = Vector2.Distance(transform.position, _player.position);
-                        if (dis <= _sightDis)
-                        {
-                            if (Vector2.Dot(monSight, pDir) >= Mathf.Cos(_sightAngle * Mathf.Deg2Rad))
-                            {
-                                _findMark.Play();
-                                _isChase = true;
-                                _isQuitChase = true;
-                            }
-                        }
-
-                        if (Vector2.Distance(transform.position, _destination) < 0.1f)
-                        {
-                            _state = MONSTERSTATE.IDLE;
-                            _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
-                            ChangeMonsterAni(_state, _dir);
-                        }
-                        else
-                            transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
-                    }
-                }
-                else
-                {
-                    _state = MONSTERSTATE.IDLE;
-                    _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
-                    ChangeMonsterAni(_state, _dir);
-                }
-                break;
-        }
-    }
-
-
     void MonsterMove()
     {
         Vector2 monSight = transform.GetChild(1).GetChild((int)_dir).up;
@@ -217,23 +133,31 @@ public class MonsterController : CharacterBase
 
             if (_state != MONSTERSTATE.ATTACK)
             {
-                //Vector2 xAxis = new Vector2(pDir.x, 0).normalized;
-                //Vector2 yAxis = new Vector2(0, pDir.y).normalized;
-
-                //if (Vector2.Dot(GetDir(_dir), xAxis) > Vector2.Dot(GetDir(_dir), yAxis))
-                //{
-                //    _dir = (xAxis.x < 0) ? CHARACTERDIR.LEFT : CHARACTERDIR.RIGHT;
-                //    transform.position += _speed * Time.deltaTime * (Vector3)xAxis;
-                //}
-                //else
-                //{
-                //    _dir = (yAxis.y < 0) ? CHARACTERDIR.DOWN : CHARACTERDIR.UP;
-                //    transform.position += _speed * Time.deltaTime * (Vector3)yAxis;
-                //}
-
-                //a* 알고리즘
                 _pathFinding.FindPath(transform.position, _player.position);
-                _pathFinding.MoveObject(_speed);
+
+                if (_pathFinding._path.Count != 0)
+                {
+                    if (Vector3.Distance(_pathFinding._path[0]._worldPosition, transform.position) > 0.1f)
+                    {
+                        Vector3 pathDir = (_pathFinding._path[0]._worldPosition - transform.position).normalized;
+
+                        float minAngle = 360;
+                        CHARACTERDIR minDir = CHARACTERDIR.UP;
+                        for (int n = 0; n < 4; n++)
+                        {
+                            CHARACTERDIR cDir = (CHARACTERDIR)n;
+                            float angle = Vector3.Angle(pathDir, GetDir(cDir));
+                            if (minAngle > angle)
+                            {
+                                minAngle = angle;
+                                minDir = cDir;
+                            }
+                        }
+                        _dir = minDir;
+                        Vector3 dir = GetDir(minDir);
+                        transform.position += _speed * Time.deltaTime * dir;
+                    }
+                }
 
                 ChangeMonsterAni(_state, _dir);
             }
@@ -252,17 +176,20 @@ public class MonsterController : CharacterBase
             }
             else
             {
-                if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
-                {
+                //if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
+                //{
                     switch (_state)
                     {
                         case MONSTERSTATE.IDLE:
                             if (_checkMoveTime <= 0)
                             {
-                                _state = MONSTERSTATE.WALK;
-                                _distance = Random.Range(1, _moveLength);
-                                _dir = (CHARACTERDIR)Random.Range(0, 4);
-                                _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
+                                do
+                                {
+                                    _state = MONSTERSTATE.WALK;
+                                    _distance = Random.Range(1, _moveLength);
+                                    _dir = (CHARACTERDIR)Random.Range(0, 4);
+                                    _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
+                                } while (!GameManager.Instance.IsWalkableNodePos(_destination));
                                 ChangeMonsterAni(_state, _dir);
                             }
                             _checkMoveTime -= Time.deltaTime;
@@ -278,12 +205,13 @@ public class MonsterController : CharacterBase
                                 transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
                             break;
                     }
-                }
-                else
-                {
-                    _state = MONSTERSTATE.IDLE;
-                    
-                }
+                //}
+                //else
+                //{
+                //    _state = MONSTERSTATE.IDLE;
+                //    _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+                //    ChangeMonsterAni(_state, _dir);
+                //}
             }
         }
     }

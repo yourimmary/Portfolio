@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -82,20 +83,22 @@ public class PathFinding : MonoBehaviour
         }
     }
 
-    public void MoveObject(float speed)
+    public bool CanFindPath(Vector3 startPos, Vector3 targetPos)
     {
-        if (_path.Count != 0)
+        try
         {
-            if (Vector3.Distance(_path[0]._worldPosition, transform.position) > 0.1f)
-            {
-                Vector3 dir = (_path[0]._worldPosition - transform.position).normalized;
-                Debug.Log(dir);
-                transform.position += speed * Time.deltaTime * dir;
-            }
+            FindPath(startPos, targetPos);
+            return true;
+        }
+        catch (ArgumentOutOfRangeException ex)
+        {
+            //ArgumentOufOfRangeException
+            Debug.Log(ex.Message);
+            return false;
         }
     }
 
-    void RetracePath(Node startNode, Node endNode)
+        void RetracePath(Node startNode, Node endNode)
     {
         List<Node> path = new List<Node>();
         Node currentNode = endNode;

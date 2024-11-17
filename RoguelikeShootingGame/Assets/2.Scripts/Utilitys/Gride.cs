@@ -53,7 +53,18 @@ public class Gride : MonoBehaviour
                 //                                + Vector3.forward * (y * _nodeDiameter + _nodeRidius);
                 Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRidius)
                                                 + Vector3.up * (y * _nodeDiameter + _nodeRidius);
-                bool isWalk = !(Physics.CheckSphere(worldPoint, _nodeRidius, _unwalkabbleMask));
+                //bool isWalk = !(Physics.CheckSphere(worldPoint, _nodeRidius, _unwalkabbleMask));
+                bool isWalk;
+                Collider2D collider = Physics2D.OverlapCircle(worldPoint, _nodeRidius, _unwalkabbleMask);
+                if (collider == null)
+                    isWalk = true;
+                else
+                {
+                    if (collider.CompareTag("Wall") || collider.CompareTag("Water"))
+                        isWalk = false;
+                    else
+                        isWalk = true;
+                }
                 _grid[x, y] = new Node(isWalk, worldPoint, x, y);
             }
         }
@@ -109,18 +120,18 @@ public class Gride : MonoBehaviour
     {
         //Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, 1, _gridWorldSize.y));
         Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, _gridWorldSize.y, 1));
-        //if (_grid != null)
-        //{
-        //    foreach (Node node in _grid)
-        //    {
-        //        Gizmos.color = (node._walkable) ? Color.white : Color.red;
-        //        if (_path != null)
-        //        {
-        //            if (_path.Contains(node))
-        //                Gizmos.color = Color.black;
-        //        }
-        //        Gizmos.DrawCube(node._worldPosition, Vector3.one * (_nodeDiameter - 0.1f));
-        //    }
-        //}
+        if (_grid != null)
+        {
+            foreach (Node node in _grid)
+            {
+                Gizmos.color = (node._walkable) ? Color.white : Color.red;
+                //if (_path != null)
+                //{
+                //    if (_path.Contains(node))
+                //        Gizmos.color = Color.black;
+                //}
+                Gizmos.DrawCube(node._worldPosition, Vector3.one * (_nodeDiameter - 0.05f));
+            }
+        }
     }
 }

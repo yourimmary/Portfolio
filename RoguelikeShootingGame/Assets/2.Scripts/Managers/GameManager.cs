@@ -251,4 +251,10 @@ public class GameManager : MonoBehaviour
     {
         _monsterCnt -= 1;
     }
+
+    public bool IsWalkableNodePos(Vector3 pos)
+    {
+        Node node = _mapGrid.NodeFromWorldPoint(pos);
+        return node._walkable;
+    }
 }
