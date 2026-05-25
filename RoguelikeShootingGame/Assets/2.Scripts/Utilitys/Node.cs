@@ -18,7 +18,6 @@ public class Node
         get { return _gCost + _hCost; }
     }
 
-
     public Node(bool isWalk, Vector3 worldPos, int gridX, int gridY)
     {
         _walkable = isWalk;

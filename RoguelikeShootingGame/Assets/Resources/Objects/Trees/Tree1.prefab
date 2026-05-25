@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4025224714192367882}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -186084121
-  m_SortingLayer: 3
+  m_SortingLayerID: -1402984301
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -1545154646, guid: 2366310afe315af4c8d7fc322033252b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -94,10 +94,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6283555290620882747}
   - component: {fileID: 9012009785720361851}
+  - component: {fileID: 481163387824256877}
   m_Layer: 9
   m_Name: Tree1
   m_TagString: Wall
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -161,14 +162,26 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.036373317, y: -1.0119874}
-      - {x: -0.5008693, y: -1.2215871}
-      - {x: -0.58436096, y: -1.5594738}
-      - {x: -0.4477191, y: -1.6224642}
-      - {x: -0.3028321, y: -1.6138893}
-      - {x: -0.17522404, y: -1.715345}
-      - {x: 0.28258145, y: -1.6560801}
-      - {x: 0.5194137, y: -1.6626612}
-      - {x: 0.6119277, y: -1.4163463}
-      - {x: 0.47833502, y: -1.1245475}
+    - - {x: -0.036373317, y: -0.011987}
+      - {x: -0.5008693, y: -0.221587}
+      - {x: -0.58436096, y: -0.559474}
+      - {x: -0.4477191, y: -0.622464}
+      - {x: -0.3028321, y: -0.613889}
+      - {x: -0.17522404, y: -0.715345}
+      - {x: 0.28258145, y: -0.65608}
+      - {x: 0.5194137, y: -0.662661}
+      - {x: 0.6119277, y: -0.416346}
+      - {x: 0.47833502, y: -0.124547}
   m_UseDelaunayMesh: 0
+--- !u!114 &481163387824256877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6862828210461518039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1091174e5d0f1040a2ccba13024532b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

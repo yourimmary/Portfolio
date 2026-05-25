@@ -11,7 +11,23 @@ public class C_EnhanceSelectWindow : MonoBehaviour
     List<ENHANCETYPE> _subEnhanceType;
     List<SubEnhanceWindow> _subEnhance;
 
+    [Header("µî±Þ È®·ü")]
+    [SerializeField] int _goldRate = 10;
+    [SerializeField] int _silverRate = 30;
+
     PlayerController _player;
+
+    ENHANCEGRADE RandomEnhanceGrade()
+    {
+        int randomWeight = Random.Range(1, 101);
+
+        if (randomWeight <= _goldRate)
+            return ENHANCEGRADE.GOLD;
+        else if (randomWeight <= _silverRate)
+            return ENHANCEGRADE.SILVER;
+        else
+            return ENHANCEGRADE.BRONZE;
+    }
 
     public void InitSet(PlayerController pc)
     {
@@ -29,6 +45,8 @@ public class C_EnhanceSelectWindow : MonoBehaviour
 
     public void OpenWindow()
     {
+        Destroy(GameManager.Instance.MapParent.GetChild(0).gameObject);
+
         while (_subEnhanceType.Count < _subCount)
         {
             ENHANCETYPE type = (ENHANCETYPE)Random.Range(0, (int)ENHANCETYPE.MAX);
@@ -37,7 +55,10 @@ public class C_EnhanceSelectWindow : MonoBehaviour
 
         int n = 0;
         foreach (SubEnhanceWindow i in _subEnhance)
-            i.InitSet(_subEnhanceType[n++], 10);
+        {
+            ENHANCEGRADE eg = RandomEnhanceGrade();
+            i.InitSet(_subEnhanceType[n++], eg);
+        }
         gameObject.SetActive(true);
     }
 

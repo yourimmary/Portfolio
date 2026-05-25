@@ -36,6 +36,7 @@ public class ShootArrow : MonoBehaviour
             Destroy(gameObject);
         else if (collision.CompareTag("Monster"))
         {
+            SoundManager.Instance.sfxPlay(SOUNDENUM.MonsterArrowHit);
             MonsterController mc = collision.GetComponent<MonsterController>();
             mc.OnHitting(_player.CalculateDamage(mc.Def));
             if (Mathf.RoundToInt(EnhanceUtility.GetAAP()) != 0)

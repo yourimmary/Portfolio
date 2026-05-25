@@ -1,63 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 using DefineEnum;
 
-public class EnhanceUtility
+public static class EnhanceUtility
 {
-    static string[] _enhanceTexts = { "공격력 증가", "방어력 증가", "체력 증가", "크리티컬 확률 업", "크리티컬 데미지 업", "추가 공격"};
-    //static Dictionary<ENHANCETYPE, float> _enhanceDegrees = new Dictionary<ENHANCETYPE, float>();
     static float _totalAdditionalAttackPercent = 0;
+    static readonly Dictionary<ENHANCETYPE, string> typeText;
+    static readonly Dictionary<ENHANCETYPE, string> strFormat;
 
     static public string GetEnhanceText(ENHANCETYPE type)
     {
-        switch (type)
-        {
-            case ENHANCETYPE.ATTUP:
-            case ENHANCETYPE.ATTUPPERCENT:
-                return _enhanceTexts[0];
-            case ENHANCETYPE.DEFUP:
-            case ENHANCETYPE.DEFUPPERCENT:
-                return _enhanceTexts[1];
-            case ENHANCETYPE.HPUP:
-            case ENHANCETYPE.HPUPPERCENT:
-                return _enhanceTexts[2];
-            case ENHANCETYPE.CRITICALUP:
-                return _enhanceTexts[3];
-            case ENHANCETYPE.CRITICALDAMAGEUP:
-                return _enhanceTexts[4];
-            case ENHANCETYPE.ADDITIONALATTACK:
-                return _enhanceTexts[5];
-            default:
-                return "대응되는 텍스트가 없습니다.";
-        }
+        return typeText[type];
     }
 
     static public string DescribeEnhanceString(ENHANCETYPE type, float num)
     {
-        switch (type)
-        {
-            case ENHANCETYPE.ATTUP:
-                return string.Format("공격력 {0} 증가", num);
-            case ENHANCETYPE.DEFUP:
-                return string.Format("방어력 {0} 증가", num);
-            case ENHANCETYPE.HPUP:
-                return string.Format("체력 {0} 증가", num);
-            case ENHANCETYPE.ATTUPPERCENT:
-                return string.Format("공격력 {0}% 증가", num);
-            case ENHANCETYPE.DEFUPPERCENT:
-                return string.Format("방어력 {0}% 증가", num);
-            case ENHANCETYPE.HPUPPERCENT:
-                return string.Format("체력 {0}% 증가", num);
-            case ENHANCETYPE.CRITICALUP:
-                return string.Format("크리티컬 확률 {0}% 증가", num);
-            case ENHANCETYPE.CRITICALDAMAGEUP:
-                return string.Format("크리티컬 데미지 {0}% 증가", num);
-            case ENHANCETYPE.ADDITIONALATTACK:
-                return string.Format("공격력 {0}%의 추가 공격", num);
-            default:
-                return "대응되는 캐릭터 강화가 없습니다.";
-        }
+        return string.Format(strFormat[type], num);
     }
 
     static public void IncreaseAdditionalAttackUp(float value)
@@ -70,4 +30,31 @@ public class EnhanceUtility
         return _totalAdditionalAttackPercent;
     }
 
+    static EnhanceUtility()
+    {
+        typeText = new Dictionary<ENHANCETYPE, string>();
+        strFormat = new Dictionary<ENHANCETYPE, string>();
+
+        StreamReader srTestData = new StreamReader(Path.Combine(Application.dataPath, "Resources", "EnhanceText.csv"));
+
+        srTestData.ReadLine();
+
+        int cnt = 0;
+        bool endOfFile = false;
+        while (!endOfFile)
+        {
+            string dataString = srTestData.ReadLine();
+            if (dataString == null)
+            {
+                endOfFile = true;
+                break;
+            }
+            string[] dataValue = dataString.Split('|');
+
+            typeText.Add((ENHANCETYPE)cnt, dataValue[0]);
+            strFormat.Add((ENHANCETYPE)cnt, dataValue[1]);
+
+            cnt++;
+        }
+    }
 }

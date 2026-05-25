@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DefineEnum;
 
 public class TitleWindow : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class TitleWindow : MonoBehaviour
     public void ClickStartButton()
     {
         transform.GetChild(0).gameObject.SetActive(false);
+        SoundManager.Instance.sfxPlay(SOUNDENUM.UIButtonClick);
 
         //_oper = SceneManager.LoadSceneAsync("GameScene");
         //_oper.allowSceneActivation = false;
@@ -27,6 +29,8 @@ public class TitleWindow : MonoBehaviour
 
     public void ClickQuitButton()
     {
+        SoundManager.Instance.sfxPlay(SOUNDENUM.UIButtonClick);
+
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else

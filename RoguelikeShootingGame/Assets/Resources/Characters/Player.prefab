@@ -101,9 +101,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1993764879
-  m_SortingLayer: 2
-  m_SortingOrder: 5
+  m_SortingLayerID: -1402984301
+  m_SortingLayer: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1839807910, guid: d8060decef268c1428eb85edfcda5081, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -404,6 +404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
+  _arrowRate: 0.15
   _arrowPrefab: {fileID: 8137557948962855870, guid: 7c03d025470221148bfae336b587508d, type: 3}
   _arrowSpawn: {fileID: 9066170051862489308}
 --- !u!1 &6277394299891313140

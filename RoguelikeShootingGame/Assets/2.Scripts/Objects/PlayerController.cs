@@ -7,8 +7,12 @@ public class PlayerController : CharacterBase
 {
     int _maxExp;
     int _exp;
+    bool _isAttack = false;
+    float _checkTime = 0;
+    float _stopTime = 0;
 
     [SerializeField] float _speed = 3.0f;
+    [SerializeField] float _arrowRate = 0.2f;
     [SerializeField] GameObject _arrowPrefab;
     [SerializeField] Transform _arrowSpawn;
 
@@ -17,10 +21,55 @@ public class PlayerController : CharacterBase
     PLAYERSTATE _state = PLAYERSTATE.IDLE;
     CHARACTERDIR _dir = CHARACTERDIR.DOWN;
 
+    public float PosY { get { return transform.position.y; } }
+    public CHARACTERDIR DIR { get { return _dir; } }
 
     private void Update()
     {
-        if (GameManager.Instance.GameState == GAMESTATE.GAMEPLAY)
+        if (GameManager.Instance.GameState == GAMESTATE.GAMEPLAY && _state != PLAYERSTATE.HIT)
+        {
+            ChangePlayerAni(_state, _dir);
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                SoundManager.Instance.sfxPlay(SOUNDENUM.ArrowDraw, 0.2f);
+                _state = PLAYERSTATE.ATTACKREADY;
+            }
+            else if (Input.GetMouseButtonUp(0))
+            {
+                SoundManager.Instance.sfxPlay(SOUNDENUM.ArrowRelease, 0.2f);
+                _state = PLAYERSTATE.ATTACK;
+                _isAttack = true;
+                GameObject go = Instantiate(_arrowPrefab,
+                    _arrowSpawn.GetChild((int)_dir).position, _arrowSpawn.GetChild((int)_dir).rotation);
+                go.GetComponent<ShootArrow>().InitSet(this);
+                go.GetComponent<ShootArrow>().Shoot(_arrowSpawn.GetChild((int)_dir).up);
+                _aniControl.SetTrigger("Shoot");
+                _checkTime = _arrowRate;
+            }
+        }
+
+        if (_checkTime <= 0)
+        {
+            _isAttack = false;
+        }
+        else
+            _checkTime -= Time.deltaTime;
+
+        if (_state == PLAYERSTATE.HIT)
+        {
+            if (_stopTime <= 0)
+            {
+                _state = PLAYERSTATE.IDLE;
+            }
+            _stopTime -= Time.deltaTime;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        //여기선 이동만
+        if (GameManager.Instance.GameState == GAMESTATE.GAMEPLAY && _state != PLAYERSTATE.HIT)
         {
             float x = Input.GetAxisRaw("Horizontal");
             float y = Input.GetAxisRaw("Vertical");
@@ -38,11 +87,11 @@ public class PlayerController : CharacterBase
                 _dir = (y > 0) ? CHARACTERDIR.UP : CHARACTERDIR.DOWN;
             }
 
-            if (_state != PLAYERSTATE.ATTACKREADY)
+            if (_state != PLAYERSTATE.ATTACKREADY && !_isAttack)
             {
-                Vector3 plusPos = _speed * Time.deltaTime * dir.normalized;
-                //if (dir.magnitude > 0 && !IsCollisionEnterWall(transform.GetChild(2).GetChild((int)_dir), 0.5f))
-                if (dir.magnitude > 0 && GameManager.Instance.IsWalkableNodePos(transform.position + plusPos))
+                Vector3 plusPos = _speed * Time.fixedDeltaTime * dir.normalized;
+                if (dir.magnitude > 0 && GameManager.Instance.IsWalkableNodePos(transform.position + plusPos) &&
+                    IsTriggerMonster(transform.GetChild(2).GetChild((int)_dir), 0.3f))
                 {
                     _state = PLAYERSTATE.WALK;
                     transform.position += plusPos;
@@ -52,20 +101,6 @@ public class PlayerController : CharacterBase
                     _state = PLAYERSTATE.IDLE;
             }
             ChangePlayerAni(_state, _dir);
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                _state = PLAYERSTATE.ATTACKREADY;
-            }
-            else if (Input.GetMouseButtonUp(0))
-            {
-                _state = PLAYERSTATE.ATTACK;
-                GameObject go = Instantiate(_arrowPrefab,
-                    _arrowSpawn.GetChild((int)_dir).position, _arrowSpawn.GetChild((int)_dir).rotation);
-                go.GetComponent<ShootArrow>().InitSet(this);
-                go.GetComponent<ShootArrow>().Shoot(_arrowSpawn.GetChild((int)_dir).up);
-                _aniControl.SetTrigger("Shoot");
-            }
         }
     }
 
@@ -117,6 +152,25 @@ public class PlayerController : CharacterBase
         _def += iDef;
     }
 
+    bool IsTriggerMonster(Transform originTrans, float length)
+    {
+        bool isEnter = true;
+        RaycastHit2D rHit = Physics2D.Raycast(originTrans.position, transform.up/* * -1*/,
+            length, LayerMask.GetMask("Monster"));
+        Debug.DrawRay(originTrans.position, originTrans.up * length, Color.red);
+        if (rHit.collider != null)
+            isEnter = false;
+
+        return isEnter;
+    }
+
+    void ChangeHitMotion()
+    {
+        _state = PLAYERSTATE.HIT;
+        _stopTime = 0.3f;
+        ChangePlayerAni(_state, _dir);
+    }
+
     public void IncreasePlayerStatus(ENHANCETYPE type, float value)
     {
         switch (type)
@@ -154,10 +208,22 @@ public class PlayerController : CharacterBase
         _pWnd.SetValue(HpRate, _maxhp, _hp);
     }
 
+    public void InitStateAndDir()
+    {
+        _state = PLAYERSTATE.IDLE;
+        _dir = CHARACTERDIR.DOWN;
+        ChangePlayerAni(_state, _dir);
+    }
+
     public override void OnHitting(int damage)
     {
         _hp -= damage;
         _pWnd.SetValue(HpRate, _maxhp, _hp);
+        _state = PLAYERSTATE.HIT;
+        _aniControl.SetTrigger("Hit");
+        if (gameObject.activeInHierarchy)
+            ChangeHitMotion();
+
         Debug.Log(_hp);
         if (_hp <= 0)
         {

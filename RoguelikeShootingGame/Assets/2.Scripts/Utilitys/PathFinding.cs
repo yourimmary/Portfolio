@@ -109,12 +109,6 @@ public class PathFinding : MonoBehaviour
         }
         path.Reverse();
         _path = path;
-        string pathStr = string.Empty;
-        foreach (Node node in _path)
-        {
-            pathStr += node._worldPosition + "\n";
-        }
-        Debug.Log(pathStr);
     }
 
     int GetDistance(Node nodeA, Node nodeB)

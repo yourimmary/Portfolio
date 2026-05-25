@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 2502552260919360300}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -186084121
-  m_SortingLayer: 3
+  m_SortingLayerID: -1402984301
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 849304485, guid: 2366310afe315af4c8d7fc322033252b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -94,10 +94,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1334068644363436046}
   - component: {fileID: 1949916993527592630}
+  - component: {fileID: -6318126014638363384}
   m_Layer: 9
   m_Name: Tree13
   m_TagString: Wall
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -161,14 +162,26 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.0074044, y: -1.938925}
-      - {x: 0.25055158, y: -1.5348846}
-      - {x: -0.4250537, y: -1.5385967}
-      - {x: -0.74015576, y: -1.5958036}
-      - {x: -0.93148655, y: -1.776385}
-      - {x: -0.8169295, y: -1.9687467}
-      - {x: -0.9868778, y: -2.2256465}
-      - {x: -0.36389205, y: -2.5451918}
-      - {x: 0.58941185, y: -2.4955997}
-      - {x: 1.1961403, y: -2.2155972}
+    - - {x: 1.0074044, y: -0.438925}
+      - {x: 0.25055158, y: -0.034885}
+      - {x: -0.4250537, y: -0.038597}
+      - {x: -0.74015576, y: -0.095804}
+      - {x: -0.93148655, y: -0.276385}
+      - {x: -0.8169295, y: -0.468747}
+      - {x: -0.9868778, y: -0.725646}
+      - {x: -0.36389205, y: -1.045192}
+      - {x: 0.58941185, y: -0.9956}
+      - {x: 1.1961403, y: -0.715597}
   m_UseDelaunayMesh: 0
+--- !u!114 &-6318126014638363384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9171624093696665404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1091174e5d0f1040a2ccba13024532b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

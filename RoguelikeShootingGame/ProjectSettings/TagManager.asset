@@ -55,6 +55,9 @@ TagManager:
   - name: Object
     uniqueID: 4108883175
     locked: 0
+  - name: ObjectSprite
+    uniqueID: 2891982995
+    locked: 0
   - name: UI
     uniqueID: 1248461659
     locked: 0

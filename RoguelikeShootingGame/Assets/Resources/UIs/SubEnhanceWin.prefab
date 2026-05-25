@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 150}
-  m_SizeDelta: {x: 300, y: 300}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5121980013593649632
 CanvasRenderer:
@@ -83,12 +83,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3073177277776222548}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 3, y: 3}
   m_UseGraphicAlpha: 1
 --- !u!1 &3742838676560283673
@@ -161,8 +161,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 4baffd647de120e4fb2a2f47af014840, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -183,6 +183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96ffed857f9ebd44280b3e6c416f9d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _iconImgs:
+  - {fileID: -252393165, guid: f4e05d6501c0a5f42a3170fc7cea964b, type: 3}
+  - {fileID: 1887718961, guid: f4e05d6501c0a5f42a3170fc7cea964b, type: 3}
+  - {fileID: 614376320, guid: f4e05d6501c0a5f42a3170fc7cea964b, type: 3}
+  - {fileID: 1199942458, guid: f4e05d6501c0a5f42a3170fc7cea964b, type: 3}
+  - {fileID: -1686050156, guid: f4aec2bb8d69c8649bfd35d521c1c245, type: 3}
 --- !u!114 &1102720426228175495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,8 +292,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278255615
+  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -420,8 +426,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278241480
+  m_fontColor: {r: 0.78431374, g: 0.78431374, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -438,8 +444,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

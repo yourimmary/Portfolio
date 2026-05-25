@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4082374487071023095}
   - component: {fileID: 1334537661887767479}
+  - component: {fileID: -2163620315728750055}
   m_Layer: 9
   m_Name: Tree3
   m_TagString: Wall
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -77,19 +78,31 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.13892744, y: -0.6667253}
-      - {x: -0.2895104, y: -0.72381246}
-      - {x: -0.43184835, y: -0.8685849}
-      - {x: -0.4473545, y: -1.0841948}
-      - {x: -0.34647408, y: -1.2178327}
-      - {x: -0.18032119, y: -1.2852229}
-      - {x: 0.12276542, y: -1.2817799}
-      - {x: 0.28486168, y: -1.216901}
-      - {x: 0.42286015, y: -1.133829}
-      - {x: 0.43730772, y: -0.8594921}
-      - {x: 0.29658335, y: -0.6880488}
-      - {x: 0.11887474, y: -0.6472874}
+    - - {x: -0.13892744, y: 0.3332747}
+      - {x: -0.2895104, y: 0.2761875}
+      - {x: -0.43184835, y: 0.1314151}
+      - {x: -0.4473545, y: -0.084195}
+      - {x: -0.34647408, y: -0.217833}
+      - {x: -0.18032119, y: -0.285223}
+      - {x: 0.12276542, y: -0.28178}
+      - {x: 0.28486168, y: -0.216901}
+      - {x: 0.42286015, y: -0.133829}
+      - {x: 0.43730772, y: 0.1405079}
+      - {x: 0.29658335, y: 0.3119512}
+      - {x: 0.11887474, y: 0.3527126}
   m_UseDelaunayMesh: 0
+--- !u!114 &-2163620315728750055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3506479110691035163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1091174e5d0f1040a2ccba13024532b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6361428227504243142
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +129,7 @@ Transform:
   m_GameObject: {fileID: 6361428227504243142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -160,8 +173,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -186084121
-  m_SortingLayer: 3
+  m_SortingLayerID: -1402984301
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 484149089, guid: 2366310afe315af4c8d7fc322033252b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

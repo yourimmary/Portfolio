@@ -8,6 +8,7 @@ public class MonsterController : CharacterBase
     [SerializeField] GameObject _hpPrefab;
     [SerializeField] float _walkSpeed = 2;
     [SerializeField] float _chaseSpeed = 4;
+    [SerializeField] float _dOffset = 0.1f;
 
     Transform _player;
     MonsterHpBar _hpBar;
@@ -27,6 +28,7 @@ public class MonsterController : CharacterBase
     [SerializeField] int _baseLevel;
     [SerializeField] int _giveExp = 20;
 
+    bool _isDeath = false;
     bool _isChase = false;
     bool _isQuitChase = false;
     float _checkMoveTime = 0;
@@ -40,9 +42,10 @@ public class MonsterController : CharacterBase
     PathFinding _pathFinding;
     public PathFinding PathFind { get { return _pathFinding; } }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        MonsterMove();
+        if (!_isDeath)
+            MonsterMove();
 
         if (_hpBar != null)
             _hpBar.SetPosition(transform.position + Vector3.up);
@@ -99,12 +102,19 @@ public class MonsterController : CharacterBase
     {
         _aniControl.SetInteger("State", (int)state);
         _aniControl.SetInteger("Dir", (int)dir);
+        if (_state == MONSTERSTATE.DEATH) _aniControl.SetTrigger("Death");
     }
 
     void GiveDamagePlayer()
     {
+        SoundManager.Instance.sfxPlay(SOUNDENUM.PlayerHit);
         PlayerController pc = _player.GetComponent<PlayerController>();
         pc.OnHitting(CalculateDamage(pc.Def));
+    }
+
+    void Death()
+    {
+        Destroy(gameObject);
     }
 
     void MonsterMove()
@@ -137,9 +147,14 @@ public class MonsterController : CharacterBase
 
                 if (_pathFinding._path.Count != 0)
                 {
-                    if (Vector3.Distance(_pathFinding._path[0]._worldPosition, transform.position) > 0.1f)
+                    Vector3 dPos = _destination;
+                    if (dPos == _pathFinding._path[0]._worldPosition) dPos = _pathFinding._path[1]._worldPosition;
+                    else dPos = _pathFinding._path[0]._worldPosition;
+
+                    if (Vector3.Distance(dPos, transform.position) > 0.02f)
                     {
-                        Vector3 pathDir = (_pathFinding._path[0]._worldPosition - transform.position).normalized;
+                        Vector3 pathDir = (/*_pathFinding._path[0]._worldPosition*/dPos
+                            - transform.position).normalized;
 
                         float minAngle = 360;
                         CHARACTERDIR minDir = CHARACTERDIR.UP;
@@ -155,7 +170,7 @@ public class MonsterController : CharacterBase
                         }
                         _dir = minDir;
                         Vector3 dir = GetDir(minDir);
-                        transform.position += _speed * Time.deltaTime * dir;
+                        transform.position += _speed * Time.fixedDeltaTime * dir;
                     }
                 }
 
@@ -169,51 +184,51 @@ public class MonsterController : CharacterBase
             if (Vector2.Distance(transform.position, _player.position) <= _sightDis &&
                 Vector2.Dot(monSight, pDir) >= Mathf.Cos(_sightAngle * Mathf.Deg2Rad))
             {
-                _findMark.Play();
+                if (_findMark != null)
+                    _findMark.Play();
                 _isChase = true;
                 _isQuitChase = true;
                 _state = MONSTERSTATE.WALK;
             }
             else
             {
-                //if (!IsCollisionEnterWall(transform.GetChild(1).GetChild((int)_dir), 0.3f))
-                //{
-                    switch (_state)
-                    {
-                        case MONSTERSTATE.IDLE:
-                            if (_checkMoveTime <= 0)
+                switch (_state)
+                {
+                    case MONSTERSTATE.IDLE:
+                        if (_checkMoveTime <= 0)
+                        {
+                            do
                             {
-                                do
-                                {
-                                    _state = MONSTERSTATE.WALK;
-                                    _distance = Random.Range(1, _moveLength);
-                                    _dir = (CHARACTERDIR)Random.Range(0, 4);
-                                    _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
-                                } while (!GameManager.Instance.IsWalkableNodePos(_destination));
-                                ChangeMonsterAni(_state, _dir);
-                            }
-                            _checkMoveTime -= Time.deltaTime;
-                            break;
-                        case MONSTERSTATE.WALK:
-                            if (Vector2.Distance(transform.position, _destination) < 0.1f)
-                            {
-                                _state = MONSTERSTATE.IDLE;
-                                _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
-                                ChangeMonsterAni(_state, _dir);
-                            }
-                            else
-                                transform.position += _speed * Time.deltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
-                            break;
-                    }
-                //}
-                //else
-                //{
-                //    _state = MONSTERSTATE.IDLE;
-                //    _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
-                //    ChangeMonsterAni(_state, _dir);
-                //}
+                                _state = MONSTERSTATE.WALK;
+                                _distance = Random.Range(1, _moveLength);
+                                _dir = (CHARACTERDIR)Random.Range(0, 4);
+                                _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
+                            } while (!_pathFinding.CanFindPath(transform.position, _destination));
+                            ChangeMonsterAni(_state, _dir);
+                        }
+                        _checkMoveTime -= Time.fixedDeltaTime;
+                        break;
+                    case MONSTERSTATE.WALK:
+                        if (Vector2.Distance(transform.position, _destination) < 0.1f + _dOffset)
+                        {
+                            _state = MONSTERSTATE.IDLE;
+                            _checkMoveTime = Random.Range(_minTimeNotMove, _maxtimeNotMove);
+                            ChangeMonsterAni(_state, _dir);
+                        }
+                        else
+                            transform.position += _speed * Time.fixedDeltaTime * new Vector3(GetDir(_dir).x, GetDir(_dir).y, 0);
+                        break;
+                }
             }
         }
+    }
+
+    IEnumerator ChangeHitColor()
+    {
+        SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
+        sr.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        sr.color = Color.white;
     }
 
     public void InitSet(Transform playerTrans, int mapCnt, int curDepth, Transform hpBar, Transform mark)
@@ -233,6 +248,14 @@ public class MonsterController : CharacterBase
         _pathFinding = GetComponent<PathFinding>();
     }
 
+    public void DestroyMonster()
+    {
+        if (_findMark != null)
+            Destroy(_findMark.gameObject);
+        if (_hpBar != null)
+            Destroy(_hpBar.gameObject);
+    }
+
     public override void OnHitting(int damage)
     {
         if (_hp > 0)
@@ -248,17 +271,21 @@ public class MonsterController : CharacterBase
             {
                 _hp -= damage;
                 _hpBar.SetFillHpBar(HpRate);
+                StartCoroutine(ChangeHitColor());
+
             }
             else if (_hp <= damage)
             {
                 _hp = 0;
                 _hpBar.SetFillHpBar(HpRate);
                 _state = MONSTERSTATE.DEATH;
-                GameManager.Instance.DecreaseMonsterCount();
+                GameManager.Instance.MapParent.GetComponentInChildren<Map>().DecreaseMonsterCount();
                 _player.GetComponent<PlayerController>().GetExp(GetGiveExpPerLevel());
-                Destroy(_findMark.gameObject);
-                Destroy(_hpBar.gameObject);
-                Destroy(gameObject);
+                _isDeath = true;
+                _isChase = false;
+                DestroyMonster();
+                ChangeMonsterAni(_state, _dir);
+                //Destroy(gameObject);
             }
             
             Vector3 pos = Vector3.up + transform.position;

@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5392458905201401404}
   - component: {fileID: 2081748252695046684}
+  - component: {fileID: 6836781623347127621}
   m_Layer: 9
   m_Name: Rock21
   m_TagString: Wall
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -102,6 +103,18 @@ PolygonCollider2D:
       - {x: -0.410548, y: -0.12894146}
       - {x: -0.3738595, y: -0.068838656}
   m_UseDelaunayMesh: 0
+--- !u!114 &6836781623347127621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246351349250681256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1091174e5d0f1040a2ccba13024532b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9077636513947747821
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,8 +185,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -186084121
-  m_SortingLayer: 3
+  m_SortingLayerID: -1402984301
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1874291335, guid: 2366310afe315af4c8d7fc322033252b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

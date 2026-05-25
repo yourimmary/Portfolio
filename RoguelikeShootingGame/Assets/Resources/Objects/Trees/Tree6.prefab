@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 9207857670557732004}
   - component: {fileID: 8786690141602817661}
+  - component: {fileID: -5427535431621953831}
   m_Layer: 9
   m_Name: Tree6
   m_TagString: Wall
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -77,18 +78,30 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.4393256, y: -0.85475796}
-      - {x: 0.24083307, y: -0.7115}
-      - {x: -0.22949329, y: -0.7375775}
-      - {x: -0.38982704, y: -0.8479977}
-      - {x: -0.5040997, y: -1.0309514}
-      - {x: -0.36878753, y: -1.1811194}
-      - {x: -0.2559053, y: -1.2772115}
-      - {x: 0.12309793, y: -1.2958324}
-      - {x: 0.28905773, y: -1.2294484}
-      - {x: 0.4218256, y: -1.2239165}
-      - {x: 0.5341027, y: -1.1463876}
+    - - {x: 0.4393256, y: -0.054758}
+      - {x: 0.24083307, y: 0.0885}
+      - {x: -0.22949329, y: 0.0624225}
+      - {x: -0.38982704, y: -0.0479977}
+      - {x: -0.5040997, y: -0.230951}
+      - {x: -0.36878753, y: -0.381119}
+      - {x: -0.2559053, y: -0.477212}
+      - {x: 0.12309793, y: -0.495832}
+      - {x: 0.28905773, y: -0.429448}
+      - {x: 0.4218256, y: -0.423917}
+      - {x: 0.5341027, y: -0.346388}
   m_UseDelaunayMesh: 0
+--- !u!114 &-5427535431621953831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5338206526914220194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1091174e5d0f1040a2ccba13024532b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8779672148819184895
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +128,7 @@ Transform:
   m_GameObject: {fileID: 8779672148819184895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -159,8 +172,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -186084121
-  m_SortingLayer: 3
+  m_SortingLayerID: -1402984301
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 604232714, guid: 2366310afe315af4c8d7fc322033252b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
