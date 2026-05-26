@@ -26,20 +26,6 @@ abstract public class CharacterBase : MonoBehaviour
         _level = level;
     }
 
-    //protected bool IsCollisionEnterWall(Transform originTrans, float length)
-    //{
-    //    bool isEnter = false;
-    //    RaycastHit2D rHit = Physics2D.Raycast(originTrans.position, transform.up/* * -1*/,
-    //        length, LayerMask.GetMask("Wall"));
-    //    Debug.DrawRay(originTrans.position, originTrans.up * length, Color.red);
-    //    if (rHit.collider != null)
-    //    {
-    //        if (rHit.transform.CompareTag("Wall") || rHit.transform.CompareTag("Water"))
-    //            isEnter = true;
-    //    }
-    //    return isEnter;
-    //}
-
     abstract public int CalculateDamage(int enermyDef, float attPercent = 1);
 
     abstract public void OnHitting(int damage);

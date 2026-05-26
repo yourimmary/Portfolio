@@ -21,9 +21,6 @@ public class TitleWindow : MonoBehaviour
         transform.GetChild(0).gameObject.SetActive(false);
         SoundManager.Instance.sfxPlay(SOUNDENUM.UIButtonClick);
 
-        //_oper = SceneManager.LoadSceneAsync("GameScene");
-        //_oper.allowSceneActivation = false;
-
         StartCoroutine(LoadGameScene());
     }
 
