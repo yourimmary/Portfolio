@@ -6,7 +6,6 @@ using TMPro;
 
 public class SubMapWin : MonoBehaviour
 {
-    //SerializeField
     [SerializeField] Sprite _enterSprite;
     [SerializeField] Sprite _exitSprite;
 
@@ -28,7 +27,6 @@ public class SubMapWin : MonoBehaviour
         {
             Map mapCs = Instantiate(mapPrefab, GameManager.Instance.MapParent).GetComponent<Map>();
             mapCs.InitMap(_mapName.text, _distance);
-            //여기도 재시작시 MissingReferenceException 오류
             mapCs.CreateMonster();
         }
     }
@@ -91,7 +89,6 @@ public class SubMapWin : MonoBehaviour
             parentWnd.ChangeValue(transform.GetComponent<RectTransform>().anchoredPosition);
             parentWnd.SetActiveFalseMap(_listIdx);
 
-            //MissingReferenceException 오류
             CreateMap();
 
             GameManager.Instance.GameStart();
