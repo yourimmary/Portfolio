@@ -153,8 +153,7 @@ public class MonsterController : CharacterBase
 
                     if (Vector3.Distance(dPos, transform.position) > 0.02f)
                     {
-                        Vector3 pathDir = (/*_pathFinding._path[0]._worldPosition*/dPos
-                            - transform.position).normalized;
+                        Vector3 pathDir = (dPos - transform.position).normalized;
 
                         float minAngle = 360;
                         CHARACTERDIR minDir = CHARACTERDIR.UP;
@@ -200,8 +199,8 @@ public class MonsterController : CharacterBase
                             do
                             {
                                 _state = MONSTERSTATE.WALK;
-                                _distance = Random.Range(1, _moveLength);
                                 _dir = (CHARACTERDIR)Random.Range(0, 4);
+                                _distance = Random.Range(1, _moveLength);
                                 _destination = transform.position + (Vector3)GetDir(_dir) * _distance;
                             } while (!_pathFinding.CanFindPath(transform.position, _destination));
                             ChangeMonsterAni(_state, _dir);
