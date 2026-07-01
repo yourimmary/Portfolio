@@ -155,7 +155,7 @@ public class PlayerController : CharacterBase
     bool IsTriggerMonster(Transform originTrans, float length)
     {
         bool isEnter = true;
-        RaycastHit2D rHit = Physics2D.Raycast(originTrans.position, transform.up/* * -1*/,
+        RaycastHit2D rHit = Physics2D.Raycast(originTrans.position, transform.up,
             length, LayerMask.GetMask("Monster"));
         Debug.DrawRay(originTrans.position, originTrans.up * length, Color.red);
         if (rHit.collider != null)
@@ -224,7 +224,6 @@ public class PlayerController : CharacterBase
         if (gameObject.activeInHierarchy)
             ChangeHitMotion();
 
-        Debug.Log(_hp);
         if (_hp <= 0)
         {
             GetComponent<CapsuleCollider2D>().enabled = false;

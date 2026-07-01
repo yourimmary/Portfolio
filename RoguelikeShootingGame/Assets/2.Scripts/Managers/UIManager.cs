@@ -8,16 +8,14 @@ public class UIManager : MonoBehaviour
     static UIManager _uniqueInstance;
     public static UIManager Instance { get { return _uniqueInstance; } }
     GameObject _mapSelectWindow;
-    /*[SerializeField] */GameObject _hpBarWndPrefab;
-    /*[SerializeField] */GameObject _damageWndPrefab;
-    /*[SerializeField] */GameObject _findMarkWndPrefab;
-    /*[SerializeField] */GameObject _playerWndPrefab;
-    /*[SerializeField] */GameObject _itemWndPrefab;
-    /*[SerializeField] */GameObject _enhanceSelectWndPrefab;
-    /*[SerializeField] */GameObject _resultWndPrefab;
+    GameObject _damageWndPrefab;
+    GameObject _findMarkWndPrefab;
+    GameObject _playerWndPrefab;
+    GameObject _itemWndPrefab;
+    GameObject _enhanceSelectWndPrefab;
+    GameObject _resultWndPrefab;
 
     Canvas _canvas;
-    //MapSelectWindow _mapWnd;
     MapSelectWin _mapWnd;
     ResultWindow _resultWnd;
     Transform _mHpWnd;
@@ -34,13 +32,11 @@ public class UIManager : MonoBehaviour
         _uniqueInstance = this;
         SetInit();
         Debug.Log("UI Manager Awake");
-        //DontDestroyOnLoad(gameObject);
     }
 
     void SetInit()
     {
         _mapSelectWindow = Resources.Load<GameObject>("UIs/MapSelectWin");
-        _hpBarWndPrefab = Resources.Load<GameObject>("UIs/HPBar");
         _damageWndPrefab = Resources.Load<GameObject>("UIs/DamageWindow");
         _findMarkWndPrefab = Resources.Load<GameObject>("UIs/FindPlayerMark");
         _playerWndPrefab = Resources.Load<GameObject>("UIs/PlayerWindow");
@@ -55,7 +51,6 @@ public class UIManager : MonoBehaviour
 
         _playerWnd = Instantiate(_playerWndPrefab, _canvas.transform).GetComponent<PlayerWindow>();
         _enhanceWnd = Instantiate(_enhanceSelectWndPrefab, _canvas.transform).GetComponent<C_EnhanceSelectWindow>();
-        //_mapWnd = Instantiate(_mapSelectWindow, _canvas.transform).GetComponent<MapSelectWindow>();
         _mapWnd = Instantiate(_mapSelectWindow, _canvas.transform).GetComponent<MapSelectWin>();
         _mHpWnd = _canvas.transform.GetChild(0);
         _markWnd = _canvas.transform.GetChild(1);
@@ -64,7 +59,6 @@ public class UIManager : MonoBehaviour
 
     public void InitializeUIs(PlayerController player)
     {
-        //_mapWnd.InitWindow();
         _mapWnd.SetInit();
         _playerWnd.InitSet();
         _enhanceWnd.InitSet(player);
@@ -95,14 +89,11 @@ public class UIManager : MonoBehaviour
                 _playerWnd.gameObject.SetActive(true);
                 break;
             case UIENUM.GETITEMWINDOW:
-                //_getItemWnd.gameObject.SetActive(true);
-                //_getItemWnd.CreateItemIcon(jamCnt);
                 _getItemWnd = Instantiate(_itemWndPrefab, _canvas.transform).GetComponent<GetItemWindow>();
                 _getItemWnd.SetInit();
                 _getItemWnd.CreateItemIcon(jamCnt);
                 break;
             case UIENUM.MAPSELECTWINDOW:
-                //_mapWnd.OpenWindow();
                 _mapWnd.gameObject.SetActive(true);
                 _mapWnd.CreateMapSelectUI();
                 break;
@@ -116,16 +107,6 @@ public class UIManager : MonoBehaviour
         _resultWnd.gameObject.SetActive(true);
         _resultWnd.SetResult(success, GameManager.Instance.Player.DIR);
         _resultWnd.WindowOperate();
-        //if (success)
-        //{
-        //    _resultWnd.GetChild(0).gameObject.SetActive(true);
-        //    _resultWnd.GetChild(1).gameObject.SetActive(false);
-        //}
-        //else
-        //{
-        //    _resultWnd.GetChild(0).gameObject.SetActive(false);
-        //    _resultWnd.GetChild(1).gameObject.SetActive(true);
-        //}
     }
 
     public void CloseWindow(UIENUM ui)
@@ -136,20 +117,10 @@ public class UIManager : MonoBehaviour
                 _playerWnd.gameObject.SetActive(false);
                 break;
             case UIENUM.GETITEMWINDOW:
-                //Transform childRemove = _getItemWnd.transform.GetChild(0).GetChild(0);
-                //int count = childRemove.childCount;
-
-                //for (int i = 0; i < count; i++)
-                //{
-                //    Destroy(childRemove.GetChild(0).gameObject);
-                //}
-                //_getItemWnd.ResetChildIndex();
-                //_getItemWnd.gameObject.SetActive(false);
                 if (_getItemWnd != null)
                     Destroy(_getItemWnd.gameObject);
                 break;
             case UIENUM.MAPSELECTWINDOW:
-                //_mapWnd.CloseWindow();
                 _mapWnd.gameObject.SetActive(false);
                 break;
         }
@@ -165,7 +136,6 @@ public class UIManager : MonoBehaviour
         Destroy(_mapWnd.gameObject);
         Destroy(_resultWnd.gameObject);
         Destroy(_enhanceWnd.gameObject);
-        //Destroy(_itemWindow.gameObject);
         Destroy(_playerWnd.gameObject);
     }
 }

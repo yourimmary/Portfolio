@@ -9,7 +9,6 @@ public class SoundManager : MonoBehaviour
 
     public static SoundManager Instance { get { return _uniqueInstance; } }
 
-    //List<string> SoundName;
     Dictionary<SOUNDENUM, string> SoundName;
     AudioSource _audioSource;
 
@@ -24,7 +23,7 @@ public class SoundManager : MonoBehaviour
         SoundName.Add(SOUNDENUM.ArrowDraw, "Bow Draw 3");
         SoundName.Add(SOUNDENUM.ArrowRelease, "Bow Release 3");
         SoundName.Add(SOUNDENUM.MonsterArrowHit, "Wooden Arrow Flesh Impact 3");
-        SoundName.Add(SOUNDENUM.PlayerHit, /*юс╫ц*/"SFX_UI_Click_Designed_Liquid_Generic_Open_1");
+        SoundName.Add(SOUNDENUM.PlayerHit, "SFX_UI_Click_Designed_Liquid_Generic_Open_1");
 
         _audioSource = GetComponent<AudioSource>();
 

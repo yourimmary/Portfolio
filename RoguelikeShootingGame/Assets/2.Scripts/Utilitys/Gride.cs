@@ -14,20 +14,6 @@ public class Gride : MonoBehaviour
     int _gridSizeX, _gridSizeY;
     int[,] _neighbourNodeIndex = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
-    //public List<Node> _path { get; set; }
-
-
-    //void Awake()
-    //{
-    //    //_nodeDiameter = _nodeRidius * 2;
-    //    //_gridSizeX = Mathf.RoundToInt(_gridWorldSize.x / _nodeDiameter);
-    //    //_gridSizeY = Mathf.RoundToInt(_gridWorldSize.y / _nodeDiameter);
-
-    //    //CreateGrid();
-
-    //    SetInit();
-    //}
-
     public void SetInit()
     {
         _nodeDiameter = _nodeRidius * 2;
@@ -40,8 +26,6 @@ public class Gride : MonoBehaviour
     void CreateGrid()
     {
         _grid = new Node[_gridSizeX, _gridSizeY];
-        //Vector3 worldBottomLeft = transform.position - (Vector3.right * _gridWorldSize.x / 2)
-        //                                             - (Vector3.forward * _gridWorldSize.y / 2);
         Vector3 worldBottomLeft = transform.position - (Vector3.right * _gridWorldSize.x / 2)
                                                      - (Vector3.up * _gridWorldSize.y / 2);
 
@@ -49,11 +33,8 @@ public class Gride : MonoBehaviour
         {
             for (int y = 0; y < _gridSizeY; y++)
             {
-                //Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRidius)
-                //                                + Vector3.forward * (y * _nodeDiameter + _nodeRidius);
                 Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRidius)
                                                 + Vector3.up * (y * _nodeDiameter + _nodeRidius);
-                //bool isWalk = !(Physics.CheckSphere(worldPoint, _nodeRidius, _unwalkabbleMask));
                 bool isWalk;
                 Collider2D collider = Physics2D.OverlapCircle(worldPoint, _nodeRidius, _unwalkabbleMask);
                 if (collider == null)
@@ -73,23 +54,6 @@ public class Gride : MonoBehaviour
     public List<Node> GetNeighbours(Node stdNode)
     {
         List<Node> neighbours = new List<Node>();
-        //for (int x = -1; x <= 1; x++)
-        //{
-        //    for (int y = -1; y <= 1; y++)
-        //    {
-        //        if (x == 0 && y == 0)
-        //            continue;
-
-        //        int checkX = stdNode._gridX + x;
-        //        int checkY = stdNode._gridY + y;
-
-        //        if (checkX >= 0 && checkX < _gridSizeX && checkY >= 0 && checkY < _gridSizeY)
-        //        {
-        //            neighbours.Add(_grid[checkX, checkY]);
-        //        }
-        //    }
-        //}
-
         for (int n = 0; n < 4; n++)
         {
             int x = stdNode._gridX + _neighbourNodeIndex[n, 0];
@@ -105,7 +69,6 @@ public class Gride : MonoBehaviour
     public Node NodeFromWorldPoint(Vector3 worldPosition)
     {
         float percentX = (worldPosition.x + _gridWorldSize.x / 2) / _gridWorldSize.x;
-        //float percentY = (worldPosition.z + _gridWorldSize.y / 2) / _gridWorldSize.y;
         float percentY = (worldPosition.y + _gridWorldSize.y / 2) / _gridWorldSize.y;
         percentX = Mathf.Clamp01(percentX);
         percentY = Mathf.Clamp01(percentY);
@@ -118,18 +81,12 @@ public class Gride : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        //Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, 1, _gridWorldSize.y));
         Gizmos.DrawWireCube(transform.position, new Vector3(_gridWorldSize.x, _gridWorldSize.y, 1));
         if (_grid != null)
         {
             foreach (Node node in _grid)
             {
                 Gizmos.color = (node._walkable) ? Color.white : Color.red;
-                //if (_path != null)
-                //{
-                //    if (_path.Contains(node))
-                //        Gizmos.color = Color.black;
-                //}
                 Gizmos.DrawCube(node._worldPosition, Vector3.one * (_nodeDiameter - 0.05f));
             }
         }

@@ -284,7 +284,6 @@ public class MonsterController : CharacterBase
                 _isChase = false;
                 DestroyMonster();
                 ChangeMonsterAni(_state, _dir);
-                //Destroy(gameObject);
             }
             
             Vector3 pos = Vector3.up + transform.position;

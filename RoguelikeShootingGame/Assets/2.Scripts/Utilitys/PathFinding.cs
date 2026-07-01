@@ -6,25 +6,9 @@ using DefineEnum;
 
 public class PathFinding : MonoBehaviour
 {
-    //[SerializeField] Transform _start;
-    //[SerializeField] Transform _target;
-
-    //bool _isMove = false;
-
     Gride _grid;
 
     public List<Node> _path { get; set; }
-
-    //void Awake()
-    //{
-    //    //_grid = GetComponent<Gride>();
-    //    GetGrid(GetComponent<Gride>());
-    //}
-
-    //void Update()
-    //{
-    //    FindPath(_start.position, _target.position);
-    //}
     
     public void GetGrid(Gride grid)
     {
@@ -47,7 +31,7 @@ public class PathFinding : MonoBehaviour
             Node node = openSet[0];
             for (int n = 1; n < openSet.Count; n++)
             {
-                if (openSet[n]._fCost <= node._fCost/* || openSet[n]._fCost == node._fCost*/)
+                if (openSet[n]._fCost <= node._fCost)
                 {
                     if (openSet[n]._hCost < node._hCost)
                         node = openSet[n];
@@ -64,7 +48,7 @@ public class PathFinding : MonoBehaviour
             }
 
             List<Node> neighbours = _grid.GetNeighbours(node);
-            foreach (Node neighbour in neighbours/*_grid.GetNeighbours(node)*/)
+            foreach (Node neighbour in neighbours)
             {
                 if (!neighbour._walkable || closedSet.Contains(neighbour))
                     continue;
@@ -116,9 +100,6 @@ public class PathFinding : MonoBehaviour
         int dstX = Mathf.Abs(nodeA._gridX - nodeB._gridX);
         int dstY = Mathf.Abs(nodeA._gridY - nodeB._gridY);
 
-        //if (dstX > dstY)
-        //    return 14 * dstY + 10 * (dstX - dstY);
-        //return 14 * dstX + 10 * (dstY - dstX);
         return 10 * dstX + 10 * dstY;
     }
 }

@@ -39,7 +39,6 @@ public static class MapInfoText
         mapInfotxt = new Dictionary<string, MapInfo>();
 
         StreamReader srTestData = new StreamReader(Path.Combine(Application.dataPath, "Resources", "MapInfomationText.csv"));
-        //StreamReader srTestData = Resources.Load<StreamReader>("MapInfomationText.csv");
         TextAsset txtAsset = Resources.Load<TextAsset>("MapInfomationText.csv");
 
         srTestData.ReadLine();
